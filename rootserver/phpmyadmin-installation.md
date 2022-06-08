@@ -1,4 +1,4 @@
 # PhpMyAdmin Installation
 
-* Aktualisiere mit dem Befehl apt update die Paketlisten.
+* Aktualisiere mit dem Befehl ```bash apt update ```die Paketlisten.
 *
