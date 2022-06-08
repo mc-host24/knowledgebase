@@ -98,7 +98,7 @@ Z: Rechte für andere Benutzer
 
 ## Nützliche Tools
 
-### -> Nano <-
+#### Nano
 
 ![](../.gitbook/assets/HTOP.png)
 
