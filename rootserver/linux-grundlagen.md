@@ -112,9 +112,9 @@ Nach der Installation kann htop mit dem Command
 ```bash
 htop
 ```
-verwendet werden.
+verwenden.
 
-## netstat
+### netstat
 
 ![](../.gitbook/assets/netstat.png)
 
@@ -123,11 +123,29 @@ Installiert wird netstat mit dem Command
 ```bash
 apt install net-tools
 ```
+
 Mit dem Command
 ```bash
 netstat -ltnp | grep -w ':25565'
 ```
 kann man z.B. nachschauen, von welchem Service der Port 25565 aktuell verwendet wird.
 
-## 
+### ncdu
 
+Mit dem Tool "ncdu" kann man die Disk Usage analysieren.
+Installiert wird ncdu mit dem Command
+``bash
+apt install ncdu
+```
+Verwendet man den Command 
+```bash
+ncdu /
+```
+bekommt man solch eine Anzeige: 
+![](../.gitbook/assets/ncdu.png)
+Navigiert wird mit den Pfeiltasten. Um in ein Verzeichnis rein zu gehen drücke "Enter".
+
+* Mit der Taste "d" können Dateien oder Verzeichnisse gelöscht werden.
+* Mit der Taste "i" kannst du dir Informationen zu der aktuell ausgewählten Datei anzeigen lassen
+* Mit der Taste "b" landest mit der Shell im dem Ausgewählten Ordner
+* Mit der Taste "q" beendest du ncdu
