@@ -98,7 +98,7 @@ Z: Rechte für andere Benutzer
 
 ## Nützliche Tools
 
-#### Nano
+### nano
 
 ![](../.gitbook/assets/HTOP.png)
 
@@ -107,14 +107,27 @@ Mit dem Prozessmanager "htop" kann man die laufenden Prozesse sowie die freien/b
 ```bash
 apt install htop -y
 ```
-
 Nach der Installation kann htop mit dem Command
 
 ```bash
 htop
 ```
+verwendet werden.
 
-verwendet werden
+## netstat
 
-* netstat 
-Mit dem Diagnose-Werkzeug "netstat" kann man verschiedene Informationen
+![](../.gitbook/assets/netstat.png)
+
+Mit dem Diagnose-Werkzeug "netstat" kann man verschiedene Informationen über den Status der Netzwerkschnittstelle(n) abrufen.
+Installiert wird netstat mit dem Command
+```bash
+apt install net-tools
+```
+Mit dem Command
+```bash
+netstat -ltnp | grep -w ':25565'
+```
+kann man z.B. nachschauen, von welchem Service der Port 25565 aktuell verwendet wird.
+
+## 
+
