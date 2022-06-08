@@ -74,4 +74,25 @@ Benutzer hinzufügen
 adduser
 ```
 
-#### Test
+## Dateirechte
+
+Chmod
+
+* Syntax: chmod XYZ datei
+
+X: Besitzerrechte
+
+Y: Gruppenrechte
+
+Z: Rechte für andere Benutzer
+
+|                                |   |
+| ------------------------------ | - |
+| Lesen, schreiben und ausführen | 7 |
+| Lesen und Schreiben            | 6 |
+| Lesen und ausführen            | 5 |
+| Nur lesen                      | 4 |
+| Schreiben und ausführen        | 3 |
+| Nur schreiben                  | 2 |
+| Nur ausführen                  | 1 |
+
