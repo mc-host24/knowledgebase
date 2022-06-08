@@ -13,10 +13,12 @@ apt install ca-certificates nano lsb-release gnupg apt-transport-https curl unzi
 ```
 
 Wähle dein Betriebssystem aus.
-Falls du nicht weißt welches Betriebssystem du verwendest kannst du dies mit dem Befehl 
+Solltest du nicht wissen, welches Betriebssystem du verwendest kannst du dies mit dem Befehl 
 ```bash
 cat /etc/issue
 ```
+nachschauen.
+
 {% tabs %}
 {% tab title="Debian" %}
 * Für die PHP 7.4 Installation benötigt man eine Paketquelle. Diese füge mit diesen Befehlen hinzu
