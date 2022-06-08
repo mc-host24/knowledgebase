@@ -21,7 +21,7 @@ nachschauen.
 
 {% tabs %}
 {% tab title="Debian" %}
-* Für die PHP 7.4 Installation benötigt man eine Paketquelle. Diese füge mit diesen Befehlen hinzu
+* Füge die Paket-Quelle für die PHP7.4 Version hinzu.
 
 ```bash
 curl -fsSL https://packages.sury.org/php/apt.gpg -o /usr/share/keyrings/php-archive-keyring.gpg
@@ -33,7 +33,7 @@ echo "deb [signed-by=/usr/share/keyrings/php-archive-keyring.gpg] https://packag
 {% endtab %}
 
 {% tab title="Ubuntu" %}
-* Für die PHP 7.4 Installation benötigt man eine Paketquelle. Diese füge mit diesen Befehlen hinzu
+* Füge die Paket-Quelle für die PHP7.4 Version hinzu.
 
 ```bash
 apt install software-properties-common -y
@@ -50,38 +50,38 @@ add-apt-repository ppa:ondrej/php
 apt update
 ```
 
-* Für PhpMyAdmin benötigt man einen Webserver. Diesen installiert man wiefolgt:
+* Installiere den Apache2 Webserver
 ```bash
 apt install apache2 -y
 ```
 
-* Aus der hinzugefügten PHP Quelle installieren wir nun php7.4 und weitere benötigte Pakete.
+* Installiere PHP7.4 sowie die PHP-Module
 ```bash
 apt install php7.4 php7.4-zip php7.4-bz2 php7.4-cli php7.4-common php7.4-xsl php7.4-curl php7.4-opcache php7.4-gd php7.4-intl php7.4-json php7.4-mbstring php7.4-mysql php7.4-readline php7.4-xml libapache2-mod-php7.4 -y
 ```
 
-* Als nächstes muss MySQL installiert werden.
+* Installiere MySQL
 ```bash
 apt install mariadb-server mariadb-client -y
 ```
 
-Die MySQL Installation muss nun noch abgeschlossen werden.
+Schließe die MySQL Installation ab
 {% tabs %}
 {% tab title="Debian 10 & Ubuntu" %}
-Gebe nun den Befehl 
+Gebe den Befehl 
 ```bash
 mysql_secure_installation
 ``` 
-ein. Bei der ersten Abfrage des aktuellen Passworts müssen Sie nichts eingeben, sondern einfach die Enter-Taste drücken. Bestätigen Sie die nächste Frage bzgl. der Änderung des Root-Passworts mit Enter. Nun müssen Sie ein Passwort für den Root-Benutzer des MariaDB-Servers vergeben. Während der Eingabe erscheinen keine Zeichen, das ist jedoch normal. Bestätigen Sie alle darauffolgenden Fragen (Löschung des anonymen Benutzers, Verbieten des externen Root-Logins aus Sicherheitsgründen, Entfernen der Testdatenbank und Aktualisieren der Rechte) ebenfalls mit Enter. Danach ist der MariaDB-Server fertig installiert und konfiguriert.
+ein. Bei der ersten Abfrage des aktuellen Passworts drücke einfach "Enter". Bestätige die nächste Frage bzgl. der Änderung des Root-Passworts mit "Enter". Nun musst du ein Passwort für den Root-Benutzer des MariaDB-Servers vergeben. Während der Eingabe erscheinen keine Zeichen, das ist jedoch normal. Bestätige alle darauffolgenden Fragen (Löschung des anonymen Benutzers, Verbieten des externen Root-Logins aus Sicherheitsgründen, Entfernen der Testdatenbank und Aktualisieren der Rechte) ebenfalls mit "Enter".
 
 {% endtab %}
 
 {% tab title="Debian 11" %}
-Gebe nun den Befehl 
+Gebe den Befehl 
 ```bash
 mysql_secure_installation
 ```
-ein. Bei der ersten Abfrage des aktuellen Passworts müssen Sie nichts eingeben, sondern einfach die Enter-Taste drücken. Bestätigen Sie die nächste Frage bzgl. der Änderung des Root-Passworts mit Enter. Nun müssen Sie ein Passwort für den Root-Benutzer des MariaDB-Servers vergeben. Während der Eingabe erscheinen keine Zeichen, das ist jedoch normal. Bestätigen Sie alle darauffolgenden Fragen (Löschung des anonymen Benutzers, Verbieten des externen Root-Logins aus Sicherheitsgründen, Entfernen der Testdatenbank und Aktualisieren der Rechte) ebenfalls mit Enter. Danach ist der MariaDB-Server fertig installiert und konfiguriert.
+ein. Bei der ersten Abfrage des aktuellen Passworts drücke einfach "Enter". Gebe bei der anschließenden Frage bzgl. des Wechsels zur Unix-Socket-Authentifizierung "n" ein und drücke die "Enter"-Taste. Bestätige die nächste Frage bzgl. der Änderung des Root-Passworts mit "Enter". Nun musst du ein Passwort für den Root-Benutzer des MariaDB-Servers vergeben. Während der Eingabe erscheinen keine Zeichen, das ist jedoch normal. Bestätige alle darauffolgenden Fragen (Löschung des anonymen Benutzers, Verbieten des externen Root-Logins aus Sicherheitsgründen, Entfernen der Testdatenbank und Aktualisieren der Rechte) ebenfalls mit "Enter".
 
 {% endtab %}
 {% endtabs %}
@@ -92,7 +92,7 @@ cd /usr/share
 ```
 in das Verzeichnis wo PhpMyAdmin installiert wird.
 
-* Um PhpMyAdmin herunterzuladen führe folgenden Befehl aus
+* Lade PhpMyAdmin herunter
 ```bash
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
 ```
@@ -107,7 +107,7 @@ unzip phpmyadmin.zip
 rm phpmyadmin.zip
 ```
 
-Rename das PhpMyAdmin Verzeichnis
+Nenne das PhpMyAdmin Verzeichnis um
 ```bash
 mv phpMyAdmin-*-all-languages phpmyadmin
 ```
@@ -117,7 +117,7 @@ Vergebe die benötigten Rechte
 chmod -R 0755 phpmyadmin
 ```
 
-* Damit du PhpMyAdmin im Browser aufrufen kannst erstelle die Apache Konfigurations Datei.
+* Erstelle die Apache Konfigurationsdatei
 ```bash
 echo "Alias /phpmyadmin /usr/share/phpmyadmin
 
@@ -143,7 +143,7 @@ echo "Alias /phpmyadmin /usr/share/phpmyadmin
 a2enconf phpmyadmin
 ```
 
-* Apache reloade
+* Reloade den Apache Service
 ```bash
 systemctl reload apache2
 ```
@@ -153,7 +153,7 @@ systemctl reload apache2
 mkdir /usr/share/phpmyadmin/tmp/
 ```
 
-* Gebe dem Webnutzer die Berechtigung auf das temporäre Verzeichnis
+* Gebe dem Webnutzer die Berechtigung auf das temporäre Verzeichnis zuzugreifen.
 ```bash
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
@@ -165,10 +165,12 @@ chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 mysql -u root
 ```
 
-* Stelle das Authentifizierungsplugin des Rootservers von UNIX auf die StandardAutheentifizierung um.
+* Stelle das Authentifizierungsplugin des Root-Benutzers von UNIX auf die Standardauthentifizierung um.
 ```bash
 UPDATE mysql.user SET plugin = 'mysql_native_password' WHERE user = 'root' AND plugin = 'unix_socket';
 ```
 ```bash 
 FLUSH PRIVILEGES;
 ```
+
+Du kannst PhpMyAdmin nun mit deiner IP-Adresse oder Domain /phpmyadmin aufrufen.
