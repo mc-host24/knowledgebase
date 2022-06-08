@@ -98,10 +98,10 @@ Z: Rechte für andere Benutzer
 
 ## Nützliche Tools
 
-* Nano
-Mit dem Prozessmanager "htop" kann man die laufenden Prozesse sowie die freien/belegten Systemressourecen anschauen.
-Installiert wird htop mit dem Command
+* Nano Mit dem Prozessmanager "htop" kann man die laufenden Prozesse sowie die freien/belegten Systemressourecen anschauen. Installiert wird htop mit dem Command
+
 ```bash
 apt install htop -y
 ```
 
+![](../.gitbook/assets/HTOP.png)
