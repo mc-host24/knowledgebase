@@ -44,3 +44,23 @@ add-apt-repository ppa:ondrej/php
 ```
 {% endtab %}
 {% endtabs %}
+
+* Aktualisiere noch einmal die Paketlisten
+```bash
+apt update
+```
+
+* Für PhpMyAdmin benötigt man einen Webserver. Diesen installiert man wiefolgt:
+´´´bash
+apt install apache2 -y
+```
+
+* Aus der hinzugefügten PHP Quelle installieren wir nun php7.4 und weitere benötigte Pakete.
+```bash 
+apt install php7.4 php7.4-zip php7.4-bz2 php7.4-cli php7.4-common php7.4-xsl php7.4-curl php7.4-opcache php7.4-gd php7.4-intl php7.4-json php7.4-mbstring php7.4-mysql php7.4-readline php7.4-xml libapache2-mod-php7.4 -y
+```
+
+* Als nächstes muss MySQL installiert werden.
+```bash
+apt install mariadb-server mariadb-client -y
+```
