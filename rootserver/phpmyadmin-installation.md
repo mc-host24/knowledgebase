@@ -158,7 +158,7 @@ mkdir /usr/share/phpmyadmin/tmp/
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
 
-## Bis einschließlich Debian 10 oder für Ubuntu
+## Bis einschließlich Debian 10 oder Ubuntu
 
 * Melde dich bei dem MySQL Server an
 ```bash
