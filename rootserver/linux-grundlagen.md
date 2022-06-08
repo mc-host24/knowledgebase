@@ -96,3 +96,7 @@ Z: Rechte für andere Benutzer
 | Nur schreiben                  | 2 |
 | Nur ausführen                  | 1 |
 
+## Nützliche Tools
+
+Nano
+
