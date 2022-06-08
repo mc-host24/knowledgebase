@@ -64,3 +64,16 @@ apt install php7.4 php7.4-zip php7.4-bz2 php7.4-cli php7.4-common php7.4-xsl php
 ```bash
 apt install mariadb-server mariadb-client -y
 ```
+
+Die MySQL Installation muss nun noch abgeschlossen werden.
+{% tabs %}
+{% tab title="Debian 10 & Ubuntu" %}
+
+
+{% endtab %}
+
+{% tab title="Debian 11" %}
+
+
+{% endtab %}
+{% endtabs %}
