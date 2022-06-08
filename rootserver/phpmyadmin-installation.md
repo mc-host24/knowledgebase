@@ -148,3 +148,27 @@ a2enconf phpmyadmin
 systemctl reload apache2
 ```
 
+* Erstelle das Temporäre Verzeichnis für PhpMyAdmin
+```bash 
+mkdir /usr/share/phpmyadmin/tmp/
+```
+
+* Gebe dem Webnutzer die Berechtigung auf das temporäre Verzeichnis
+```bash
+chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
+```
+
+## Bis einschließlich Debian 10 oder für Ubuntu
+
+* Melde dich bei dem MySQL Server an
+```bash
+mysql -u root
+```
+
+* Stelle das Authentifizierungsplugin des Rootservers von UNIX auf die StandardAutheentifizierung um.
+```bash
+UPDATE mysql.user SET plugin = 'mysql_native_password' WHERE user = 'root' AND plugin = 'unix_socket';
+```
+```bash 
+FLUSH PRIVILEGES;
+```
