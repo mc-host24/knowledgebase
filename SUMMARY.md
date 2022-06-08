@@ -5,6 +5,7 @@
 ## Rootserver
 
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
+* [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 
 ## Minecraft Server
 
