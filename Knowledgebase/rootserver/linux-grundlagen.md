@@ -61,3 +61,8 @@ Benutzer hinzufügen
 ```bash
 adduser
 ```
+
+Taskmanger 
+```bash
+htop
+```
