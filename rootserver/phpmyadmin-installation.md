@@ -85,3 +85,66 @@ ein. Bei der ersten Abfrage des aktuellen Passworts müssen Sie nichts eingeben,
 
 {% endtab %}
 {% endtabs %}
+
+* Wechsel mit dem Befehl
+```bash
+cd /usr/share
+```
+in das Verzeichnis wo PhpMyAdmin installiert wird.
+
+* Um PhpMyAdmin herunterzuladen führe folgenden Befehl aus
+```bash
+wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip -O phpmyadmin.zip
+```
+
+* Entpacke das Archiv
+```bash
+unzip phpmyadmin.zip
+```
+
+* Entferne das heruntergeladene Archiv
+```bash
+rm phpmyadmin.zip
+```
+
+Rename das PhpMyAdmin Verzeichnis
+```bash
+mv phpMyAdmin-*-all-languages phpmyadmin
+```
+
+Vergebe die benötigten Rechte
+```bash
+chmod -R 0755 phpmyadmin
+```
+
+* Damit du PhpMyAdmin im Browser aufrufen kannst erstelle die Apache Konfigurations Datei.
+```bash
+echo "Alias /phpmyadmin /usr/share/phpmyadmin
+
+<Directory /usr/share/phpmyadmin>
+    Options SymLinksIfOwnerMatch
+    DirectoryIndex index.php
+</Directory>
+
+# Disallow web access to directories that don't need it
+<Directory /usr/share/phpmyadmin/templates>
+    Require all denied
+</Directory>
+<Directory /usr/share/phpmyadmin/libraries>
+    Require all denied
+</Directory>
+<Directory /usr/share/phpmyadmin/setup/lib>
+    Require all denied
+</Directory>" >> /etc/apache2/conf-available/phpmyadmin.conf
+```
+
+* Aktiviere die Apache Konfigurationsdatei
+```bash
+a2enconf phpmyadmin
+```
+
+* Apache reloade
+```bash
+systemctl reload apache2
+```
+
