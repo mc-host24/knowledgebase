@@ -13,7 +13,7 @@ apt install ca-certificates nano lsb-release gnupg apt-transport-https curl unzi
 ```
 
 Wähle dein Betriebssystem aus.
-Solltest du nicht wissen, welches Betriebssystem du verwendest kannst du dies mit dem Befehl 
+Solltest du nicht wissen, welches Betriebssystem du verwendest, kannst du dies mit dem Befehl
 ```bash
 cat /etc/issue
 ```
