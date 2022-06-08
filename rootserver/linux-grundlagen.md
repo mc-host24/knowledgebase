@@ -98,7 +98,7 @@ Z: Rechte für andere Benutzer
 
 ## Nützliche Tools
 
-* Nano
+### Nano
 
 ![](../.gitbook/assets/HTOP.png)
 
@@ -116,4 +116,5 @@ htop
 
 verwendet werden
 
-* netstat Mit dem Diagnose-Werkzeug "netstat" kann man verschiedene Informationen
+* netstat 
+Mit dem Diagnose-Werkzeug "netstat" kann man verschiedene Informationen
