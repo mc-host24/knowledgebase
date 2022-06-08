@@ -1,6 +1,7 @@
 # PhpMyAdmin Installation
 
 * Aktualisiere die Paketlisten & installiere die Updates.
+
 ```bash
 apt update && apt upgrade -y
 ```
@@ -10,3 +11,13 @@ apt update && apt upgrade -y
 ```bash
 apt install ca-certificates nano lsb-release gnupg apt-transport-https curl unzip -y
 ```
+
+{% tabs %}
+{% tab title="Debian" %}
+*
+{% endtab %}
+
+{% tab title="Ubuntu" %}
+
+{% endtab %}
+{% endtabs %}
