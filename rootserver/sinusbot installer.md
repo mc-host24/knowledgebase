@@ -1,1 +1,0 @@
-# Sinsubot installer
