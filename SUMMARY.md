@@ -12,6 +12,8 @@
 
 * [Page 1](minecraft-server/page-1.md)
 
+## Gameserver
+
 ## Domains
 
 * [DNS Einträge](domains/dns-eintraege.md)
@@ -19,3 +21,5 @@
 ## API
 
 * [MC-HOST24 Public API](api/mc-host24-public-api.md)
+
+## 
