@@ -21,5 +21,3 @@
 ## API
 
 * [MC-HOST24 Public API](api/mc-host24-public-api.md)
-
-## 
