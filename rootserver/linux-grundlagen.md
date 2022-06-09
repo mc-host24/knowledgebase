@@ -100,7 +100,7 @@ Z: Rechte für andere Benutzer
 
 ### nano
 
-![](../.gitbook/assets/HTOP.png)
+![htop](../.gitbook/assets/HTOP.png)
 
 Mit dem Prozessmanager "htop" kann man die laufenden Prozesse sowie die freien/belegten Systemressourcen anschauen. Installiert wird htop mit dem Command
 
@@ -116,7 +116,7 @@ verwenden.
 
 ### netstat
 
-![](../.gitbook/assets/netstat.png)
+![netstat](../.gitbook/assets/netstat.png)
 
 Mit dem Diagnose-Werkzeug "netstat" kann man verschiedene Informationen über den Status der Netzwerkschnittstelle(n) abrufen.
 Installiert wird netstat mit dem Command
@@ -143,11 +143,11 @@ ncdu /
 ```
 bekommt man solch eine Anzeige:
 
-![](../.gitbook/assets/ncdu.png)
+![Grüner Programmcode in schwarzem Terminal vom Programm ncdu](../.gitbook/assets/ncdu.png)
 
 Navigiert wird mit den Pfeiltasten. Um in ein Verzeichnis rein zu gehen drücke "Enter".
 
 * Mit der Taste "d" können Dateien oder Verzeichnisse gelöscht werden.
 * Mit der Taste "i" kannst du dir Informationen zu der aktuell ausgewählten Datei anzeigen lassen
-* Mit der Taste "b" landest mit der Shell im dem Ausgewählten Ordner
+* Mit der Taste "b" landest du mit der Shell in den gerade ausgewählten Ordner.
 * Mit der Taste "q" beendest du ncdu
