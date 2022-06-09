@@ -1,2 +1,0 @@
-# Sinusbot Installer
-
