@@ -141,8 +141,10 @@ Verwendet man den Command
 ```bash
 ncdu /
 ```
-bekommt man solch eine Anzeige: 
+bekommt man solch eine Anzeige:
+
 ![](../.gitbook/assets/ncdu.png)
+
 Navigiert wird mit den Pfeiltasten. Um in ein Verzeichnis rein zu gehen drücke "Enter".
 
 * Mit der Taste "d" können Dateien oder Verzeichnisse gelöscht werden.
