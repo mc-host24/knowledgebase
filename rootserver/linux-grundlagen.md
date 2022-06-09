@@ -149,5 +149,5 @@ Navigiert wird mit den Pfeiltasten. Um in ein Verzeichnis rein zu gehen drücke 
 
 * Mit der Taste "d" können Dateien oder Verzeichnisse gelöscht werden.
 * Mit der Taste "i" kannst du dir Informationen zu der aktuell ausgewählten Datei anzeigen lassen
-* Mit der Taste "b" landest du mit der Shell in den gerade ausgewählten Ordner.
+* Mit der Taste "b" landest du mit der Shell in dem ausgewählten Ordner.
 * Mit der Taste "q" beendest du ncdu
