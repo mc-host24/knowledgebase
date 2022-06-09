@@ -134,7 +134,7 @@ kann man z.B. nachschauen, von welchem Service der Port 25565 aktuell verwendet 
 
 Mit dem Tool "ncdu" kann man die Disk Usage analysieren.
 Installiert wird ncdu mit dem Command
-``bash
+```bash
 apt install ncdu
 ```
 Verwendet man den Command 
