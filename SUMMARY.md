@@ -1,23 +1,12 @@
 # Table of contents
 
 * [MC-HOST24](README.md)
-//* Neuigkeiten
 
 ## Rootserver
 
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 * [Sinusbot Installation](rootserver/sinusbot-installer.md)
-
-## Minecraft Server
-
-//* [Page 1](minecraft-server/page-1.md)
-
-## Gameserver
-
-## Domains
-
-//* [DNS Einträge](domains/dns-eintraege.md)
 
 ## API
 
