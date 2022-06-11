@@ -1,6 +1,7 @@
 # Table of contents
 
 * [MC-HOST24](README.md)
+* Neuigkeiten
 
 ## Rootserver
 
