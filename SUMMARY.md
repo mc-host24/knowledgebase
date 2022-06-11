@@ -1,7 +1,7 @@
 # Table of contents
 
 * [MC-HOST24](README.md)
-* Neuigkeiten
+//* Neuigkeiten
 
 ## Rootserver
 
@@ -11,13 +11,13 @@
 
 ## Minecraft Server
 
-* [Page 1](minecraft-server/page-1.md)
+//* [Page 1](minecraft-server/page-1.md)
 
 ## Gameserver
 
 ## Domains
 
-* [DNS Einträge](domains/dns-eintraege.md)
+//* [DNS Einträge](domains/dns-eintraege.md)
 
 ## API
 
