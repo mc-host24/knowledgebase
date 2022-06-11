@@ -8,6 +8,10 @@
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 * [Sinusbot Installation](rootserver/sinusbot-installer.md)
 
+## Domains
+
+* [DNS Einträge erstellen](domains/dns-eintraege.md)
+
 ## API
 
 * [MC-HOST24 Public API](api/mc-host24-public-api.md)
