@@ -18,7 +18,7 @@ Um deine Domain auf einen Minecraft Server weiterzuleiten, klicke im OCDNS-Tool 
 
 Wenn du willst, dass der Minecraft Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain mit Minecraft Server verbinden](../.gitbook/assets/Minecraft-server-eingabe.png)
+![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-eingabe.png)
 
 Wenn der Server ohne Subdomain erreichbar sein soll, lasse das Feld einfach frei.
 
@@ -41,7 +41,7 @@ Nach dem Speichern erstellen sich zwei DNS Einträge und die Weiterleitung ist a
 ## Wie leite ich die Domain auf einen Teamspeak Server weiter?
 
 Um deine Domain auf einen Teamspeak Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Teamspeak Server verbinden**"
-![Domain mit Teamspeak Server verbinden](../.gitbook/assets/Teamspeak-Server-verbinden.png)
+![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-Server-verbinden.png)
 
 Wenn du willst, dass der Teamspeak Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
