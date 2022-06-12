@@ -10,6 +10,7 @@
 ## rootcp
 
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
+* [Spigot oder Bungeecord installieren](rootcp/spigot-oder-bungeecord.md)
 
 ## Domains
 
