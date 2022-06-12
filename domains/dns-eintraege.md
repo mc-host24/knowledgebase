@@ -11,7 +11,7 @@ Das OCDNS-Tool ermöglicht es den Kunden, mit nur wenigen Klicks eine Weiterleit
 * Webspaces
 
 
-## Wie leite ich die Domain auf einen Minecraft Server weiter?
+## Domain auf einen Minecraft Server weiterleiten
 
 Um deine Domain auf einen Minecraft Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Minecraft Server verbinden**"
 ![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-verbinden.png)
@@ -38,7 +38,7 @@ Nach dem Speichern erstellen sich zwei DNS Einträge und die Weiterleitung ist a
 {% endhint %}
 
 
-## Wie leite ich die Domain auf einen Teamspeak Server weiter?
+## Domain auf einen Teamspeak Server weiterleiten
 
 Um deine Domain auf einen Teamspeak Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Teamspeak Server verbinden**"
 ![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-server-verbinden.png)
@@ -62,7 +62,7 @@ Nach dem Speichern erstellt sich ein DNS Eintrag und die Weiterleitung ist aktiv
 {% endhint %}
 
 
-## Wie leite ich die Domain auf einen FiveM Server weiter?
+## Domain auf FiveM Server weiterleiten
 
 Um deine Domain auf einen Teamspeak Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit FiveM verbinden**"
 ![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-verbinden.png)
@@ -82,7 +82,7 @@ Nach dem Speichern erstellen sich zwei DNS Einträge und die Weiterleitung ist a
 {% endhint %}
 
 
-## Wie leite ich die Domain auf eine Webseite weiter
+## Domain auf eine Webseite weiterleiten
 
 Um deine Domain auf eine Webseite weiterzuleiten, klicke im OCDNS-Tool auf "**Domain auf Webseite weiterleiten**"
 ![Domain auf Webseite weiterleiten](../.gitbook/assets/webseite-weiterleiten.png)
@@ -105,7 +105,7 @@ Nach dem Speichern erstellt sich ein DNS Eintrag und die Weiterleitung ist aktiv
 {% endhint %}
 
 
-## Wie leite ich die Domain auf einen Webspace weiter?
+## Domain auf einen Webspace weiterleiten
 
 Um deine Domain auf einen Webspace weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Webspace verbinden**"
 ![Domain mit Webspace verbinden](../.gitbook/assets/webspace-verbinden.png)
