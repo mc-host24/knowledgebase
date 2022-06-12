@@ -18,12 +18,13 @@ Solltest du z.B. mit der 1.18.2 spielen wollen, trage in das Feld
 1.18.2
 ```
 ein.
-![Minecraft Version Ã¤ndern](../.gitbook/assets/minecraft-version.png)
+
+![Minecraft Version ändern](../.gitbook/assets/minecraft-version.png)
  
 Damit der Server ordentlich starten kann, muss unter "Startkonfiguration" noch die richtige Java Version angegeben werden.
 Dazu gehe auf "**Docker Image**" und wähle die passende Version aus.
 
-![Java Version auswÃ¤hlen](../.gitbook/assets/minecraft-java-version.png)
+![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
 
 
 <summary>**Welche Java Version benötige ich?**</summary>
@@ -54,11 +55,11 @@ Dazu gehe auf "**Docker Image**" und wähle die passende Version aus.
 
 </details>
 
-Nachdem die Version und die Java Version ausgewÃ¤hlt wurde, muss der Server einmal neuinstalliert werden.
+Nachdem die Version und die Java Version ausgewählt wurde, muss der Server einmal neuinstalliert werden.
 Dazu klicke auf "Einstellungen" und anschließend auf "**REINSTALL SERVER**".
 
 {% hint style="info" %}
-**Es gehen dabei keine Serverdaten verloren.**
+**Es gehen dabei keine Daten verloren.**
 {% endhint %}
 
 Sobald der Installationsprozess abgeschlossen ist, kann der Minecraft Server gestartet werden.
