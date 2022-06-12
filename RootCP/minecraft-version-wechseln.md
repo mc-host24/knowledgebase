@@ -19,7 +19,7 @@ Solltest du z.B. mit der 1.18.2 spielen wollen, trage in das Feld
 ```
 ein.
 ![Minecraft Version ändern](../.gitbook/assets/minecraft-version.png)
-
+ 
 Damit der Server ordentlich starten kann, muss unter "Startkonfiguration" noch die richtige Java Version angegeben werden.
 Dazu gehe auf "**Docker Image**" und wähle die passende Version aus.
 
