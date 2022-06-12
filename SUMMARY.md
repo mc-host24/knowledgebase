@@ -10,7 +10,7 @@
 
 ## RootCP
 
-* [Minecraft Version wechseln](rootserver/minecraft-version-wechseln.md)
+* [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
 
 ## Domains
 
