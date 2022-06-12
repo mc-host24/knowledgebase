@@ -1,8 +1,7 @@
 #  Wie installiere ich Spigot oder Bungeecord auf meinem Rootserver
 
-Bitte wähle aus, welche Version du installieren möchtest.
-{% tabs %}
-{% tab title="Spigot" %}
+
+## Wie installiere ich Spigot auf meinem Rootserver?
 
 Um Spigot auf deinem Server zu installieren benötigst du eine Spigot Jar.
 Diese kannst du hier downloaden: 
@@ -63,12 +62,3 @@ Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE".
 1.19.x Java 17
 
 </details>
-
-{% endtab %}
-
-{% tab title="Bungeecord"%}
-
-test
-
-{% endtab %}
-{% endtabs %}
