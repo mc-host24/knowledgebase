@@ -6,7 +6,7 @@ Um Spigot auf deinem Server zu installieren, benötigst du eine Spigot Jar. Dies
 
 {% embed url="https://getbukkit.org/download/spigot" %}
 
-Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe auf
+Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe wieder auf
 
 {% embed url="https://rootcp.gamingcontrol.de" %}
 
