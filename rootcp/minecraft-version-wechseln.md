@@ -27,7 +27,7 @@ Dazu gehe auf "**Docker Image**" und wähle die passende Version aus.
 ![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
 
 
-<summary>**Welche Java Version benötige ich?**</summary>
+<summary>Welche Java Version benötige ich?</summary>
 
 1.8.x   Java 8
 
