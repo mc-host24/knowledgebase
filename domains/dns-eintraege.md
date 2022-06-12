@@ -14,11 +14,11 @@ Das OCDNS-Tool ermöglicht es den Kunden, mit nur wenigen Klicks eine Weiterleit
 ## Wie leite ich die Domain auf einen Minecraft Server weiter?
 
 Um deine Domain auf einen Minecraft Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Minecraft Server verbinden**"
-![Domain mit Minecraft Server verbinden]()
+![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-verbinden.png)
 
 Wenn du willst, dass der Minecraft Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain mit Minecraft Server verbinden]()
+![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-eingabe.png)
 
 Wenn der Server ohne Subdomain erreichbar sein soll, lasse das Feld einfach frei.
 
@@ -30,7 +30,7 @@ Wenn du deine Domain mit einem Minecraft Server verbinden willst, welcher nicht 
 
 Nach dem Speichern erstellen sich zwei DNS Einträge und die Weiterleitung ist aktiv.
 
-![Domain mit Minecraft Server verbunden]()
+![Domain mit Minecraft Server verbunden](../.gitbook/assets/minecraft-server-verbunden.png)
 
 
 {% hint style="info" %}
@@ -41,11 +41,11 @@ Nach dem Speichern erstellen sich zwei DNS Einträge und die Weiterleitung ist a
 ## Wie leite ich die Domain auf einen Teamspeak Server weiter?
 
 Um deine Domain auf einen Teamspeak Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Teamspeak Server verbinden**"
-![Domain mit Teamspeak Server verbinden]()
+![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-server-verbinden.png)
 
 Wenn du willst, dass der Teamspeak Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain mit Teamspeak Server verbinden]()
+![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-server-eingabe.png)
 
 Solltest du bereits einen Teamspeak Server bei MC-HOST haben, kannst du unter dem Punkt "Service auswählen" den entsprechenden Server anklicken.
 Die noch offenen Punkte Server IP und Port füllen sich automatisch aus und du musst nur noch auf "Speichern" klicken.
@@ -54,7 +54,7 @@ Wenn du deine Domain mit einem Teamspeak Server verbinden willst, welcher nicht 
 
 Nach dem Speichern erstellt sich ein DNS Eintrag und die Weiterleitung ist aktiv.
 
-![Domain mit Teamspeak Server verbunden]()
+![Domain mit Teamspeak Server verbunden](../.gitbook/assets/teamspeak-dns-eintrag.png)
 
 
 {% hint style="info" %}
@@ -65,17 +65,17 @@ Nach dem Speichern erstellt sich ein DNS Eintrag und die Weiterleitung ist aktiv
 ## Wie leite ich die Domain auf einen FiveM Server weiter?
 
 Um deine Domain auf einen Teamspeak Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit FiveM verbinden**"
-![Domain mit FiveM verbinden]()
+![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-verbinden.png)
 
 Wenn du willst, dass der FiveM Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain mit FiveM verbinden]()
+![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-eingabe.png)
 
 Fülle die beiden Felder "server-IP" und "Port" aus und drücke auf "Speichern".
 
 Nach dem Speichern erstellen sich zwei DNS Einträge und die Weiterleitung ist aktiv.
 
-![Domain mit FiveM Server verbunden]()
+![Domain mit FiveM Server verbunden](../.gitbook/assets/fivem-server-verbunden.png)
 
 {% hint style="info" %}
 **Sollte einer der beiden DNS Einträge gelöscht werden, funktioniert die Weiterleitung nicht mehr.**
