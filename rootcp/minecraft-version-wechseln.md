@@ -4,7 +4,7 @@ Um die Version deines Minecraft Servers zu wechseln, gehe auf
 
 {% embed url="https://rootcp.gamingcontrol.de" %}
 
-und wähle den Minecraft Server aus.
+und wähle dort den Minecraft Server aus.
 
 Klicke anschließend auf "**Startkonfiguration**".
 
