@@ -6,9 +6,8 @@
 
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
-///* [Sinusbot Installation](rootserver/sinusbot-installer.md)
 
-## RootCP
+## rootcp
 
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
 
