@@ -1,8 +1,8 @@
 # Wie wechsel ich die Minecraft Version auf meinem Rootserver?
 
-Um die Version deines Minecraft Servers zu wechseln, gehe auf {% embed url="https://rootcp.gamingcontrol.de" %} und wähle den Minecraft Server aus.
+Um die Version deines Minecraft Servers zu wechseln, gehe auf {% embed url="https://rootcp.gamingcontrol.de" %} und wÃ¤hle den Minecraft Server aus.
 
-Klicke anschließend auf "**Startkonfiguration**".
+Klicke anschlieÃŸend auf "**Startkonfiguration**".
 
 ![Startkonfiguration Pterodactyl](../.gitbook/assets/minecraft-version-wechseln-bar.png)
 
@@ -18,15 +18,15 @@ Solltest du z.B. mit der 1.18.2 spielen wollen, trage in das Feld
 1.18.2
 ```
 ein.
-![Minecraft Version ändern](../.gitbook/assets/minecraft-version.png)
+![Minecraft Version Ã¤ndern](../.gitbook/assets/minecraft-version.png)
  
 Damit der Server ordentlich starten kann, muss unter "Startkonfiguration" noch die richtige Java Version angegeben werden.
-Dazu gehe auf "**Docker Image**" und wähle die passende Version aus.
+Dazu gehe auf "**Docker Image**" und wÃ¤hle die passende Version aus.
 
-![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
+![Java Version auswÃ¤hlen](../.gitbook/assets/minecraft-java-version.png)
 
 
-<summary>**Welche Java Version benötige ich?**</summary>
+<summary>**Welche Java Version benÃ¶tige ich?**</summary>
 
 1.8.x   Java 8
 
@@ -54,8 +54,8 @@ Dazu gehe auf "**Docker Image**" und wähle die passende Version aus.
 
 </details>
 
-Nachdem die Version und die Java Version ausgewählt wurde, muss der Server einmal neuinstalliert werden.
-Dazu klicke auf "Einstellungen" und anschließend auf "**REINSTALL SERVER**".
+Nachdem die Version und die Java Version ausgewÃ¤hlt wurde, muss der Server einmal neuinstalliert werden.
+Dazu klicke auf "Einstellungen" und anschlieÃŸend auf "**REINSTALL SERVER**".
 
 {% hint style="info" %}
 **Es gehen dabei keine Serverdaten verloren.**
