@@ -1,27 +1,25 @@
-#  Wie installiere ich Spigot oder Bungeecord auf meinem Rootserver
-
+# Spigot oder Bungeecord installieren
 
 ## Wie installiere ich Spigot auf meinem Rootserver?
 
-Um Spigot auf deinem Server zu installieren, benötigst du eine Spigot Jar.
-Diese kannst du hier downloaden: 
+Um Spigot auf deinem Server zu installieren, benötigst du eine Spigot Jar. Diese kannst du hier downloaden:
+
 {% embed url="https://getbukkit.org/download/spigot" %}
 
 Wenn du die passende Version auf deinem Computer hast, gehe auf
 
 {% embed url="https://rootcp.gamingcontrol.de" %}
 
-Dort wähle den Server aus und klicke auf "Einstellungen".
-Dort findest du die SFTP Login Daten.
+Dort wähle den Server aus und klicke auf "Einstellungen". Dort findest du die SFTP Login Daten.
 
 ![SFTP Pterodactyl](../.gitbook/assets/sftp-pterodactyl.png)
 
-Diese gebe in deinem FTP Client ein. (z.B. FileZilla oder WinSCP)
-Alternativ kannst du "Launch SFTP" anklicken. Damit startet sich automatisch dein FTP Programm und du musst nur noch dein Passwort eingeben.
+Diese gebe in deinem FTP Client ein. (z.B. FileZilla oder WinSCP) Alternativ kannst du "Launch SFTP" anklicken. Damit startet sich automatisch dein FTP Programm und du musst nur noch dein Passwort eingeben.
 
 Wenn du erfolgreich verbunden bist, musst du die Spigot Jar in das Hauptverzeichnis ziehen.
 
 Sobald die Jar fertig hochgeladen ist, wechsel wieder auf Pterodactyl.
+
 {% embed url="https://rootcp.gamingcontrol.de" %}
 
 In Pterodactyl wähle den Server aus und klicke auf "Startkonfiguration".
@@ -30,10 +28,11 @@ Schreibe unter "SERVER JAR FILE" den Namen der gerade hochgeladenen Jar Datei re
 
 ![Server JAR Pterodactyl](../.gitbook/assets/serverjar-spigot.png)
 
-Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden.
-Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE".
+Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden. Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE".
 
 ![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
+
+<details>
 
 <summary>Welche Java Version benötige ich?</summary>
 
@@ -63,30 +62,28 @@ Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE".
 
 </details>
 
-Ist die richtige JAR File eintragen und die richtige Java Version ausgewählt kann der Server gestartet und genutzt werden.
-
+Ist die richtige JAR File eintragen und die richtige Java Version ausgewählt, kann der Server gestartet und genutzt werden.
 
 ## Wie installiere ich Bungeecord auf meinem Rootserver?
 
-Um Bungeecord auf deinem Server zu installieren, benötigst du eine Bungeecord Jar.
-Diese kannst du hier downloaden: 
+Um Bungeecord auf deinem Server zu installieren, benötigst du eine Bungeecord Jar. Diese kannst du hier downloaden:
+
 {% embed url="https://ci.md-5.net/job/BungeeCord/" %}
 
 Wenn du die passende Version auf deinem Computer hast, gehe wieder auf
 
 {% embed url="https://rootcp.gamingcontrol.de" %}
 
-Dort wähle den Server aus und klicke auf "Einstellungen".
-Dort findest du die SFTP Login Daten.
+Dort wähle den Server aus und klicke auf "Einstellungen". Dort findest du die SFTP Login Daten.
 
 ![SFTP Pterodactyl](../.gitbook/assets/sftp-pterodactyl.png)
 
-Diese gebe in deinem FTP Client ein. (z.B. FileZilla oder WinSCP)
-Alternativ kannst du "Launch SFTP" anklicken. Damit startet sich automatisch dein FTP Programm und du musst nur noch dein Passwort eingeben.
+Diese gebe in deinem FTP Client ein. (z.B. FileZilla oder WinSCP) Alternativ kannst du "Launch SFTP" anklicken. Damit startet sich automatisch dein FTP Programm und du musst nur noch dein Passwort eingeben.
 
 Wenn du erfolgreich verbunden bist, musst du die Bungeecord Jar in das Hauptverzeichnis ziehen.
 
 Sobald die Jar fertig hochgeladen ist, wechsel wieder auf Pterodactyl.
+
 {% embed url="https://rootcp.gamingcontrol.de" %}
 
 In Pterodactyl wähle den Server aus und klicke auf "Startkonfiguration".
@@ -95,11 +92,11 @@ Schreibe unter "SERVER JAR FILE" den Namen der gerade hochgeladenen Jar Datei re
 
 ![Server JAR Pterodactyl](../.gitbook/assets/serverjar-bungeecord.png)
 
-Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden.
-Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE".
-Bei den neusten Bungeecord Jars muss Java 17 verwendet werden.
+Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden. Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE". Bei den neusten Bungeecord Jars muss Java 17 verwendet werden.
 
 ![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
+
+<details>
 
 <summary>Welche Java Version benötige ich?</summary>
 
@@ -129,4 +126,4 @@ Bei den neusten Bungeecord Jars muss Java 17 verwendet werden.
 
 </details>
 
-Ist die richtige JAR File eintragen und die richtige Java Version ausgewählt kann der Server gestartet und genutzt werden.
+Ist die richtige JAR File eintragen und die richtige Java Version ausgewählt, kann der Server gestartet und genutzt werden.
