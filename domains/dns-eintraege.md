@@ -14,7 +14,7 @@ Das OCDNS-Tool ermöglicht es den Kunden, mit nur wenigen Klicks eine Weiterleit
 ## Wie leite ich die Domain auf einen Minecraft Server weiter?
 
 Um deine Domain auf einen Minecraft Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Minecraft Server verbinden**"
-![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-verbinden.png)
+![Domain mit Minecraft Server verbinden](../.gitbook/assets/Minecraft-server-verbinden.png)
 
 Wenn du willst, dass der Minecraft Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
