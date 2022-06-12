@@ -1,6 +1,6 @@
 # Sinusbot installer
 
-## Schnell und einfach Sinusbot installieren auf dem Rootserver installlieren.
+## Wie installiere ich Sinusbot schnell und einfach?
 
 
 
