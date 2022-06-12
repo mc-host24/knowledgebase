@@ -41,7 +41,7 @@ Nach dem Speichern erstellen sich zwei DNS Einträge und die Weiterleitung ist a
 ## Wie leite ich die Domain auf einen Teamspeak Server weiter?
 
 Um deine Domain auf einen Teamspeak Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Teamspeak Server verbinden**"
-![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-Server-verbinden.png)
+![Domain mit Teamspeak Server verbinden](../.gitbook/assets/Teamspeak-Server-verbinden.png)
 
 Wenn du willst, dass der Teamspeak Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
