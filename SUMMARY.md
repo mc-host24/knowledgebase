@@ -7,10 +7,14 @@
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 
-## rootcp
+## Rootcp
 
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
 * [Spigot oder Bungeecord installieren](rootcp/spigot-oder-bungeecord.md)
+
+## Minecraft-Server
+
+* [Versions wechsel](minecraft-server/version-wechseln.md)
 
 ## Domains
 
