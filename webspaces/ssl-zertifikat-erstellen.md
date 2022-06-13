@@ -1,17 +1,17 @@
-# Wie erstelle ich ein Wildcard Zertifikat bei Plesk?
+# Wie erstelle ich ein Wildcard-Zertifikat bei Plesk?
 
 Um bei deinem Plesk Webspace ein Wildcard SSL Zertifikat zu erstellen, benötigst du eine Domain.
 
-Als erstes muss ein DNS Record erstellt werden.
-Dazu muss geschaut werden auf welchem Host dein Webspace liegt.
+Als Erstes muss ein DNS Record erstellt werden.
+Dazu muss geschaut werden, auf welchem Host dein Webspace liegt.
 
-Um dies herauszufinden gehe auf die "Meine Server" Seite und klicke auf "Webspace".
+Um dies herauszufinden, gehe auf die "Meine Server" Seite und klicke auf "Webspace".
 
 {% embed url="https://mc-host24.de/myservers#webspace" %}
 
 Neben der Webspace ID steht die Domain.
 Beispiel: WEBxxxx.CWEB0x.GAMINGWEB.DE
-![Webspace übersicht](../.gitbook/assets/webspace-uebersicht.png)
+![Webspace Übersicht](../.gitbook/assets/webspace-uebersicht.png)
 
 cweb0x.gamingcontrol.de ist in dabei der Host.
 
@@ -28,19 +28,19 @@ Dazu gehe bei der Meine Server Seite auf Domains und klappe die Verwaltung auf.
 
 Als Subdomain trage ein @ ein. Bei Typ lasse A (IPv4) stehen und als Ziel trage die Webspace IP-Adresse ein und drücke auf "hinzufügen".
 
-Nach dem hinzufügen erstellt sich der DNS Eintrag.
+Nach dem Hinzufügen erstellt sich der DNS Eintrag.
 
 ![DNS Eintrag](../.gitbook/assets/webspace-dns-eintrag.png)
 
-Gehe nun wieder auf "Webspace" und klicke auf "Plesk".
+Gehe jetzt wieder auf "Webspace" und klicke auf "Plesk".
 
 Wähle deine Domain aus und drücke auf "SSL/TLS-Zertifikate
 
-![Plesk übersicht](../.gitbook/assets/webspace-plesk-uebersicht.png)
+![Plesk Übersicht](../.gitbook/assets/webspace-plesk-uebersicht.png)
 
 Drücke dort auf "Kostenloses Basiszertifikat von Let´s Encrypt installieren" und wähle "Wildcard-Domain schützen" aus und klicke auf "kostenlos nutzen".
 
-Ist dies gemacht müssen wir einen weiteren DNS Eintrag hinzufügen.
+Ist dies gemacht, muss ein weiterer DNS Eintrag hinzufügt werden.
 
 Als Subdomain füge
 ```bash
@@ -52,10 +52,10 @@ Als Typ wähle "TXT" aus und als Ziel trage in Anführungsstrichen den angezeigt
 
 ![TXT Eintrag](../.gitbook/assets/webspace-plesk-txt-eintrag.png)
 
-Nachdem der Eintrag hinzugefügt wurde sollte es so aussehen:
+Nachdem der Eintrag hinzugefügt wurde, sollte die Übersicht so aussehen:
 
 ![Erstellter TXT Eintrag Plesk](../.gitbook/assets/webspace-dns-eintraege.png)
 
 Gehe nun wieder in Plesk und drücke auf "Neu laden".
 
-Wenn alles richtig eingetragen wurde ist die Domain nun geschützt.
+Sollte alles richtig eingetragen sein ist die Domain geschützt.
