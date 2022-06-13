@@ -10,7 +10,7 @@ Um dies herauszufinden, gehe auf die "Meine Server" Seite und klicke auf "Webspa
 
 Neben der Webspace ID steht die Domain.
 Beispiel: WEBxxxx.CWEB0x.GAMINGWEB.DE
-[Webspace Übersicht](../.gitbook/assets/webspace-uebersicht.png)
+![Webspace Übersicht](../.gitbook/assets/webspace-uebersicht.png)
 
 cweb0x.gamingcontrol.de ist in dabei der Host.
 
