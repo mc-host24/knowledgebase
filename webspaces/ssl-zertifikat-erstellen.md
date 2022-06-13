@@ -6,7 +6,6 @@ Als Erstes muss ein DNS Record erstellt werden.
 Dazu muss geschaut werden, auf welchem Host dein Webspace liegt.
 
 Um dies herauszufinden, gehe auf die "Meine Server" Seite und klicke auf "Webspace".
-
 {% embed url="https://mc-host24.de/myservers#webspace" %}
 
 Neben der Webspace ID steht die Domain.
@@ -38,7 +37,7 @@ Wähle deine Domain aus und drücke auf "SSL/TLS-Zertifikate
 
 ![Plesk Übersicht](../.gitbook/assets/webspace-plesk-uebersicht.png)
 
-Drücke dort auf "Kostenloses Basiszertifikat von Let´s Encrypt installieren" und wähle "Wildcard-Domain schützen" aus und klicke auf "kostenlos nutzen".
+Drücke dort auf "Kostenloses Basiszertifikat von Let´s Encrypt installieren", wähle "Wildcard-Domain schützen" aus und klicke auf "kostenlos nutzen".
 
 Ist dies gemacht, muss ein weiterer DNS Eintrag hinzufügt werden.
 
