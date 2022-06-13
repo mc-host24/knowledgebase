@@ -20,6 +20,10 @@
 
 * [DNS Einträge erstellen](domains/dns-eintraege.md)
 
+## Webspaces
+
+* [SSL Zertifikat ausstellen](webspaces/ssl-zertifikat-erstellen.md)
+
 ## API
 
 * [MC-HOST24 Public API](api/mc-host24-public-api.md)
