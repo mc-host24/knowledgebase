@@ -1,4 +1,4 @@
-# PhpMyAdmin Installation
+# PhpMyAdmin, Apache2 und MySQL Installation
 
 * Aktualisiere die Paketlisten & installiere die Updates.
 
