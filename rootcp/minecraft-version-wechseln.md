@@ -36,13 +36,13 @@ Damit der Server ordentlich starten kann, muss unter "Startkonfiguration" noch d
 
 <summary>Welche Java Version benötige ich?</summary>
 
-1.8.x Java 8
+1.8.x Java 8 & Java 11
 
-1.9.x Java 8
+1.9.x Java 8 & Java 11
 
-1.10.x Java 8
+1.10.x Java 8 & Java 11
 
-1.11.x Java 8
+1.11.x Java 8 & Java 11
 
 1.12.x Java 11
 
