@@ -11,6 +11,7 @@
 
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
 * [Spigot oder Bungeecord installieren](rootcp/spigot-oder-bungeecord.md)
+* [Test Page](rootcp/test-page.md)
 
 ## Minecraft-Server
 
