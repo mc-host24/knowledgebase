@@ -31,8 +31,7 @@ Um das Zertifikat automatisch auf deinem Apache Webserver einrichten zu lassen, 
 certbot --apache
 ```
 
-1. Gebe  deine E-mail-Adresse ein:
-"Enter email address (used for urgent renewal and security notices)"
+1. Gebe  deine E-mail-Adresse ein
 
 2. Akzeptiere die Terms of Service
 
