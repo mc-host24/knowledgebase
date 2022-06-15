@@ -19,7 +19,7 @@ Nachdem das erledigt ist wird nun certbot installiert.
 snap install --classic certbot
 ```
 
-Damit wir den Certbot Command verwenden, können gebe folgenden Command ein:
+Damit der Certbot Command verwendet werden kann, gebe folgenden Command ein:
 
 ```bash
 ln -s /snap/bin/certbot /usr/bin/certbot
