@@ -239,36 +239,22 @@ chown -R www-data:www-data /var/www/html/nextcloud/
 
 ## Nextcloud Nutzer anlegen
 
-* Gebe in deinem Browser deine IP/phpmyadmin ein.
+![Gebe in deinem Browser deine IP/phpmyadmin ein.](https://bilderupload.org/image/a98a79993-screenshot-2022-06-17-173.png)
 
-![](https://bilderupload.org/image/a98a79993-screenshot-2022-06-17-173.png)
+![Melde dich mit deinen PhpMyAdmin Nutzernamen und Password an, welchen du vorhin erstellt hast.](https://bilderupload.org/image/e58680326-screenshot-2022-06-17-173.png)
 
-* Melde dich mit deinen PhpMyAdmin Nutzernamen und Password an, welchen du vorhin erstellt hast.
+![Navigiere nun zum Punkt: Benutzerkonten](https://bilderupload.org/image/364580680-pupsl.png)
 
-![](https://bilderupload.org/image/e58680326-screenshot-2022-06-17-173.png)
+![Drücke auf Benutzerkonto hinzufügen](https://bilderupload.org/image/d1d680789-pupsanlegen.png)
 
-* Navigiere nun zum Punkt: Benutzerkonten
+![nun lege einen Benutzernamen und Password ein für Nextcloud an.
+Wähle "Erstelle eine Datenbank mit gleichem Namen und gewähre alle Rechte" aus.
+Scrolle runter und drücke auf "OK"](https://bilderupload.org/image/a7c980993-anlegenfertig.png)
 
-![](https://bilderupload.org/image/364580680-pupsl.png)
+![Nachdem der Benutzer und die Datenbank erfolgreich angelegt wurde, gebe in deinem Browser IP/nextcloud ein.](https://bilderupload.org/image/903c82182-nextcloud.png)
 
-* Drücke auf Benutzerkonto hinzufügen
-
-![](https://bilderupload.org/image/d1d680789-pupsanlegen.png)
-
-* nun lege einen Benutzernamen und Password ein für Nextcloud an.
-* Wähle "Erstelle eine Datenbank mit gleichem Namen und gewähre alle Rechte" aus.
-* Scrolle runter und drücke auf "OK"
-
-![](https://bilderupload.org/image/a7c980993-anlegenfertig.png)
-
-* Nachdem der Benutzer und die Datenbank erfolgreich angelegt wurde, gebe in deinem Browser IP/nextcloud ein.
-
-![](https://bilderupload.org/image/903c82182-nextcloud.png)
-
-* Trage oben deinen Wunsch Benutzernamen und Passwort für Nextcloud ein.
-* Trage bei den unteren Feldern (Datenbank Informationen) deine MySQL Daten ein.
-* und drücke auf: "Installieren"
-
-![](https://bilderupload.org/image/3d8e82457-nextcloudfertig.png)
+![Trage oben deinen Wunsch Benutzernamen und Passwort für Nextcloud ein.
+Trage bei den unteren Feldern (Datenbank Informationen) deine MySQL Daten ein.
+und drücke auf: "Installieren"](https://bilderupload.org/image/3d8e82457-nextcloudfertig.png)
 
 # Nun ist die Installation von Nextcloud erfolgreich abgeschlossen
