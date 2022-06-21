@@ -28,10 +28,7 @@ adduser --disabled-login ts3
 {% endtab %}
 {% endtabs %}
 
-* Bei den folgenden fragen, kannst du die mit der "Enter" Taste durchklicken und am ende mit "Y/J" Bestätigen
-
-
-![](https://bilderupload.org/image/7d9157172-adduser-ts3.png)
+![Bei den folgenden fragen, kannst du die mit der "Enter" Taste durchklicken und am ende mit "Y/J" Bestätigen](https://bilderupload.org/image/7d9157172-adduser-ts3.png)
 
 
 * Nun navigiere zum ts3 verzeichnis
@@ -102,26 +99,17 @@ cd /home/ts3/teamspeak3-server_linux_amd64
 ./ts3server_startscript.sh start
 ```
 
-* hier siehst du dein teamspeak3 token. gebe diese in deinem teamspeak ein
-* (Kopiere es dir oder speichere es irgendwo sicher ab)
+![hier siehst du dein teamspeak3 token. gebe diese in deinem teamspeak ein. Vergesse nicht dein Token zu Kopieren oder abzuspeichern](https://bilderupload.org/image/3eb657093-ts3-daten.png)
 
 
-![](https://bilderupload.org/image/3eb657093-ts3-daten.png)
+![Starte Teamspeak3 -> gehe oben Links auf Verbindungen danach auf -> Verbinden
+Gebe deine Server-IP oder Domain unter: Server Nickname oder Adresse ein
+und gebe unter Nickname: dein Nutzernamen/Spielnamen/Echten namen ein
+und Drücke auf Verbinden](https://bilderupload.org/image/ff8257054-ts3-verbinden.png)
 
 
-* Starte Teamspeak3 -> gehe oben Links auf Verbindungen danach auf -> Verbinden
-* Gebe deine Server-IP oder Domain unter: Server Nickname oder Adresse ein
-* und gebe unter Nickname: dein Nutzernamen/Spielnamen/Echten namen ein
-* und Drücke auf Verbinden
-
-![](https://bilderupload.org/image/ff8257054-ts3-verbinden.png)
-
-
-* Nachdem du auf deinem Teamspeak3 Server bist siehst du diese meldung.
-* Gebe hier deinen Token ein, den du eben im Terminal bekommen hast
-
-
-![](https://bilderupload.org/image/2eac56992-token-eingeben.png)
+![Nachdem du auf deinem Teamspeak3 Server bist siehst du diese meldung.
+Gebe hier deinen Token ein, den du eben im Terminal bekommen hast](https://bilderupload.org/image/2eac56992-token-eingeben.png)
 
 
 * nun kannst du wieder in dein Terminal gehen und gibst die Tastenkombination 
