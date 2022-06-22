@@ -30,6 +30,7 @@
 
 * [SSL Zertifikat ausstellen](webspaces/ssl-zertifikat-erstellen.md)
 
-## API
+## Sonstiges
 
-* [MC-HOST24 Public API](api/mc-host24-public-api.md)
+* [MC-HOST24 Public API](sonstiges/mc-host24-public-api.md)
+* [MC-HOST24 Discord](sostiges/discord.mc)
