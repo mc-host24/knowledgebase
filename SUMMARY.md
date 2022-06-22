@@ -11,6 +11,7 @@
 * [Java8 installation](rootserver/java8-setup.md)
 * [Teamspeak Server Installation](rootserver/teamspeak3-installation.md)
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
+* [Minecraft Server mit unterschiedlichen Java Versionen steuern](rootserver/bestimmte-java-version.md)
 
 ## Rootcp
 
