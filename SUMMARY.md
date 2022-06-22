@@ -9,6 +9,7 @@
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
 * [Nextcloud installation](rootserver/nextcloud-installation.md)
 * [Java8 installation](rootserver/java8-setup.md)
+* [Teamspeak Server Installation](rootserver/teamspeak3-installation.md)
 
 ## Rootcp
 
