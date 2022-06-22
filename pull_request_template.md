@@ -5,4 +5,4 @@
 - [ ] Relevante Artikel verlinkt
 - [ ] Auf doppelte Artikel geprüft
 - [ ] SUMMARY.md geupdatet
-- [ ] Username?
+- [ ] MC-HOST24 Username für Guthaben Gutschrift
