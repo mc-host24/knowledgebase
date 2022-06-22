@@ -33,4 +33,4 @@
 ## Sonstiges
 
 * [MC-HOST24 Public API](sonstiges/mc-host24-public-api.md)
-* [MC-HOST24 Discord](sostiges/discord.mc)
+* [MC-HOST24 Discord](sostiges/discord.md)
