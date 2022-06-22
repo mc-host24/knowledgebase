@@ -21,7 +21,3 @@ Eine Erklärung, wie dies genau funktioniert, findest du hier:
 {% hint style="warning" %}
 **Erwähne bei dem Pull Request bitte deinen MC-HOST Username oder die UserID, damit wir das Guthaben gutschreiben können.**
 {% endhint %}
-
-
-
-TEST
