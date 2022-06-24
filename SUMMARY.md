@@ -26,6 +26,7 @@
 ## Domains
 
 * [DNS Einträge erstellen](domains/dns-eintraege.md)
+* [Domain Endungen](domains/domain-endungen.md)
 
 ## Webspaces
 
