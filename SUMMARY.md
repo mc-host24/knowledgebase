@@ -1,5 +1,6 @@
 # Table of contents
 
+* [README](README.md)
 * [MC-HOST24](mc-host24.md)
 
 ## Rootserver
@@ -33,4 +34,4 @@
 ## Sonstiges
 
 * [MC-HOST24 Public API](sonstiges/mc-host24-public-api.md)
-* [MC-HOST24 Discord](sostiges/discord.md)
+* [MC-HOST24 Discord](sonstiges/mc-host24-discord.md)
