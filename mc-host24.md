@@ -14,10 +14,6 @@ Das Projekt kann hier geforkt werden:
 
 {% embed url="https://github.com/mc-host24/Knowledgebase" %}
 
-Eine Erklärung, wie dies genau funktioniert, findest du hier:
-
-{% embed url="https://www.youtube.com/watch?t=&v=BUqna6dezN0" %}
-
 {% hint style="warning" %}
-**Erwähne bei dem Pull Request bitte deinen MC-HOST Username oder die UserID, damit wir das Guthaben gutschreiben können.**
+**Erwähne bei dem Pull Request bitte deinen MC-HOST Username oder die UserID, damit wir dir das Guthaben gutschreiben können.**
 {% endhint %}
