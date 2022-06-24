@@ -6,7 +6,7 @@ Hier was einfügen
 
 | Endung | Preis |
 | ------ | ----- |
-|        |       |
+| .de    | 6,49  |
 |        |       |
 |        |       |
 |        |       |
