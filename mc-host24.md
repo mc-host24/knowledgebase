@@ -1,7 +1,3 @@
----
-layout: landing
----
-
 # MC-HOST24
 
 ## Willkommen auf der MC-HOST24.de Knowledge Base.
