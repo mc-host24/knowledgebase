@@ -1,8 +1,0 @@
-root: ./
-
-​structure:  
-    summary: SUMMARY.md​
-
-redirects:  
-    previous/page: README.md
-    linux-grundlagen: /rootserver/linux-grundlage.md
