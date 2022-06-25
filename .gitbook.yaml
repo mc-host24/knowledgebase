@@ -5,3 +5,4 @@ root: ./
 
 redirects:  
     previous/page: README.md
+    linux-grundlagen: /rootserver/linux-grundlage.md
