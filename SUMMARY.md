@@ -21,6 +21,7 @@
 ## Minecraft-Server
 
 * [Versions wechsel](minecraft-server/version-wechseln.md)
+* [Modpack installieren](minecraft-server/modpacks-installieren.md)
 
 ## Domains
 
