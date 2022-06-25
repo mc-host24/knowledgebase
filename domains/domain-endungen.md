@@ -1,6 +1,6 @@
 # Domain Endungen
 
-MC-HOST24.de bietet nicht nur die auf der Webseite angezeigten Domain Endungen an. Folgende Domain Endungen bieten wir per Ticket Anfrage an:
+MC-HOST24.de bietet nicht nur die auf der Webseite angezeigten Domain Endungen an. Per Ticket können folgende Domain Endungen angefragt werden:
 
 * .ac
 * .ac.cn
