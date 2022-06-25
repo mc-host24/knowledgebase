@@ -1,7 +1,6 @@
-## Minecraft Server mit eigener JAR starten
+# Eigene Jar Datei verwenden
 
-Um deinen Minecraft Server mit einer eigenen JAR zu starten lade die JAR Datei per FTP auf deinen Server hoch.
-Dazu gehe im Webinterface auf "Dateien" und klicke anschließend auf "FTP Datei Zugriff".
+Um deinen Minecraft Server mit einer eigenen JAR zu starten lade die JAR Datei per FTP auf deinen Server hoch. Dazu gehe im Webinterface auf "Dateien" und klicke anschließend auf "FTP Datei Zugriff".
 
 Melde dich dort mit deinem MC-HOST24.de Passwort an.
 
@@ -16,6 +15,10 @@ Gehe nun wieder zurück auf die Hauptseite.
 Öffne unter "JAR Datei" das Drop-Down Menü und wähle deine Wunsch Java Version aus.
 
 Solltest du die benötigte Java Version nicht kennen:
+
+Welche Java Version benötige ich?
+
+<details>
 
 <summary>Welche Java Version benötige ich?</summary>
 
