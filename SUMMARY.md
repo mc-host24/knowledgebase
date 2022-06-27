@@ -10,7 +10,7 @@
 * [Nextcloud installation](rootserver/nextcloud-installation.md)
 * [Java8 installation](rootserver/java8-setup.md)
 * [Teamspeak Server Installation](rootserver/teamspeak3-installation.md)
-* [Minecraft auto Start](rootserver/Minecraft//minecraft-auto-start.md)
+* [Minecraft auto Start](rootserver/Minecraft/minecraft-auto-start.md)
 * [Minecraft Server mit unterschiedlichen Java Versionen starten](rootserver/bestimmte-java-version.md)
 * [One-Click Gameserver Installation](rootserver/one-click-gameserver-installer.md)
 
