@@ -38,3 +38,4 @@
 
 * [Public API](https://mc-host24.github.io/api-documentation/#/)
 * [Discord](https://discord.mc-host24.de)
+* [Teamspeak Server](ts3server://ts.mc-host24.de)
