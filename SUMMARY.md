@@ -36,5 +36,6 @@
 
 ## Sonstiges
 
-* [MC-HOST24 Public API](sonstiges/mc-host24-public-api.md)
-* [MC-HOST24 Discord](sonstiges/mc-host24-discord.md)
+* [Public API](https://mc-host24.github.io/api-documentation/#/)
+* [Discord](https://discord.mc-host24.de)
+* [Teamspeak Server](ts3server://ts.mc-host24.de)
