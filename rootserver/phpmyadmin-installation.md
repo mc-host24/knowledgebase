@@ -55,9 +55,9 @@ apt update
 apt install apache2 -y
 ```
 
-* Installiere PHP7.4 sowie die PHP-Module
+* Installiere PHP8.0 sowie die PHP-Module
 ```bash
-apt install php7.4 php7.4-zip php7.4-bz2 php7.4-cli php7.4-common php7.4-xsl php7.4-curl php7.4-opcache php7.4-gd php7.4-intl php7.4-json php7.4-mbstring php7.4-mysql php7.4-readline php7.4-xml libapache2-mod-php7.4 -y
+apt install php8.0 php8.0-cli php8.0-common php8.0-curl php8.0-gd php8.0-intl php8.0-mbstring php8.0-mysql php8.0-opcache php8.0-readline php8.0-xml php8.0-xsl php8.0-zip php8.0-bz2 libapache2-mod-php8.0 -y
 ```
 
 * Installiere MySQL
