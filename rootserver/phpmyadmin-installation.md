@@ -21,7 +21,7 @@ nachschauen.
 
 {% tabs %}
 {% tab title="Debian" %}
-* Füge die Paket-Quelle für die PHP7.4 Version hinzu.
+* Füge die Paket-Quelle für die PHP8.0 Version hinzu.
 
 ```bash
 curl -fsSL https://packages.sury.org/php/apt.gpg -o /usr/share/keyrings/php-archive-keyring.gpg
@@ -33,7 +33,7 @@ echo "deb [signed-by=/usr/share/keyrings/php-archive-keyring.gpg] https://packag
 {% endtab %}
 
 {% tab title="Ubuntu" %}
-* Füge die Paket-Quelle für die PHP7.4 Version hinzu.
+* Füge die Paket-Quelle für die PHP8.0 Version hinzu.
 
 ```bash
 apt install software-properties-common -y
