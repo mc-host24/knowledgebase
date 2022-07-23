@@ -12,6 +12,9 @@
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
 * [Minecraft Server mit unterschiedlichen Java Versionen starten](rootserver/bestimmte-java-version.md)
 * [One-Click Gameserver Installation](rootserver/one-click-gameserver-installer.md)
+* [Docker-Installation](rootserver/docker-installieren.md)
+* [MongoDB installieren](rootserver/mongodb-installieren.md)
+* [nginx installieren](rootserver/nginx-installieren.md)
 
 ## Rootcp
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
@@ -21,6 +24,8 @@
 * [Versions wechsel](minecraft-server/version-wechseln.md)
 * [Modpack installieren](minecraft-server/modpacks-installieren.md)
 * [Eigene Jar Datei verwenden](minecraft-server/eigene-server-jar.md)
+* [Server-Optimierung](minecraft-server/optimierung.md)
+* [Übliche Spigot Plugins](minecraft-server/übliche-spigot-plugins.md)
 
 ## Domains
 * [DNS Einträge erstellen](domains/dns-eintraege.md)
@@ -28,6 +33,7 @@
 
 ## Webspaces
 * [SSL Zertifikat ausstellen](webspaces/ssl-zertifikat-erstellen.md)
+* [WordPress installieren](webspaces/wordpress-installieren.md)
 
 ## Sonstiges
 * [Public API](https://mc-host24.github.io/api-documentation/#/)
