@@ -37,7 +37,7 @@ adduser --disabled-login ts3
 cd /home/ts3
 ```
 
-#Teamspeak3 Installation
+# Teamspeak3 Installation
 
 * Laden den Teamspeak3 Server herunter.
 
@@ -111,4 +111,4 @@ cd /home/ts3/teamspeak3-server_linux_amd64
 ./ts3server_startscript.sh start
 ```
 
-#Die Installation vom Teamspeak3 Server ist abgeschlossen
+# Die Installation vom Teamspeak3 Server ist abgeschlossen
