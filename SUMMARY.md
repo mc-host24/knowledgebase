@@ -14,6 +14,7 @@
 * [One-Click Gameserver Installation](rootserver/one-click-gameserver-installer.md)
 * [Docker-Installation](rootserver/docker-installieren.md)
 * [MongoDB installieren](rootserver/mongodb-installieren.md)
+* [Nginx Proxy Manager installieren](rootserver/nginx-proxy-manager-installation.md)
 * [nginx installieren](rootserver/nginx-installieren.md)
 
 ## Rootcp
