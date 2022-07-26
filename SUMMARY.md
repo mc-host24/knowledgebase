@@ -12,7 +12,6 @@
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
 * [Minecraft Server mit unterschiedlichen Java Versionen starten](rootserver/bestimmte-java-version.md)
 * [One-Click Gameserver Installation](rootserver/one-click-gameserver-installer.md)
-* [Docker-Installation](rootserver/docker-installieren.md)
 * [MongoDB installieren](rootserver/mongodb-installieren.md)
 * [nginx installieren](rootserver/nginx-installieren.md)
 
@@ -37,8 +36,15 @@
 * [WordPress installieren](webspaces/wordpress-installieren.md)
 * [nginx Reverse Proxy](webspaces/nginx-reverse-proxy.md)
 
+## Erklärungen
+* [MongoDB installieren](rootserver/mongodb-installieren.md)
+* [nginx installieren](rootserver/nginx-installieren.md)
+
+## Docker
+* [Docker Traefik Proxy](sonstiges/docker-traefik-proxy.md)
+* [Docker-Installation](rootserver/docker-installieren.md)
+
 ## Sonstiges
 * [Public API](https://mc-host24.github.io/api-documentation/#/)
 * [Discord](https://discord.mc-host24.de)
 * [Teamspeak Server](ts3server://ts.mc-host24.de)
-* [Docker Traefik Proxy](sonstiges/docker-traefik-proxy.md)
