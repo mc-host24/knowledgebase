@@ -5,12 +5,13 @@
 apt update && apt upgrade -y
 ```
 
+{% hint style="warning" %}
 Achte auf dein Betriebssystem.
-Solltest du nicht wissen, welches Betriebssystem du verwendest, kannst du dies mit dem Befehl
+Solltest du nicht wissen, welches Betriebssystem du verwendest, kannst du dies mit dem Befehl nachschauen.
+{% endhint %}
 ```bash
 cat /etc/issue
 ```
-nachschauen.
 
 {% tabs %}
 {% tab title="Debian" %}
