@@ -59,14 +59,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 {% endtab %}
 {% endtabs %}
 
-```bash
-sudo apt update
-```
-
-```bash
-sudo apt install docker-ce docker-ce-cli containerd.io -y
-```
-
 * Aktiviere den Docker Dienst
 ```bash
 sudo systemctl start docker --now
