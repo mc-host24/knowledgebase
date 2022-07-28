@@ -1,16 +1,19 @@
-# Apache2 Weiterleitung zum Link
+# Virtualhost Redirect (Apache2)
 
 Installieren Sie die benötigten Pakete
-``` bash
+
+```bash
 apt install apache2 -y
 ```
 
 Navigiere in die .conf datei
-``` bash
+
+```bash
 cd /etc/apache2/sites-available
 ```
 
 Erstelle eine Beliebige datei. Als Beispiel:
+
 {% tabs %}
 {% tab title="Domain" %}
 * Wenn du es nur mit deiner Domain machen möchtest empfehlen wir diese Struktur:
@@ -29,8 +32,8 @@ touch sub.domain.de.conf
 {% endtab %}
 {% endtabs %}
 
-
 Aktiviere nun Apache2 rewrite
+
 ```bash
 a2enmod rewrite
 ```
@@ -48,7 +51,6 @@ nun füge diesen code ein:
 {% endtab %}
 
 {% tab title="Sub-Domain" %}
-
 ```bash
 <VirtualHost *:80>
         ServerName sub.domain.de
@@ -68,7 +70,6 @@ a2ensite domain.de.conf
 {% endtab %}
 
 {% tab title="Sub-Domain" %}
-
 ```bash
 a2ensite sub.domain.de.conf
 ```
@@ -76,24 +77,31 @@ a2ensite sub.domain.de.conf
 {% endtabs %}
 
 Starte Apache2 neu
+
 ```bash
 systemctl restart apache2
 ```
 
-## Wichtig! vergiss nicht einen A-Record Eintrag für deine Domain/Sub-Domain zu machen. Diese sollte auf deinem Server verweisen, wo auch dein Certbot läuft.
+### Domain SSL Verschlüsseln
 
-## Die Domains oder Sub-Domains einen Zertifikat austellen
+{% hint style="danger" %}
+Vergiss nicht, einen A-Record Eintrag für deine Domain/Sub-Domain zu machen. Diese sollte auf deinem Server verweisen, wo auch dein Certbot läuft.
+{% endhint %}
 
-Als erstes benötigen wir das Paket "snapd". Dies wird mit dem Command 
+Als erstes benötigen wir das Paket "snapd". Dies wird mit dem Command
+
 ```bash
 apt install snapd
 ```
+
 installiert.
 
-falls snapd bereits installiert ist, stelle mit dem Command 
+falls snapd bereits installiert ist, stelle mit dem Command
+
 ```bash
 snap install core; snap refresh core
 ```
+
 sicher, dass snapd auf dem neusten Stand ist.
 
 Nachdem das erledigt ist wird nun certbot installiert.
@@ -114,10 +122,7 @@ Um das Zertifikat automatisch auf deinem Apache Webserver einrichten zu lassen, 
 certbot --apache
 ```
 
-1. Gebe  deine E-mail-Adresse ein
-
+1. Gebe deine E-Mail Adresse ein
 2. Akzeptiere die Terms of Service
-
-3. kannst du die erstellte/Aufgelistete Domain oder Sub-Domain Auswhälen
-
-4. Das Zertifikat ist jetzt auf deiner Domain
+3. kannst du die erstellte/Aufgelistete Domain / Sub-Domain Auswählen
+4. Dein Zertifikat wurde nun ausgestellt
