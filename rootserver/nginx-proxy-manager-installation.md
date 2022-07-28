@@ -2,7 +2,7 @@
 
 !!! Wichtig !!!
 Falls ihr Docker nicht installiert habt, folgt der Docker Installation:
-* -> [Docker Installation](rootserver/docker-installation.md)
+{% embed url="https://docs.mc-host24.de/docs/rootserver/docker-installieren" %}
 
 
 * Aktualisiere die Paketlisten & installiere die Updates.
