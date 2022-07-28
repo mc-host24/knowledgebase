@@ -13,10 +13,12 @@
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
 * [Minecraft Server mit unterschiedlichen Java Versionen starten](rootserver/bestimmte-java-version.md)
 * [One-Click Gameserver Installation](rootserver/one-click-gameserver-installer.md)
+* [Virtualhost Redirection Apache2](rootserver/Virtualhost-redirection-apache2.md)
 * [Docker-Installation](rootserver/docker-installieren.md)
 * [MongoDB installieren](rootserver/mongodb-installieren.md)
 * [Nginx Proxy Manager installieren](rootserver/nginx-proxy-manager-installation.md)
 * [nginx installieren](rootserver/nginx-installieren.md)
+
 
 ## Rootcp
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
