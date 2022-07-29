@@ -45,8 +45,8 @@
 * [nginx installieren](rootserver/nginx-installieren.md)
 
 ## Docker
-* [Docker Traefik Proxy](sonstiges/docker-traefik-proxy.md)
-* [Docker-Installation](rootserver/docker-installieren.md)
+* [Docker Traefik Proxy](docker/docker-traefik-proxy.md)
+* [Docker-Installation](docker/docker-installieren.md)
 
 ## Sonstiges
 * [Public API](https://mc-host24.github.io/api-documentation/#/)
