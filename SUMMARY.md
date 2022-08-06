@@ -40,10 +40,6 @@
 * [WordPress installieren](webspaces/wordpress-installieren.md)
 * [nginx Reverse Proxy](webspaces/nginx-reverse-proxy.md)
 
-## Erklärungen
-* [MongoDB installieren](rootserver/mongodb-installieren.md)
-* [nginx installieren](rootserver/nginx-installieren.md)
-
 ## Docker
 * [Docker Traefik Proxy](docker/docker-traefik-proxy.md)
 * [Docker-Installation](docker/docker-installation.md)
