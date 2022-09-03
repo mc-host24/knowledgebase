@@ -24,7 +24,7 @@ Möchte man mehrere Welten auf seinem Server haben, ist Multiverse-Core genau da
 
 ## Holographic Displays
 
-Mit Holographic Displays ist es möglich, Bilder, Texte und Icons als Holograme dazustellen und anzuzeigen. Diese Hologramme können verschiedene Farben haben oder animiert werden. Holographic Displays gibt es für alle Versionen ab 1.6.4.
+Mit Holographic Displays ist es möglich, Bilder, Texte und Icons als Hologramme dazustellen und anzuzeigen. Diese Hologramme können verschiedene Farben haben oder animiert werden. Holographic Displays gibt es für alle Versionen ab 1.6.4.
 
 ## Shopkeepers
 
