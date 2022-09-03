@@ -22,6 +22,10 @@ Will man eigene Städte auf seinem Server haben, ist Towny die perfekte Lösung 
 
 Möchte man mehrere Welten auf seinem Server haben, ist Multiverse-Core genau das richtige Plugin dafür. Damit kann man mehrere Welten erstellen, in denen man z.B. unterschiedliche Schwierigkeitsgrade oder unterschiedliche Spielregeln festlegen kann. Multiverse-Core gibt es für alle Versionen ab 1.8.9.
 
+## Holographic Displays
+
+Mit Holographic Displays ist es möglich, Bilder, Texte und Icons als Holograme dazustellen und anzuzeigen. Diese Hologramme können verschiedene Farben haben oder animiert werden. Holographic Displays gibt es für alle Versionen ab 1.6.4.
+
 ## Shopkeepers
 
 Shopkeepers macht es möglich, einzelne Kreaturen-Shops mit benutzerdefinierten Angeboten zu erstellen. Will man beispielsweise einen Dorfbewohner-Shop erstellen, der zwei Stapel Ziegelblöcke und vier Ziegel für acht Smaragde verkauft, ist dieses Plugin genau das richtige für den Server-Inhaber und die Server-Mitspieler.
