@@ -45,3 +45,7 @@ ImageOnMap ermöglicht dir das Generieren von Minecraft-Karten aus einer Bildque
 ## AdvancedBan
 
 Für Moderatoren, Supporter und Admins ist AdvancedBan ein nützlicher Helfer, der das Sanktionieren und Verwarnen von Spielern in vielen Punkten vereinfacht. Das kostenlose Moderationsplugin umfasst nützliche Funktionen wie das Verwarnen von Spielern, Bannen mit selbst-gewählten Gründen, Längen, Layouts und Nachrichten oder auch einer Lookup-Funktion, um vergangene Sanktionen, die IP-Adresse oder das Herkunftsland des Spielers einzusehen.
+
+## LuckPerms
+
+Eine einfache und schnelle Verwaltung von Rechten und Gruppen der Spieler bietet das kostenlose Plugin LuckPerms. Dieses kann zusammen mit einem Webinterface genutzt werden und ermöglicht die schnelle Erstellung und Verwaltung von Gruppen, Spielern und gestaltet Rechtevergaben einfach und flexibel.
