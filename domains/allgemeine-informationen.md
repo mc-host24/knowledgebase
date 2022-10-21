@@ -10,7 +10,7 @@ Sollte sie danach immer noch nicht funktionieren, solltest du deine DNS-Einträg
 Unser Kundensupport hilft dir hierbei gerne.
 
 ## Meine Domain leitet nicht weiter
-Sollte Ihre Domain einmal nicht auf Ihren zb. Minecraft-Server weiterleiten, dann  erstellen Sie mal den Eintrag neu. Sollte das nicht helfen, so schreiben Sie uns einfach ein Ticket!
+Sollte deine Domain einmal nicht auf deinen zb. Minecraft-Server weiterleiten, dann erstelle den Eintrag neu. Sollte das nicht helfen, so schreibe  uns einfach ein Ticket!
 
 ## Stornierung der Domain möglich?
 Eine Domain kann nicht storniert werden, da bei der Bestellung die Domain direkt beim Registrar registriert wird. Die Gebühren werden an den Registrar weitergegeben, wodurch eine Stornierung nicht möglich ist.
