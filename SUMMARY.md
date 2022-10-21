@@ -2,6 +2,9 @@
 
 * [Wilkommen](README.md)
 
+## Allgemein
+* [Benutzer](Allgemein/benutzer.md)
+
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
