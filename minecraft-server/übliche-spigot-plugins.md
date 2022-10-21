@@ -37,3 +37,15 @@ EssentialsX ist ein kostenloses Plugin, welches über 140 neue Befehle zu Minecr
 ## AdvancedRedionMarket
 
 AdvancedRegionMarket (ARM) bietet die Möglichkeit, benutzerdefinierte Regionen zu erstellen, die sich dann an andere Spieler verkaufen oder vermieten lassen.
+
+## ImageOnMap
+
+ImageOnMap ermöglicht dir das Generieren von Minecraft-Karten aus einer Bildquelle. Man kann von einer beliebigen URL, die zu einer PNG, JP(E)G oder GIF Datei führt, innerhalb weniger Sekunden dieses Bild als Karte in Minecraft erzeugen. Bei größeren Bildern kann das Plugin, je nach Belieben auch mehrere Karten generieren, die zusammengesetzt das gewünschte Bild ergeben. Generierte Karten lassen sich auch in Rahmen platzieren und sind für andere Spieler sichtbar.
+
+## AdvancedBan
+
+Für Moderatoren, Supporter und Admins ist AdvancedBan ein nützlicher Helfer, der das Sanktionieren und Verwarnen von Spielern in vielen Punkten vereinfacht. Das kostenlose Moderationsplugin umfasst nützliche Funktionen wie das Verwarnen von Spielern, Bannen mit selbst-gewählten Gründen, Längen, Layouts und Nachrichten oder auch einer Lookup-Funktion, um vergangene Sanktionen, die IP-Adresse oder das Herkunftsland des Spielers einzusehen.
+
+## LuckPerms
+
+Eine einfache und schnelle Verwaltung von Rechten und Gruppen der Spieler bietet das kostenlose Plugin LuckPerms. Dieses kann zusammen mit einem Webinterface genutzt werden und ermöglicht die schnelle Erstellung und Verwaltung von Gruppen, Spielern und gestaltet Rechtevergaben einfach und flexibel.
