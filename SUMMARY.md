@@ -3,7 +3,8 @@
 * [Wilkommen](README.md)
 
 ## Allgemein
-* [Benutzer](Allgemein/benutzer.md)
+* [Mein Benutzer](Allgemein/benutzer.md)
+* [Bestellungen und Transaktionen](Allgemein/bestellungen.md)
 
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
@@ -27,13 +28,16 @@
 * [Spigot oder Bungeecord installieren](rootcp/spigot-oder-bungeecord.md)
 
 ## Minecraft-Server
+* [Allgemeine Informationen](minecraft-server/allgemeine-informationen.md)
 * [Versions wechsel](minecraft-server/version-wechseln.md)
 * [Modpack installieren](minecraft-server/modpacks-installieren.md)
 * [Eigene Jar Datei verwenden](minecraft-server/eigene-server-jar.md)
 * [Server-Optimierung](minecraft-server/optimierung.md)
 * [Übliche Spigot Plugins](minecraft-server/übliche-spigot-plugins.md)
 
+
 ## Domains
+* [Inhaberdaten](domains/allgemeine-informationen.md)
 * [DNS Einträge erstellen](domains/dns-eintraege.md)
 * [Domain Endungen](domains/domain-endungen.md)
 * [Domain transferieren](domains/domain-transferieren.md)
