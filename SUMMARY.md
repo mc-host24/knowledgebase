@@ -37,7 +37,7 @@
 
 
 ## Domains
-* [Inhaberdaten](domains/allgemeine-informationen.md)
+* [Allgemeine Informationen](domains/allgemeine-informationen.md)
 * [DNS Einträge erstellen](domains/dns-eintraege.md)
 * [Domain Endungen](domains/domain-endungen.md)
 * [Domain transferieren](domains/domain-transferieren.md)
