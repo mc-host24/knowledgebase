@@ -174,3 +174,15 @@ FLUSH PRIVILEGES;
 ```
 
 Du kannst PhpMyAdmin nun mit deiner IP-Adresse oder Domain /phpmyadmin aufrufen.
+
+## Datenbank von außen erreichbar machen
+
+Standardmäßig erlaubt eine MySQL-Datenbank nur Zugriffe durch den eigenen Server (`localhost`). Um ebenso Zugriffe von außerhalb zu erlauben, musst du mit
+```bash
+nano /etc/mysql/mariadb.conf.d/50-server.cnf
+```
+in die Konfigurationsdatei deiner Datenbank und den Punkt `bind-adress = 127.0.0.1` mit `#` davor auskommentieren, sodass es am Ende folgendermaßen aussieht:
+```bash
+# bind-adress = 127.0.0.1
+```
+Danach musst du lediglich deine Datenbank neustarten, sodass die Änderungen wirksam werden (`service mysql restart`).
