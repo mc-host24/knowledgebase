@@ -1,4 +1,4 @@
-# Teamspeak³-Server installieren
+## Teamspeak³-Server installieren
 
 * Aktualisiere die Paketlisten & installiere die Updates.
 
@@ -37,7 +37,7 @@ adduser --disabled-login ts3
 cd /home/ts3
 ```
 
-# Teamspeak3 Installation
+### Teamspeak³ Installation
 
 * Laden den Teamspeak³ Server herunter.
 
@@ -112,7 +112,7 @@ cd /home/ts3/teamspeak3-server_linux_amd64
 ```
 Die Installation vom Teamspeak³ Server ist damit abgeschlossen.
 
-# Teamspeak³ Server updaten
+## Teamspeak³ Server updaten
 
 Falls noch nicht passiert, musst du deinen Teamspeak³-Server vor dem Update zuerst herunterfahren (`./ts3server_startscript.sh stop`).
 

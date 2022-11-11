@@ -11,4 +11,4 @@ Nach der Installation des FTP-Clients auf deinem Computer, kannst du das Program
 * Dementsprechend nutzt du als **Passwort** das Passwort deines `root`-Benutzers, welches du, falls du es nicht geändert hast, auf der [Meine-Server](https://mc-host24.de/myservers#rootserver)-Seite findest.
 * Da es sich hier um SFTP (SSH-FTP) handelt, nutzt du als **Port** deinen SSH-Port, welcher standardmäßig, insofern du ihn nicht geändert hast, `22` ist.
 
-![Hier siehst du](../.gitbook/assets/sftp-verbinden.png)
+![Hier siehst du ein Verbindungsbeispiel aus WinSCP](../.gitbook/assets/sftp-verbinden.png)
