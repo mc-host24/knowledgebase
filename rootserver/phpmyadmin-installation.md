@@ -1,4 +1,4 @@
-# PhpMyAdmin, Apache2 und MySQL Installation
+## PhpMyAdmin, Apache2 und MySQL Installation
 
 * Aktualisiere die Paketlisten & installiere die Updates.
 
@@ -158,7 +158,7 @@ mkdir /usr/share/phpmyadmin/tmp/
 chown -R www-data:www-data /usr/share/phpmyadmin/tmp/
 ```
 
-## Bis einschließlich Debian 10 oder Ubuntu
+### Bis einschließlich Debian 10 oder Ubuntu
 
 * Melde dich bei dem MySQL Server an
 ```bash
