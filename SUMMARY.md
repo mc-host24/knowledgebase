@@ -8,6 +8,7 @@
 
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
+* [Mit (S)FTP auf Rootserver verbinden](rootserver/sftp-verbinden.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
 * [Nextcloud installation](rootserver/nextcloud-installation.md)
