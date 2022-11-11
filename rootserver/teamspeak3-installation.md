@@ -42,19 +42,19 @@ cd /home/ts3
 * Laden den Teamspeak³ Server herunter.
 
 ```bash
-wget https://dl.4players.de/ts/releases/3.13.5/teamspeak3-server_linux_amd64-3.13.5.tar.bz2
+wget https://files.teamspeak-services.com/releases/server/3.13.7/teamspeak3-server_win64-3.13.7.zip
 ```
 
 * Entpacke den Teamspeak³ Server
 
 ```bash
-tar xfvj teamspeak3-server_linux_amd64-3.13.5.tar.bz2
+unzip teamspeak3-server_win64-3.13.7.zip
 ```
 
 * Lösche die .tar.bz2 Datei
 
 ```bash
-rm teamspeak3-server_linux_amd64-3.13.5.tar.bz2
+rm teamspeak3-server_win64-3.13.7.zip
 ```
 
 * Navigiere in das Teamspeak³ Verzeichnis
