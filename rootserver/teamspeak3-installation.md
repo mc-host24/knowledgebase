@@ -1,4 +1,4 @@
-# Teamspeak3 Server
+# Teamspeak³-Server installieren
 
 * Aktualisiere die Paketlisten & installiere die Updates.
 
@@ -39,13 +39,13 @@ cd /home/ts3
 
 # Teamspeak3 Installation
 
-* Laden den Teamspeak3 Server herunter.
+* Laden den Teamspeak³ Server herunter.
 
 ```bash
 wget https://dl.4players.de/ts/releases/3.13.5/teamspeak3-server_linux_amd64-3.13.5.tar.bz2
 ```
 
-* Entpacke den Teamspeak3 Server
+* Entpacke den Teamspeak³ Server
 
 ```bash
 tar xfvj teamspeak3-server_linux_amd64-3.13.5.tar.bz2
@@ -57,7 +57,7 @@ tar xfvj teamspeak3-server_linux_amd64-3.13.5.tar.bz2
 rm teamspeak3-server_linux_amd64-3.13.5.tar.bz2
 ```
 
-* Navigiere in das Teamspeak3 Verzeichnis
+* Navigiere in das Teamspeak³ Verzeichnis
 
 ```bash
 cd teamspeak3-server_linux_amd64
@@ -69,7 +69,7 @@ cd teamspeak3-server_linux_amd64
 touch .ts3server_license_accepted
 ```
 
-* Nun gebe deinem Teamspeak3 Ordner "ts3" Nutzer rechte
+* Nun gebe deinem Teamspeak³ Ordner "ts3" Nutzer rechte
 
 ```bash
 chown ts3:ts3 /home/ts3/teamspeak3-server_linux_amd64
@@ -87,13 +87,13 @@ chmod +x ts3server_startscript.sh
 su ts3
 ```
 
-* Navigiere in dein Teamspeak3 Ordner
+* Navigiere in dein Teamspeak³ Ordner
 
 ```bash
 cd /home/ts3/teamspeak3-server_linux_amd64
 ```
 
-* Starte dein teamspeak3 Server mit
+* Starte dein Teamspeak³ Server mit
 
 ```bash
 ./ts3server_startscript.sh start
@@ -110,5 +110,18 @@ cd /home/ts3/teamspeak3-server_linux_amd64
 ```bash
 ./ts3server_startscript.sh start
 ```
+Die Installation vom Teamspeak³ Server ist damit abgeschlossen.
 
-# Die Installation vom Teamspeak3 Server ist abgeschlossen
+# Teamspeak³ Server updaten
+
+Falls noch nicht passiert, musst du deinen Teamspeak³-Server vor dem Update zuerst herunterfahren (`./ts3server_startscript.sh stop`).
+
+Um deinen Teamspeak³-Server zu updaten, musst du dir die neuste Server-Version von der [offiziellen Webseite](https://teamspeak.com/de/downloads/#server) herunterladen. Bei unseren Rootservern benötigst du die 64-Bit Variante von Linux.
+
+Als nächstes entpackst du das heruntergeladene Archiv z.B. mit 7-Zip oder Winrar.
+
+Nun verbindest du dich mittels [SFTP auf deinen Rootserver](sftp-verbinden.md), navigierst in das Verzeichnis deines Teamspeak³-Servers und lädst zur Sicherheit die `ts3server.sqlitedb` herunter, falls beim Update etwas schieflaufen sollte.
+
+Nachdem du das gemacht hast, überschreibst du alle Dateien deines Teamspeak³-Servers mit den Dateien, welche du zuvor entpackt hast.
+
+Wenn alles geklappt hat, kannst du nun mit `./ts3server_startscript.sh start` deinen Teamspeak³-Server wieder starten.
