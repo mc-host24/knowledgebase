@@ -28,6 +28,13 @@
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
 * [Spigot oder Bungeecord installieren](rootcp/spigot-oder-bungeecord.md)
 
+## Gameserver
+### ARK: Survival Evolved
+* [Allgemeine Informationen](gameserver/ark/allgemeine-informationen.md)
+* [Administration](gameserver/ark/administration.md)
+* [Backup](gameserver/ark/backup.md)
+* [Modificationen](gameserver/ark/modificationen.md)
+
 ## Minecraft-Server
 * [Allgemeine Informationen](minecraft-server/allgemeine-informationen.md)
 * [Versionswechsel](minecraft-server/version-wechseln.md)
