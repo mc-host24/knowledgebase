@@ -1,3 +1,8 @@
+# Modifikationen Roadmap
+
+In naher Zukunft werden wir eine Modifikations-Verwaltung in unserem Webinterface einbauen, mit der du Mods direkt auf deinem Server installieren und aktivieren kannst.
+Wir bitten dich daher, bis dahin noch etwas Geduld zu haben und die Modifikationen manuell zu installieren.
+
 ## Wie installiere ich Modificationen auf meinem ARK: Survival Evolved Server?
 
 Um auf deinem ARK: Survival Evolved Server Modifikationen (Mods) zu installieren, musst du dich zuerst in unserem **Webinterface** anmelden. Dort kannst du dann deinen Server auswählen und mit der Verwaltung beginnen.
@@ -42,8 +47,3 @@ Um die Mod-ID zu finden, musst du die Mod im Steam Workshop aufrufen.
 Die Mod-ID befindet sich in der URL und ist die Zahlenkombination nach `https://steamcommunity.com/sharedfiles/filedetails/?id=`.
 
 ![Steam Workshop URL](../../.gitbook/assets/steam-workshop-id.png)
-
-# Modifikationen Roadmap
-
-In naher Zukunft werden wir eine Modifikations-Verwaltung in unserem Webinterface einbauen, mit der du Mods direkt auf deinem Server installieren und aktivieren kannst.
-Wir bitten dich daher, bis dahin noch etwas Geduld zu haben und die Modifikationen manuell zu installieren.
