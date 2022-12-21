@@ -28,6 +28,10 @@ Dort kannst du nun die ZIP-Datei hochladen und anschließend entpacken.
 {% hint style="info" %}
 Ist die ZIP-Datei zu groß, um sie über das Webinterface hochzuladen (max 100MB), kannst du sie auch über einen FTP-Client hochladen.
 Nutze hierzu die SFTP-Daten, die du im Webinterface unter dem Reiter `Einstellungen` findest.
+
+Wir empfehlen dir, [WinSCP](https://winscp.net/eng/index.php) als SFTP-Client zu verwenden.
+
+Wie du dich mit deinem Server via. SFTP verbindest findest du auch in unserem Youtube Video [https://www.youtube.com/watch?v=KA9z-rLotnk](https://www.youtube.com/watch?v=KA9z-rLotnk) oder unter [Mit (S)FTP auf Rootserver verbinden](rootserver/sftp-verbinden.md).
 {% endhint %}
 
 ### Wie aktiviere ich Mods auf meinem ARK: Survival Evolved Server?
