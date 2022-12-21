@@ -48,6 +48,6 @@ STEAMID64
 
 Nachdem du die Datei erstellt hast, starte deinen Server. Sobald der Server gestartet ist, kannst du dich mit deinem Steam-Account einloggen und hast sofort Admin-Rechte.
 
-# Wie kann ich permanent Admin werden, wenn ich nicht die Steam Version nutze?
+### Wie kann ich permanent Admin werden, wenn ich nicht die Steam Version nutze?
 
 Um permanent Admin zu werden, musst du den Befehl `ShowMyAdminManager` in der Ingame-Konsole eingeben. Dieser Befehl öffnet ein Fenster, in dem du deinen Account als Admin hinzufügen kannst.

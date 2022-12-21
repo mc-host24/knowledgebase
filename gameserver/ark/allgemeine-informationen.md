@@ -11,7 +11,7 @@ Dort kannst du dann deinen Server auswählen und mit dich mit dem Button "Ins We
 Bitte beachte die Anweisungen zur Anmeldung, welche du unter dem Button "Ins Webinterface einloggen" findest.
 {% endhint %}
 
-# Wie kann ich die Welt meines ARK-Servers anpassen?
+### Wie kann ich die Welt meines ARK-Servers anpassen?
 
 In ARK : Survival Evolved gibt es verschiedene Welten, aus welchen du frei wählen kannst.
 
