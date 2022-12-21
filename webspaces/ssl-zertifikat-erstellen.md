@@ -20,6 +20,8 @@ Die IP-Adresse deines Hosts kopiere dir bitte heraus.
 * cweb02: 45.81.232.15
 * cweb03: 45.81.232.16
 * cweb04: 45.81.232.17
+* cweb05: 45.81.232.18
+* cweb06: 45.81.232.20
 
 Mit der kopierten IP-Adresse können wir nun den DNS Record erstellen.
 
