@@ -36,7 +36,7 @@ Damit der Server ordentlich starten kann, muss unter "Startkonfiguration" noch d
 
 <summary>Welche Java Version benötige ich?</summary>
 
-1.8.x Java 8 & Java 11
+1.8.x Java 8 & Java 11 & Java 16 ( server.properties= use-native-transport: false ) 
 
 1.9.x Java 8 & Java 11
 
@@ -52,7 +52,7 @@ Damit der Server ordentlich starten kann, muss unter "Startkonfiguration" noch d
 
 1.15.x Java 11
 
-1.16.x Java 11
+1.16.x Java 11 & Java 16 ( 1.16.5 )
 
 1.17.x Java 17
 
