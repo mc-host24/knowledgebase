@@ -8,7 +8,9 @@ Um Spigot auf deinem Server zu installieren, benötigst du eine Spigot Jar. Dies
 
 Wenn du Etwas mehr Performance haben möchtest kannst du auch PaperMC oder PurpurMC nutzen. Diese kannst du hier Runterladen:
 
-{% embed url="https://papermc.io/downloads" %}, {% embed url="https://purpurmc.org/downloads" %}
+{% embed url="https://papermc.io/downloads" %}
+
+{% embed url="https://purpurmc.org/downloads" %}
 
 Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe wieder auf
 
