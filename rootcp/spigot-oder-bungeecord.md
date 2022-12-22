@@ -6,6 +6,10 @@ Um Spigot auf deinem Server zu installieren, benötigst du eine Spigot Jar. Dies
 
 {% embed url="https://getbukkit.org/download/spigot" %}
 
+Wenn du Etwas mehr Performance haben möchtest kannst du auch PaperMC oder PurpurMC nutzen. Diese kannst du hier Runterladen:
+
+{% embed url="https://papermc.io/downloads" %}, {% embed url="https://purpurmc.org/downloads" %}
+
 Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe wieder auf
 
 {% embed url="https://rootcp.gamingcontrol.de" %}
@@ -36,7 +40,7 @@ Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden. Dazu
 
 <summary>Welche Java Version benötige ich?</summary>
 
-1.8.x Java 8 & Java 11
+1.8.x Java 8 & Java 11 & Java 16 ( server.properties= use-native-transport: false )
 
 1.9.x Java 8 & Java 11
 
@@ -52,7 +56,7 @@ Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden. Dazu
 
 1.15.x Java 11
 
-1.16.x Java 11
+1.16.x Java 11 & Java 16 ( 1.16.5 )
 
 1.17.x Java 17
 
@@ -62,7 +66,7 @@ Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden. Dazu
 
 </details>
 
-Ist die richtige JAR File eintragen und die richtige Java Version ausgewählt, kann der Server gestartet und genutzt werden.
+Ist die richtige JAR File eingetragen und die richtige Java Version ausgewählt, kann der Server gestartet und genutzt werden.
 
 ## Wie installiere ich Bungeecord auf meinem Rootserver?
 
