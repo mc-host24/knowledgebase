@@ -54,6 +54,7 @@
 * [SSL Zertifikat ausstellen](webspaces/ssl-zertifikat-erstellen.md)
 * [WordPress installieren](webspaces/wordpress-installieren.md)
 * [nginx Reverse Proxy](webspaces/nginx-reverse-proxy.md)
+* [MediaWiki installieren](webspaces/mediawiki-installieren.md)
 
 ## Docker
 * [Docker Traefik Proxy](docker/docker-traefik-proxy.md)
