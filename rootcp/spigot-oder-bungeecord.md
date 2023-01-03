@@ -8,7 +8,7 @@ Um Spigot auf deinem Server zu installieren, benötigst du eine Spigot Jar. Dies
 
 Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe wieder auf
 
-{% embed url="https://rootcp.gamingcontrol.de" %}
+{% embed url="https://gamingcontroller.eu/" %}
 
 Dort wähle den Server aus und klicke auf "Einstellungen". Dort findest du die SFTP Login Daten.
 
@@ -20,7 +20,7 @@ Wenn du erfolgreich verbunden bist, musst du die Spigot Jar in das Hauptverzeich
 
 Sobald die Jar fertig hochgeladen ist, wechsel wieder auf Pterodactyl.
 
-{% embed url="https://rootcp.gamingcontrol.de" %}
+{% embed url="https://gamingcontroller.eu/" %}
 
 In Pterodactyl wähle den Server aus und klicke auf "Startkonfiguration".
 
@@ -72,7 +72,7 @@ Um Bungeecord auf deinem Server zu installieren, benötigst du eine Bungeecord J
 
 Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe wieder auf
 
-{% embed url="https://rootcp.gamingcontrol.de" %}
+{% embed url="https://gamingcontroller.eu/" %}
 
 Dort wähle den Server aus und klicke auf "Einstellungen". Dort findest du die SFTP Login Daten.
 
@@ -84,7 +84,7 @@ Wenn du erfolgreich verbunden bist, musst du die Bungeecord Jar in das Hauptverz
 
 Sobald die Jar fertig hochgeladen ist, wechsel wieder auf Pterodactyl.
 
-{% embed url="https://rootcp.gamingcontrol.de" %}
+{% embed url="https://gamingcontroller.eu/" %}
 
 In Pterodactyl wähle den Server aus und klicke auf "Startkonfiguration".
 
