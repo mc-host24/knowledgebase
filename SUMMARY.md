@@ -36,7 +36,10 @@
 * [Backup](gameserver/ark/backup.md)
 * [Modificationen](gameserver/ark/modificationen.md)
 
-## Minecraft-Server
+### Terraria
+* [Windows-Installation](gameserver/terraria/windows-installation.md)
+
+### Minecraft-Server
 * [Allgemeine Informationen](minecraft-server/allgemeine-informationen.md)
 * [Versionswechsel](minecraft-server/version-wechseln.md)
 * [Modpack installieren](minecraft-server/modpacks-installieren.md)
@@ -55,6 +58,7 @@
 * [SSL Zertifikat ausstellen](webspaces/ssl-zertifikat-erstellen.md)
 * [WordPress installieren](webspaces/wordpress-installieren.md)
 * [nginx Reverse Proxy](webspaces/nginx-reverse-proxy.md)
+* [MediaWiki installieren](webspaces/mediawiki-installieren.md)
 
 ## Docker
 * [Docker Traefik Proxy](docker/docker-traefik-proxy.md)
