@@ -8,6 +8,7 @@
 
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
+* [SSH Grundlagen](rootserver/ssh-grundlage.md)
 * [Mit (S)FTP auf Rootserver verbinden](rootserver/sftp-verbinden.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
