@@ -48,3 +48,10 @@ chmod +x start.sh
 ```bash
 screen -AmdS Session_Name ./start.sh
 ```
+
+## Aikar's Flags
+Um die bestmögliche Performance aus deinem Minecraft-Server herauszuholen, empfiehlt sich die Verwendung von `Aikar's Flags`. Dies sind verschiedene Parameter, die in der Start-Datei in den `java` Befehl integriert werden und mehr Leistung ermöglichen können. Ein Beispiel Befehl kann wie folgt aussehen:
+```bash
+java -Xms8192M -Xmx8192M --add-modules=jdk.incubator.vector -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -jar server.jar --nogui
+```
+Es gibt auch [Tools](https://flags.sh/), die die ideale Konfiguration der Flags für einen ermitteln.
