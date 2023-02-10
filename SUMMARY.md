@@ -8,12 +8,13 @@
 
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
+* [SSH Grundlagen](rootserver/ssh-grundlage.md)
 * [Mit (S)FTP auf Rootserver verbinden](rootserver/sftp-verbinden.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
 * [Nextcloud installation](rootserver/nextcloud-installation.md)
 * [Java8 installation](rootserver/java8-setup.md)
-* [Docker installation](rootserver/docker-installation.md)
+* [Docker installation](docker/docker-installation.md)
 * [Teamspeak³ Server](rootserver/teamspeak3-server.md)
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
 * [Minecraft Server mit unterschiedlichen Java Versionen starten](rootserver/bestimmte-java-version.md)
