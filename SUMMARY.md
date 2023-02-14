@@ -46,7 +46,7 @@
 * [Eigene Jar Datei verwenden](minecraft-server/eigene-server-jar.md)
 * [Server-Optimierung](minecraft-server/optimierung.md)
 * [Übliche Spigot Plugins](minecraft-server/übliche-spigot-plugins.md)
-
+* [Bedrock-Server](minecraft-server/bedrock-server.md)
 
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)
