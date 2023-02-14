@@ -1,4 +1,4 @@
-# Wordpress 6.0 auf einem Webspace installieren
+# Wordpress 6.1.1 auf einem Webspace installieren
 
 WordPress ist das meist verwendete freie Content-Management-System weltweit. Es wurde ab 2003 von Matthew Mullenweg als Software für Weblogs programmiert und wird als Open-Source-Projekt permanent weiterentwickelt. In dieser Anleitung erklären wir, wie diese Software auf dem Webspace installiert werden kann.
 
