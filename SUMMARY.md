@@ -47,6 +47,8 @@
 * [Server-Optimierung](minecraft-server/optimierung.md)
 * [Übliche Spigot Plugins](minecraft-server/übliche-spigot-plugins.md)
 * [Bedrock-Server](minecraft-server/bedrock-server.md)
+* [Bedrock-Spieler](minecraft-server/bedrock-spieler.md)
+* [Mehrere Welten](minecraft-server/mehrere-welten.md)
 
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)
