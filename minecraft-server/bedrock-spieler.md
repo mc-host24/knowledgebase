@@ -17,3 +17,7 @@ Wenn man Minecraft auf dem iPhone/iPad, Android oder Windows Gerät hat, muss ma
 ## 4. Losspielen
 
 Sobald alles richtig konfiguriert wurde, der Client fertig geladen hat und man auf dem Server ist, hat alles funktioniert! Und nun: Viel Spaß beim Spielen!
+
+## 5. YouTube-Video
+
+https://www.youtube.com/watch?v=t7FIfnJzxMs
