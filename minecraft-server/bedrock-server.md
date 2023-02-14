@@ -124,6 +124,6 @@ Wenn auf <b>true</b> gesetzt, wird die Client-Position auf die Server-Position k
 
 Wenn auf <b>true</b> gesetzt, berechnet der Server Block-Mining-Operationen synchron mit dem Client, damit er überprüfen kann, ob der Client in der Lage sein sollte, Blöcke zu brechen, wenn er dies für möglich hält.
 
-# 3. Abschluss
+## 3. Abschluss
 
 Ich hoffe sehr, dass dir dieses Tutorial gefallen hat! Wenn ja, kannst du jetzt auf deinem neu eingerichteten Minecraft: Bedrock Edition Server spielen. Viel Spaß!
