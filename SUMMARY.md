@@ -49,6 +49,8 @@
 * [Bedrock-Server](minecraft-server/bedrock-server.md)
 * [Bedrock-Spieler](minecraft-server/bedrock-spieler.md)
 * [Mehrere Welten](minecraft-server/mehrere-welten.md)
+* [Datenpakete installieren](minecraft-server/datenpakete-installieren.md)
+* [Mehrere Versionen zulassen](minecraft-server/mehrere-versionen.md)
 
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)
