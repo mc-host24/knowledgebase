@@ -1,6 +1,6 @@
 # Dynmap auf dem Server installieren
 
-DynMap ist ein kostenloses Plugin, geschrieben von Mikeprimm, welches dem/den Spieler/n eine Übersichtskarte von allen Server-Welten im Webbrowser anzeigen lassen kann.
+DynMap ist ein kostenloses Plugin, geschrieben von Mikeprimm, welches dem/den Spieler/n eine Übersichtskarte von allen Server-Welten im Webbrowser anzeigen lassen kann. Dafür braucht man einen PC und/oder Server mit viel Leistung und ähnlich wie bei GeyserMC einen zusätzlichen Port.
 
 ## 1. Herunterladen und installieren
 
@@ -12,7 +12,7 @@ Dynmap generiert, so wie fast jedes andere Plugin, eine sogenannte Konfiguration
 
 ## 3. Die Welt rendern
 
-Nach Installation des Plugins und einem erfolgreichen Serverneustart wird dem Besucher erstmal nur eine schwarze Weltkarte angezeigt. Dies ist normal und <b>kein Bug</b>. Es liegt daran, dass die Welt einfach noch nicht gerendert wurde. Damit etwas angezeigt wird, muss ein Server-Operator den Befehl /dynmap fullrender ausführen. Wenn alles fertig gerendert wurde, wird dem Besucher nun eine Welt angezeigt. Bei kleineren Welten (z.B. 512 x 512) dauert das eigentlich nicht so lange, aber bei größeren Welten (z.B. 8192 x 8192) kann das teilweise mal sehr lange dauern. Auf der DynMap werden z.B. immer alle aktuell aktiven Spieler mit ihren Leben angezeigt.
+Nach Installation des Plugins und einem erfolgreichen Serverneustart wird dem Besucher erstmal nur eine schwarze Weltkarte angezeigt. Dies ist normal und <b>kein Bug</b>. Es liegt daran, dass die Welt einfach noch nicht gerendert wurde. Damit etwas angezeigt wird, muss ein Server-Operator den Befehl /dynmap fullrender ausführen. Wenn alles fertig gerendert wurde, wird dem Besucher nun eine Welt angezeigt. Bei kleineren Welten (z.B. 512 x 512) dauert das eigentlich nicht so lange, aber bei größeren Welten (z.B. 8192 x 8192) kann das ganze auch teilweise mal sehr lange dauern. Auf der Dynmap werden z.B. immer alle aktuell aktiven Spieler mit ihren Leben angezeigt.
 
 ## 4. Spielen mit Dynmap
 
