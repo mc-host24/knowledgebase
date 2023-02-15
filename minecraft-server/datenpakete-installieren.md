@@ -6,7 +6,7 @@ Für Minecraft: Vanilla Server aller Art gibt es auch Datenpakete. Das sind klei
 
 Als erstes muss man sich ein Datenpaket, welches man gerne auf seinem Server haben möchte, herunterladen. [Hier](https://planetminecraft.com) gibt es z.B. coole Datenpakete. Für diese Anleitung nutzen wir [dieses Datenpaket](https://www.planetminecraft.com/data-pack/custom-trees-from-saplings/). Dort auf die blaue "Download"-Schaltfläche neben oder unter den Bildern klicken, die Werbung überspringen und dann sollte es im "Downloads"-Ordner des PCs landen.
 
-Danach muss man zum Weltordner navigieren (in diesem Fall SERVERVERZEICHNIS/WELTNAME/datapacks (in diesem Fall Beispielserver/Beispielwelt/datapacks) und es dort entweder per Drag & Drop oder per FTP-Client hochladen.
+Danach muss man zum Weltordner navigieren (in diesem Fall SERVERVERZEICHNIS/WELTNAME/datapacks und es dort entweder per Drag & Drop oder per FTP-Client hochladen.
 
 ## 2. Datenpakete deaktivieren und aktiveren
 
@@ -14,4 +14,4 @@ Als nächstes wollen wir das oben stehende Datenpaket aktivieren, so dass wir se
 
 ## 3. Spielen
 
-Wenn man alles richtig gemacht hat, das Datenpaket hochgeladen hat, es aktiviert wurde und den Server neugestartet hat, kann man mit dem Datenpaket in der aktuellen Server-Welt spielen. Viel Spaß!
+Wenn man alles richtig gemacht hat, das Datenpaket hochgeladen hat, es erfolgreich aktiviert wurde und den Server neugestartet hat, kann man mit dem Datenpaket in der aktuellen Server-Welt spielen. Viel Spaß!
