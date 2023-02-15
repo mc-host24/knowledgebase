@@ -51,6 +51,8 @@
 * [Mehrere Welten](minecraft-server/mehrere-welten.md)
 * [Datenpakete installieren](minecraft-server/datenpakete-installieren.md)
 * [Mehrere Versionen zulassen](minecraft-server/mehrere-versionen.md)
+* [BungeeCord installieren](minecraft-server/bungeecord.md)
+* [Dynmap installieren](minecraft-server/dynmap.md)
 
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)
