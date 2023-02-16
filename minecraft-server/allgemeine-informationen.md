@@ -8,11 +8,11 @@ Ein Video dazu haben wir auf YouTube hochladen.
 {% embed url="https://youtu.be/oSQebkjCFDA" %}
 
 ## Wie richte ich eine Whitelist ein?
-Um eine Whitelist auf auf deinem Server einzurichten gebe im Minecraft Chat den Befehl 
+Um eine Whitelist auf auf deinem Server einzurichten gebe im Minecraft Chat oder in der Server-Konsole den Befehl 
 ```bash
 /whitelist on
 ```
-ein.
+ein. Dies aktiviert, dass nur Spieler, die auf der sogenannten Whitelist stehen, sich mit dem Server verbinden und spielen können.
 
 Um einen Spieler zur Whitelist hinzuzufügen verdende den Command 
 ```bash
@@ -29,4 +29,4 @@ Sollten die Skins bei einem Gameserver nicht zu sehen sein wird dies in der Rege
 
 ## Wie erstelle ich eine neue Welt?
 Du musst den Server stoppen, den Weltordner löschen (standardmäßig heißt der "world") und den Server wieder starten, dann wird automatisch eine neue generiert.
-Alternativ kann in der server.properties die Einstellung "level-name=" geändert werden. Es wird dann in dem dort angegeben Ordner eine neue Welt generiert. Die alte Welt bleibt dabei erhalten. So können beliebig viele Welten erstellt werden.
+Alternativ kann in der server.properties die Einstellung "level-name=" geändert werden. Es wird dann in dem dort angegeben Ordner eine neue Welt generiert. Die alte Welt bleibt dabei erhalten. So können beliebig viele Welten erstellt werden. Mehrere Welten sind auch mit dem kostenlosen Plugin "Multiverse-Core" möglich, welches hier heruntergeladen werden kann: [Downloadlink](https://www.spigotmc.org/resources/multiverse-core.390/). Alternativ kann man sich auch das Tutorial [Mehrere Welten mit Multiverse](minecraft-server/mehrere-welten.md) anschauen.
