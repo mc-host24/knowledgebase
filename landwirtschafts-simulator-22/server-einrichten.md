@@ -16,3 +16,10 @@ Einen LS22-Server kann man auf verschiedenen Standorten hosten. Bei einem Rootse
 
 Für den Server braucht man, so wie beim Originalspiel eine Lizenz, damit man auf dem Server spielen kann. Das gleiche gilt auch für DLCs, die man auf dem Server benutzen möchte.
 
+## DLCs
+
+Es gibt auch einige kostenpflichtige DLCs für den Landwirtschafts-Simulator. Diese kann man sich auch auf dem Server installieren. Wie das geht, ist [hier](landwirtschafts-simulator-22/dlcs-installieren.md) beschrieben.
+
+## Hilfreiche Tipps
+
+Hilfreiche Tipps für einen LS22-Server lassen sich am besten [hier](landwirtschafts-simulator-22/ls22-tipps.md) finden.
