@@ -1,43 +1,41 @@
-## Wie kann ich meinen Benutzernamen ändern?
-
-Du selbst kannst dein Benutzername nicht ändern. Schreib uns ein [**Support Ticket**](https://mc-host24.de/ticket/create), wir werden dein Wunsch Benutzername ändern.
-
-
 ## Wie kann ich mein Passwort ändern?
 
-Dein Passwort kannst du über zwei Methoden ändern.
+* Passwort vergessen
+Wenn du dein Passwort vergessen hast und nicht mehr angemeldet bist, kannst du im Anmelde-Bereich auf "Passwort vergessen?" klicken und ein neues Passwort an deine hinterlegte E-Mail-Adresse zuschicken lassen.
 
-1. Du bist noch angemeldet, dann gehe auf **Profil** ➜ **Kontoverwaltung** ➜ **Passwort ändern**.
-2. Beim [**Anmelden**](https://mc-host24.de/) auf **Passwort vergessen?** kicken.
-   Gebe nun dein Benutzername oder E-Mail ein, um ein Link zum Zurücksetzen deines Passworts per E-Mail zu erhalten.
+* Passwort Ändern wenn angemeldet
+Wenn du angemeldet bist, kannst du dein Passwort ganz bequem über die Profil-Seite bearbeiten.
 
-{% hint style="warning" %}
-Bitte beachte, das neue Passwort wird auch in Multicraft (Minecraft-Server Webinterface) geändert!
+ {% hint style="warning" %}
+Bitte beachte, dass das neue Passwort auch in Multicraft (Minecraft-Server Webinterface) geändert wird.
 {% endhint %}
 
 
-## Wie kann ich meine E-Mail-Adresse ändern?
+## Wie kann ich meine Email-Adresse ändern?
 
-Deine E-Mail-Adresse ändern kannst du im **Profil** ➜ **Kontoverwaltung** ➜ **E-Mail ändern**.
+Deine E-Mail Adresse kannst du über deine Profilseite ändern, in dem du hinter deiner aktuellen E-Mail Adresse auf "ändern" klickst.
 
 Zur Änderung der E-Mail-Adresse wird ein Link an beide E-Mail-Adressen gesendet, welche bestätigt werden müssen.
-Sollte kein Zugriff mehr auf deine E-Mail-Adresse bestehen, bitten wir dich ein [**Support Ticket**](https://mc-host24.de/ticket/create) zu öffnen.
+Sollte kein Zugang zur E-Mail-Adresse mehr bestehen, bitten wir dich ein Support Ticket zu öffnen.
+
+
+## Wie kann ich meinen Benutzernamen ändern?
+
+Um deinen Benutzernamen zu ändern eröffne bitte ein Support Ticket.
 
 
 ## Wie werde ich MC-HOST24 Partner?
 
-Grob möchten wir gern Communitys ab 5000 Mitgliedern aufwärts unterstützen,
-solltest Du weniger Mitglieder in Deiner Community haben, zögere nicht auf uns zuzukommen, wir entscheiden nach Potenzial nicht nach Zahlen.
+Dazu sende bitte eine Email an partner@mc-host24.de oder eröffne ein Support Ticket.
 
-Bei Partnerschaften mit YouTube braucht der Kanal mindestens 8.000 Abonnenten.
-
-Bitte schreibe uns deine Bewerbung an **partner@mc-host24.de** oder eröffne ein [**Support Ticket**](https://mc-host24.de/ticket/create), mit allen wichtigen Informationen über dein Projekt und deine Persönlichkeit und deine Kontaktinformation.
+Grob möchten wir gerne Communitys ab 5000 Mitgliedern aufwärts unterstützen, 
+solltest Du weniger Mitglieder in deiner Community haben, zögere nicht auf uns zuzukommen, wir entscheiden nach Potenzial nicht nach Zahl.
 
 
 ## Mein Account wurde gehackt! Was tun?
 
-Wenn dein Benutzerkonto gehackt wurde, solltest du zunächst Ruhe bewahren. Um wieder vollen und sicheren Zugriff auf dein Benutzerkonto zu erhalten, solltest du folgendes tun:
+Wenn dein Benutzerkonto gehackt wurde, solltest du mehrere Dinge beachten um wieder vollen und sicheren Zugriff auf dein Benutzerkonto zu erhalten.
+Bitte kontaktiere unseren Kundensupport, damit wir eventuell getätigte Bestellungen oder Zahlungen rückgängig machen können. Wir sind dir gerne bei diesem Anliegen behilflich.
 
-1. Dein [**Passwort ändern**](https://docs.mc-host24.de/docs/allgemein/benutzer#wie-kann-ich-mein-passwort-aendern).
-2. Das Passwort deiner E-Mail-Adresse ändern. Oft haben Hacker noch Zugriff auf das E-Mail-Konto und können somit immer wieder unerlaubt Zugriff auf dein Benutzerkonto erhalten.
-3. Bitte kontaktiere unseren [**Kundensupport**](https://mc-host24.de/support), damit wir eventuell getätigte Bestellungen oder Zahlungen rückgängig machen können. Wir sind dir gerne bei diesem Anliegen behilflich.
+Außerdem solltest du das Passwort ändern, einfach beim Anmelden auf "Passwort vergessen?" klicken und ein neues Passwort zuschicken lassen.
+Wichtig ist auch, dass du das Passwort deiner E-Mail Adresse änderst. Oft haben Hacker noch Zugriff auf das E-Mail Konto und können somit immer wieder unerlaubt Zugriff auf dein Benutzerprofil erhalten.
