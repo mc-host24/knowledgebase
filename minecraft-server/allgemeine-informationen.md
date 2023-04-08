@@ -1,13 +1,19 @@
-## Wie werde ich Admin (OP)
-Um Operator deines Servers zu werden öffne das Webinterface. Dies findest du unter "Meine Server -> Webinterface".
-Klicke auf "Konsole" und gebe den Command "op SPIELERNAME" ein.
+## Wie werde ich Admin (OP-Rechte)?
+Um Operator-Rechte auf deinen Server zu erhalten, öffne das [**Webinterface**](https://panel.mc-host24.de/) (Multicraft).
+Klicke im **Webinterface** auf ➜ **Konsole** und gebe den **Command** `op SPIELERNAME` ein. [**▶️Video dazu**](https://youtu.be/AQNvqg24wIc)
+```bash
+op SPIELERNAME
+``` 
+{% embed url="https://youtu.be/AQNvqg24wIc" %}
 
-## Wie lade ich eine eigene Welt auf meinem Server hoch?
+
+## Wie lade ich eine eigene Welt hoch?
 Per FTP können Welten problemlos per Drag&Drop hochgeladen werden.
-Ein Video dazu haben wir auf YouTube hochladen.
+Ein [**▶️Video dazu**](https://youtu.be/oSQebkjCFDA) haben wir auf YouTube hochladen.
 {% embed url="https://youtu.be/oSQebkjCFDA" %}
 
-## Wie richte ich eine Whitelist ein?
+
+## Wie aktiviere ich eine Whitelist?
 Um eine Whitelist auf auf deinem Server einzurichten gebe im Minecraft Chat oder in der Server-Konsole den Befehl 
 ```bash
 /whitelist on
