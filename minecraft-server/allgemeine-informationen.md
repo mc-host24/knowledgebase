@@ -33,3 +33,4 @@ Alternativ kann in der server.properties die Einstellung "level-name=" geändert
 
 ## Was heißt unlimited RAM (Arbeitsspeicher)?
 Unbegrenzter RAM bedeutet, dass wir sicherstellen, dass so viel RAM ausgeben wird, wie der Server benötigt. Je mehr Spieler, desto mehr Leistung erhält der Server. (automatisch)
+
