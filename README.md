@@ -5,7 +5,7 @@
 Auf dieser Seite wollen wir unseren Kunden die Produkte näher bringen und erklären, wie diese verwendet werden.
 Die häufig gestellten Fragen von unseren Kunden sind hier auch zu finden.
 
-## Mithelfen an der Knowledge Base
+## Mitarbeit an der Knowledge Base
 
 Wir wollen die Knowledge Base mit eurer Hilfe immer mehr erweitern.
 
