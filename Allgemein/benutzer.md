@@ -7,17 +7,16 @@ Dein Passwort kannst du über zwei Methoden ändern.
    Gebe nun dein Benutzername oder E-Mail ein, um ein Link zum Zurücksetzen deines Passworts per E-Mail zu erhalten.
 
 {% hint style="warning" %}
-Bitte beachte, das neue Passwort wird auch in Multicraft (Minecraft-Server Webinterface) geändert!
+Bitte beachte, dass das neue Passwort auch in Multicraft (Minecraft-Server Webinterface) geändert wird.
 {% endhint %}
 
 
 ## Wie kann ich meine E-Mail-Adresse ändern?
 
-Deine E-Mail-Adresse ändern kannst du im **Profil** ➜ **Kontoverwaltung** ➜ **E-Mail ändern**.
+Deine E-Mail-Adresse ändern kannst du über dein **Profil** ➜ **Kontoverwaltung** ➜ **E-Mail ändern**.
 
 Zur Änderung der E-Mail-Adresse wird ein Link an beide E-Mail-Adressen gesendet, welche bestätigt werden müssen.
-Sollte kein Zugriff mehr auf deine E-Mail-Adresse bestehen, bitten wir dich ein [**Support Ticket**](https://mc-host24.de/ticket/create) zu öffnen.
-
+Solltest du keinen Zugriff mehr auf deine E-Mail-Adresse haben, bitten wir dich ein [**Support Ticket**](https://mc-host24.de/ticket/create) zu öffnen.
 
 ## Wie kann ich meinen Benutzernamen ändern?
 
