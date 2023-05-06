@@ -54,6 +54,11 @@
 * [BungeeCord installieren](minecraft-server/bungeecord.md)
 * [Dynmap installieren](minecraft-server/weltkarte.md)
 
+### Landwirtschafts-Simulator 22
+* [Server einrichten](landwirtschafts-simulator-22/server-einrichten.md)
+* [Server für Windows konfigurieren](landwirtschafts-simulator-22/server-konfigurieren-windows.md)
+* [Mods installieren](landwirtschafts-simulator-22/mods-installieren.md)
+
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)
 * [DNS Einträge erstellen](domains/dns-eintraege.md)
