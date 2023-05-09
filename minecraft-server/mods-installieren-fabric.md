@@ -3,7 +3,7 @@ Dieses Tutorial zeigt, wie man sich Mods für Fabric auf Minecraft-Servern insta
 # 1. Anforderungen
 Zuerst wird ein Fabric-Server, ein [Forge-Server](minecraft-server/mods-installieren-forge.md) oder ein [Mohist-Server](minecraft-server/mods-und-plugins.md) für die <b>Java Edition von Minecraft</b> benötigt. Diese Server sind speziell für Mods gedacht.
 
-# 2. Forge installieren
+# 2. Fabric installieren
 Falls du aktuell noch kein Fabric installiert hast, kannst du dies noch nachträglich dazu installieren. Wie das geht, steht [hier](minecraft-server/version-wechseln.md). Hier wird die aktuelle Loader Version 0.14.19 empfohlen.
 
 # 3. Mods installieren
