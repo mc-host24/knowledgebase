@@ -1,7 +1,7 @@
 Dieses Tutorial zeigt, wie man sich Mohist auf Minecraft-Servern installieren kann.
 
 # 1. Anforderungen
-Zuerst wird ein [Mohist-Server](minecraft-server/mods-und-plugins.md) für die <b>Java Edition von Minecraft</b> benötigt. Dieser Server ist ein Forge-Server, der speziell für Mods und Plugins gedacht ist.
+Zuerst wird ein [Mohist-Server](https://mohistmc.com) für die <b>Java Edition von Minecraft</b> benötigt. Dieser Server ist ein Forge-Server, der speziell für Mods und Plugins gedacht ist.
 
 # 2. Mohist installieren
 Falls du aktuell noch kein Mohist installiert hast, kannst du dies noch nachträglich dazu installieren. Wie das geht, steht [hier](minecraft-server/version-wechseln.md). Hier wird die aktuelle Minecraft Version 1.19.4 empfohlen.
