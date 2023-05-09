@@ -1,4 +1,4 @@
-Dieses Tutorial zeigt, wie man sich Mods auf Minecraft-Servern installieren kann.
+Dieses Tutorial zeigt, wie man sich Mods für Forge auf Minecraft-Servern installieren kann.
 
 # 1. Anforderungen
 Zuerst wird ein Forge-Server, ein [Fabric-Server](minecraft-server/mods-installieren-fabric.md) oder ein [Mohist-Server](minecraft-server/mods-und-plugins.md) für die <b>Java Edition von Minecraft</b> benötigt. Diese Server sind speziell für Mods gedacht.
