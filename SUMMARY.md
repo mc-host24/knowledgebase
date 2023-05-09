@@ -53,6 +53,10 @@
 * [Mehrere Versionen zulassen](minecraft-server/mehrere-versionen.md)
 * [BungeeCord installieren](minecraft-server/bungeecord.md)
 * [Dynmap installieren](minecraft-server/weltkarte.md)
+* [Simple Voice Chat installieren](minecraft-server/sprachchat.md)
+* [Mods auf Forge installieren](minecraft-server/mods-installieren-forge.md)
+* [Mods auf Fabric installieren](minecraft-server/mods-installieren-fabric.md)
+* [Mods und Plugins zusammen verwenden](minecraft-server/mods-und-plugins.md)
 
 ### Landwirtschafts-Simulator 22
 * [Server einrichten](landwirtschafts-simulator-22/server-einrichten.md)
