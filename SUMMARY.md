@@ -17,6 +17,7 @@
 * [Docker installation](docker/docker-installation.md)
 * [Teamspeak³ Server](rootserver/teamspeak3-server.md)
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
+* [Minecraft Server auf Debian 11 installieren](rootserver/minecraft-server-debian-11-installieren.md)
 * [Minecraft Server mit unterschiedlichen Java Versionen starten](rootserver/bestimmte-java-version.md)
 * [One-Click Gameserver Installation](rootserver/one-click-gameserver-installer.md)
 * [Virtualhost Apache2](rootserver/virtualhost-apache2.md)
