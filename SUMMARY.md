@@ -54,6 +54,7 @@
 * [Mehrere Versionen zulassen](minecraft-server/mehrere-versionen.md)
 * [BungeeCord installieren](minecraft-server/bungeecord.md)
 * [Dynmap installieren](minecraft-server/weltkarte.md)
+* [Bluemap installieren](minecraft-server/3d-weltkarte.md)
 
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)
