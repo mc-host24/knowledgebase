@@ -10,6 +10,7 @@
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
 * [SSH Grundlagen](rootserver/ssh-grundlage.md)
 * [Mit (S)FTP auf Rootserver verbinden](rootserver/sftp-verbinden.md)
+* [Screen](rootserver/screen.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
 * [Nextcloud installation](rootserver/nextcloud-installation.md)
@@ -17,6 +18,7 @@
 * [Docker installation](docker/docker-installation.md)
 * [Teamspeak³ Server](rootserver/teamspeak3-server.md)
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
+* [Minecraft Server auf Debian 11 installieren](rootserver/minecraft-server-debian-11-installieren.md)
 * [Minecraft Server mit unterschiedlichen Java Versionen starten](rootserver/bestimmte-java-version.md)
 * [One-Click Gameserver Installation](rootserver/one-click-gameserver-installer.md)
 * [Virtualhost Apache2](rootserver/virtualhost-apache2.md)
@@ -57,11 +59,14 @@
 * [Mods auf Forge installieren](minecraft-server/mods-installieren-forge.md)
 * [Mods auf Fabric installieren](minecraft-server/mods-installieren-fabric.md)
 * [Mods und Plugins zusammen verwenden](minecraft-server/mods-und-plugins.md)
+* [Bluemap installieren](minecraft-server/3d-weltkarte.md)
+
 
 ### Landwirtschafts-Simulator 22
 * [Server einrichten](landwirtschafts-simulator-22/server-einrichten.md)
 * [Server für Windows konfigurieren](landwirtschafts-simulator-22/server-konfigurieren-windows.md)
 * [Mods installieren](landwirtschafts-simulator-22/mods-installieren.md)
+
 
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)

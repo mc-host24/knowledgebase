@@ -74,6 +74,18 @@ Benutzer hinzufügen
 adduser
 ```
 
+Updates herunterladen
+
+```bash
+apt-get update
+```
+
+Updates verarbeiten
+
+```bash
+apt-get upgrade -y
+```
+
 ## Dateirechte
 
 Chmod
