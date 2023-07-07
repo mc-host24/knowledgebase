@@ -14,7 +14,6 @@
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
 * [Nextcloud installation](rootserver/nextcloud-installation.md)
 * [Java8 installation](rootserver/java8-setup.md)
-* [Docker installation](docker/docker-installation.md)
 * [Teamspeak³ Server](rootserver/teamspeak3-server.md)
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
 * [Minecraft Server auf Debian 11 installieren](rootserver/minecraft-server-debian-11-installieren.md)
@@ -81,7 +80,7 @@
 
 ## Docker
 * [Docker Traefik Proxy](docker/docker-traefik-proxy.md)
-* [Docker-Installation](docker/docker-installation.md)
+* [Docker installation](docker/docker-installation.md)
 
 
 ## Sonstiges
