@@ -120,7 +120,7 @@ Um deinen Teamspeak³-Server zu updaten, musst du dir die neuste Server-Version 
 
 Als nächstes entpackst du das heruntergeladene Archiv z.B. mit 7-Zip oder Winrar.
 
-Nun verbindest du dich mittels [SFTP auf deinen Rootserver](sftp-verbinden.md), navigierst in das Verzeichnis deines Teamspeak³-Servers und lädst zur Sicherheit die `ts3server.sqlitedb` herunter, falls beim Update etwas schieflaufen sollte.
+Nun verbindest du dich mittels [SFTP auf deinen Rootserver](/rootserver/grundlagen/sftp-verbinden.md), navigierst in das Verzeichnis deines Teamspeak³-Servers und lädst zur Sicherheit die `ts3server.sqlitedb` herunter, falls beim Update etwas schieflaufen sollte.
 
 Nachdem du das gemacht hast, überschreibst du alle Dateien deines Teamspeak³-Servers mit den Dateien, welche du zuvor entpackt hast.
 
