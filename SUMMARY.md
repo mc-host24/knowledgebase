@@ -1,5 +1,4 @@
 # Table of contents
-
 * [Wilkommen](README.md)
 
 ## Allgemein
@@ -8,7 +7,7 @@
 
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
-* [SSH Grundlagen](rootserver/ssh-grundlage.md)
+* [SSH Grundlagen](rootserver/ssh-grundlagen.md)
 * [Mit (S)FTP auf Rootserver verbinden](rootserver/sftp-verbinden.md)
 * [Screen](rootserver/screen.md)
 * [PhpMyAdmin Installation](rootserver/phpmyadmin-installation.md)
