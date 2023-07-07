@@ -55,7 +55,18 @@
 * [Mehrere Versionen zulassen](minecraft-server/mehrere-versionen.md)
 * [BungeeCord installieren](minecraft-server/bungeecord.md)
 * [Dynmap installieren](minecraft-server/weltkarte.md)
+* [Simple Voice Chat installieren](minecraft-server/sprachchat.md)
+* [Mods auf Forge installieren](minecraft-server/mods-installieren-forge.md)
+* [Mods auf Fabric installieren](minecraft-server/mods-installieren-fabric.md)
+* [Mods und Plugins zusammen verwenden](minecraft-server/mods-und-plugins.md)
 * [Bluemap installieren](minecraft-server/3d-weltkarte.md)
+
+
+### Landwirtschafts-Simulator 22
+* [Server einrichten](landwirtschafts-simulator-22/server-einrichten.md)
+* [Server für Windows konfigurieren](landwirtschafts-simulator-22/server-konfigurieren-windows.md)
+* [Mods installieren](landwirtschafts-simulator-22/mods-installieren.md)
+
 
 ## Domains
 * [Allgemeine Informationen](domains/allgemeine-informationen.md)

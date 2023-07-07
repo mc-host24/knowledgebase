@@ -17,3 +17,7 @@ Nach Installation des Plugins und einem erfolgreichen Serverneustart wird dem Be
 ## 4. Spielen mit Dynmap
 
 Nachdem alles fertig gerendert wurde und geladen hat, kann man nun mit dem Spielen beginnen. Viel Spaß!
+
+## 5. Hinweise
+
+Damit die Map im Browser angezeigt werden kann, muss ein zusätzlicher Port freigegeben werden. Dies ist im Webinterface möglich.
