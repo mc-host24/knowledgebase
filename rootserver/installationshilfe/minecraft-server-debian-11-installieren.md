@@ -20,7 +20,7 @@ mkdir /home/minecraft/ && cd /home/minecraft/
 ```
 
 2. Jetzt sollte die Datei des gewünschten Minecraft-Servers heruntergeladen werden. Dabei kann es sich um Vanilla, Spigot, Paper, Forge, Fabric, usw. handeln. Die neuste Vanilla-Version kann auf der Seite https://www.minecraft.net/de-de/download/server heruntergeladen werden. Um den Prozess zu vereinfachen, sollte die Datei direkt auf den Server heruntergeladen werden. Dazu kann einfach im Rechtsklickmenü des Downloadlinks *"Adresse des Links kopieren"* ausgewählt werden.
-![Adresse des Links kopieren](../.gitbook/assets/minecraft-server-download-adresse-kopieren.png)
+![Adresse des Links kopieren](../../.gitbook/assets/minecraft-server-download-adresse-kopieren.png)
 
 Dann kann die Datei mit dem `wget`-Befehl heruntergeladen werden. Der kopierte Link lässt sich im Terminal mit Rechtsklick einfügen. Der Befehl könnte dann so aussehen (1.19.4):
 ```bash
@@ -67,4 +67,4 @@ Die Serverkonsole kann mit der Tastenkombination `STRG + A` und einem darauffolg
 ```bash
 screen -r minecraft
 ```
-In [diesem](/rootserver/minecraft-auto-start.md) Artikel wird euch gezeigt, wie ihr den Minecraft-Server nach einem Absturz direkt wieder automatisch starten könnt!
+In [diesem](/rootserver/konfigurationshilfe/minecraft-auto-start.md) Artikel wird euch gezeigt, wie ihr den Minecraft-Server nach einem Absturz direkt wieder automatisch starten könnt!

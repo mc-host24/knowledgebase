@@ -112,7 +112,7 @@ Z: Rechte für andere Benutzer
 
 ### htop
 
-![htop](../.gitbook/assets/HTOP.png)
+![htop](../../.gitbook/assets/HTOP.png)
 
 Mit dem Prozessmanager "htop" kann man die laufenden Prozesse sowie die freien/belegten Systemressourcen anschauen. Installiert wird htop mit dem Command
 
@@ -128,7 +128,7 @@ verwenden.
 
 ### netstat
 
-![netstat](../.gitbook/assets/netstat.png)
+![netstat](../../.gitbook/assets/netstat.png)
 
 Mit dem Diagnose-Werkzeug "netstat" kann man verschiedene Informationen über den Status der Netzwerkschnittstelle(n) abrufen.
 Installiert wird netstat mit dem Command
@@ -155,7 +155,7 @@ ncdu /
 ```
 bekommt man solch eine Anzeige:
 
-![Grüner Programmcode in schwarzem Terminal vom Programm ncdu](../.gitbook/assets/ncdu.png)
+![Grüner Programmcode in schwarzem Terminal vom Programm ncdu](../../.gitbook/assets/ncdu.png)
 
 Navigiert wird mit den Pfeiltasten. Um in ein Verzeichnis rein zu gehen drücke "Enter".
 

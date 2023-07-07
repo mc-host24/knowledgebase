@@ -29,12 +29,12 @@ Klicke dazu auf der Meine Server Seite auf "Rootserver".
 
 Dort angekommen klicke auf "Gameserver Verwalten" und anschließend auf "Jetzt Node installieren".
 
-![Gameserver Node install Pterodactyl](../.gitbook/assets/Gamenode%20install.png)
+![Gameserver Node install Pterodactyl](../../.gitbook/assets/Gamenode%20install.png)
 
 Nachdem der Node installiert ist, können die Gameserver installiert werden.
 Dazu klicke auf "Jetzt Gameserver Installieren".
 
-![Gameserver installieren Pterodactyl](../.gitbook/assets/gamenode-installiert.png)
+![Gameserver installieren Pterodactyl](../../.gitbook/assets/gamenode-installiert.png)
 
 In der Übersicht hast du die Auswahl zwischen den einzelnen Gameservern.
 
@@ -48,7 +48,7 @@ Der Gameserver wird nun auf deinem Rootserver installiert.
 
 Ist der Server fertig installiert, sieht das Fenster so aus:
 
-![Fertig installierter Gameserver Pterodactyl](../.gitbook/assets/fertig-installierter-gameserver.png)
+![Fertig installierter Gameserver Pterodactyl](../../.gitbook/assets/fertig-installierter-gameserver.png)
 
 Um den Server zu verwalten, drücke auf das Zahnrad.
 
