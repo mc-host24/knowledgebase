@@ -81,7 +81,7 @@
 
 ## Docker
 * [Docker Traefik Proxy](docker/docker-traefik-proxy.md)
-* [Docker-Installation](docker/docker-installation.md)
+* [Docker Installation](docker/docker-installation.md)
 
 
 ## Sonstiges
