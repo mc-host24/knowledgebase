@@ -42,6 +42,7 @@
 
 ### Minecraft-Server
 * [Allgemeine Informationen](minecraft-server/allgemeine-informationen.md)
+* [Server-Icon benutzen](minecraft-server/server-icon.md)
 * [Versionswechsel](minecraft-server/version-wechseln.md)
 * [Modpack installieren](minecraft-server/modpacks-installieren.md)
 * [Eigene Jar Datei verwenden](minecraft-server/eigene-server-jar.md)
