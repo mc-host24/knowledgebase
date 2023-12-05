@@ -160,7 +160,7 @@ Rufen Sie hierfür im Browser also beispielsweise "**http://123.123.123.123:8087
 
 Sie können die Sprache des Webinterfaces nun auf Deutsch umstellen, indem Sie im Menü oben auf "**Settings**" klicken und unter "**Language**" anschließend "**Deutsch**" auswählen.
 
-Da das Passwort des Musikbots jedoch nur beim ersten Start temporär gesetzt ist (über den Befehl bei Schritt 22), müssen Sie dieses nun noch in den Einstellungen im Webinterface fest ändern. 
+Da das Passwort des Musikbots jedoch nur beim ersten Start temporär gesetzt ist, müssen Sie dieses nun noch in den Einstellungen im Webinterface fest ändern. 
 Klicken Sie hierzu in den Webinterface-Einstellungen links auf "Benutzerkonten". Es erscheint nun eine Benutzerübersicht als Tabelle. 
 Klicken Sie in der Zeile des Admin-Benutzers rechts auf den Bearbeiten-Button, vergeben Sie Ihr gewünschtes Passwort und speichern Sie diese Änderung abschließend mit einem Klick auf den Button "Änderungen speichern". 
 Danach müssen Sie sich mit dem soeben gesetzten Passwort erneut anmelden.
