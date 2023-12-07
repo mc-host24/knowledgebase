@@ -204,3 +204,31 @@ bind-adress = 0.0.0.0
 Speichern Sie Ihre Änderungen der Konfiguration, indem Sie **STRG + X, danach die "Y"-Taste und anschließend Enter** drücken.
  
 Danach musst du lediglich deine Datenbank neustarten, sodass die Änderungen wirksam werden (`service mysql restart`).
+
+
+# Datenbank mit UFW absichern
+Um deine Datenbank von außen abzusichern, kannst du das über die FireWall **UFW** machen:
+
+Dafür installierst du dir erstmals **UFW** auf deinem Server mit folgendem Befehl:
+```bash
+apt install ufw -y
+```
+Danach geben wir die Standart Port nach außen offen ( SSH, HTTP, HTTPS ):
+```bash
+ufw allow 22
+ufw allow 443
+ufw allow 80
+```
+Danach aktivieren wir die UFW:
+```bash
+ufw enable
+```
+einfach mit **Y** bestätigen
+
+![UFW ENABLE](https://auroa.link/uploads/auroa/2248f9ee-ae01-4e6f-bb51-085b2074ae34.jpg)
+
+Nun Aktivieren wir UFW für die Datenbank:
+```bash
+ufw allow from DEINE-IP to any port 3306
+```
+Nach dem du das eingefügt hast kann nur die IP auf dem Server zugreifen die in der Liste steht
