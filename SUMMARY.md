@@ -19,6 +19,7 @@
 * [Java 11 installation](rootserver/java-11-setup.md)
 * [Java 17 installation](rootserver/java-17-setup.md)
 * [FiveM Server einrichten](rootserver/fivem-server-setup.md)
+* [FiveM Server auf Ubuntu installieren](rootserver/fivem-server-installation-linux.md)
 * [Teamspeak³ Server](rootserver/teamspeak3-server.md)
 * [Sinusbot Installer](rootserver/sinusbot-install.md)
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
