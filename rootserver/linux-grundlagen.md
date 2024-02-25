@@ -197,3 +197,38 @@ Navigiert wird mit den Pfeiltasten. Um in ein Verzeichnis rein zu gehen drücke 
 * Mit der Taste "i" kannst du dir Informationen zu der aktuell ausgewählten Datei anzeigen lassen
 * Mit der Taste "b" landest du mit der Shell in dem ausgewählten Ordner.
 * Mit der Taste "q" beendest du ncdu
+
+### ufw
+
+Mit dem Programm "ufw" kannst du Ports auf deinem Server verwalten. Dabei nutzt "ufw" das Programm "[iptables](https://de.m.wikipedia.org/wiki/Iptables)", um die Ports zu sperren/freizuschalten.
+
+Installiert wird ufw mit dem Command:
+```bash
+apt install ufw
+```
+Um Ports freizuschalten, verwende:
+```bash
+ufw allow 80
+```
+_(Hiermit schaltest du Port "80" (Webserver/HTTP) frei.)_
+
+Um einen Port zu schließen, nutze:
+```bash
+ufw deny 80
+```
+_(Hiermit blockierst du Port "80" (Webserver/HTTP).)_
+
+Um UFW zu aktivieren, verwende: 
+```bash
+ufw enable
+```
+
+Um UFW zu deaktivieren, nutze:
+```bash
+ufw disable
+```
+
+Um alle freigegebenen Ports anzusehen, nutze:
+```bash
+ufw status
+```
