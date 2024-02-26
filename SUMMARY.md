@@ -67,6 +67,7 @@
 * [Mods auf Fabric installieren](minecraft-server/mods-installieren-fabric.md)
 * [Mods und Plugins zusammen verwenden](minecraft-server/mods-und-plugins.md)
 * [Bluemap installieren](minecraft-server/3d-weltkarte.md)
+* [FastAsyncWorldEdit Installation](FastAsyncWorldEdit-Installation.md)
 
 
 ### Landwirtschafts-Simulator 22
