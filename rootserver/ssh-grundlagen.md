@@ -28,7 +28,7 @@ zum Server verbinden können, ohne ein Passwort zu nutzen.
 ## WICHTIG: Die IP-Adresse deines Hosts kopiere dir bitte heraus.
 Auf keinen Fall den private key (`id_rsa`) weitergeben. **Wenn der Schlüssel kein festgelegtes Passwort besitzt, kann jeder mit dem Schlüssel auf deinen Server zugreifen!**
 
-## Server alias
+## Server-Alias
 Um nicht jedes Mal die IP-Adresse eines Servers eintippen zu müssen, kann auch ein alternativer Name (englisch: alias) festlegt werden.
 Dieser kann gesetzt werden, indem `C:/Users/<NUTZER>/.ssh/config` wie folgend editiert wird (falls die Datei nicht vorhanden ist einfach selbst erstellen):
 ```
