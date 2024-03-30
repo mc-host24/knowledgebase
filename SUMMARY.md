@@ -31,7 +31,7 @@
 * [MongoDB installieren](rootserver/mongodb-installieren.md)
 * [Nginx Proxy Manager installieren](rootserver/nginx-proxy-manager-installation.md)
 * [nginx installieren](rootserver/nginx-installieren.md)
-* [Fail2ban Installieren](rootserver/fail2ban-installieren.md )
+* [Fail2ban Installieren](rootserver/fail2ban-installieren.md)
 
 ## Rootcp
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
