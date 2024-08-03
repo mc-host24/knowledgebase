@@ -18,6 +18,7 @@
 * [Java 8 installation](rootserver/java-8-setup.md)
 * [Java 11 installation](rootserver/java-11-setup.md)
 * [Java 17 installation](rootserver/java-17-setup.md)
+* [Java 21 installation](rootserver/java-21-setup.md)
 * [FiveM Server einrichten](rootserver/fivem-server-setup.md)
 * [FiveM Server auf Ubuntu installieren](rootserver/fivem-server-installation-linux.md)
 * [Teamspeak³ Server](rootserver/teamspeak3-server.md)
