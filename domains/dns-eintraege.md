@@ -64,7 +64,7 @@ Nach dem Speichern erstellt sich ein DNS Eintrag und die Weiterleitung ist aktiv
 
 ## Domain auf FiveM Server weiterleiten
 
-Um deine Domain auf einen Teamspeak Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit FiveM verbinden**"
+Um deine Domain auf einen FiveM Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit FiveM verbinden**"
 ![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-verbinden.png)
 
 Wenn du willst, dass der FiveM Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
