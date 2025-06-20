@@ -20,7 +20,7 @@
 * [Java 17 installation](rootserver/java-17-setup.md)
 * [FiveM Server einrichten](rootserver/fivem-server-setup.md)
 * [FiveM Server auf Ubuntu installieren](rootserver/fivem-server-installation-linux.md)
-* [Teamspeak³ Server](rootserver/teamspeak3-server.md)
+* [Teamspeak³ Server](rootserver/teamspeak-3-server.md)
 * [Sinusbot Installer](rootserver/sinusbot-install.md)
 * [Minecraft auto Start](rootserver/minecraft-auto-start.md)
 * [Minecraft Server auf Debian 11 installieren](rootserver/minecraft-server-debian-11-installieren.md)
@@ -31,7 +31,7 @@
 * [MongoDB installieren](rootserver/mongodb-installieren.md)
 * [Nginx Proxy Manager installieren](rootserver/nginx-proxy-manager-installation.md)
 * [nginx installieren](rootserver/nginx-installieren.md)
-* [Fail2ban Installieren](rootserver/fail2ban-installieren.md )
+* [Fail2ban Installieren](rootserver/fail2ban-installieren.md)
 
 ## Rootcp
 * [Minecraft Version wechseln](rootcp/minecraft-version-wechseln.md)
@@ -67,7 +67,7 @@
 * [Mods auf Fabric installieren](minecraft-server/mods-installieren-fabric.md)
 * [Mods und Plugins zusammen verwenden](minecraft-server/mods-und-plugins.md)
 * [Bluemap installieren](minecraft-server/3d-weltkarte.md)
-* [FastAsyncWorldEdit Installation](FastAsyncWorldEdit-Installation.md)
+* [FastAsyncWorldEdit Installation](minecraft-server/FastAsyncWorldEdit-Installation.md)
 
 
 ### Landwirtschafts-Simulator 22
