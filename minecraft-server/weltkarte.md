@@ -2,6 +2,11 @@
 
 DynMap ist ein kostenloses Plugin, geschrieben von Mikeprimm, welches dem/den Spieler/n eine Übersichtskarte von allen Server-Welten im Webbrowser anzeigen lassen kann. Dafür braucht man einen PC und/oder Server mit viel Leistung und ähnlich wie bei GeyserMC einen zusätzlichen Port.
 
+{% hint style="warning" %}
+Um DynMap zu nutzen, muss ein zusätzlicher Port freigegeben werden. Dies ist im grundsätzlich im Webinterface möglich.
+Wenn du einen One-Click Gameserver auf einem Rootserver benutzt, eröffne bitte ein Support-Ticket, um einen weiteren Port freizugeben.
+{% endhint %}
+
 ## 1. Herunterladen und installieren
 
 Dynmap kann man sich entweder auf [Bukkit](https://dev.bukkit.org/projects/dynmap) oder auf [SpigotMC](https://spigotmc.org/resources/dynmap.274) herunterladen. Danach muss es nur noch entweder per Drag & Drop oder per FTP-Client in den "plugins"-Ordner bewegt werden und der Minecraft Server, auf dem man das Plugin gerade installiert hat, muss auch nochmal neugestartet werden.
@@ -18,6 +23,3 @@ Nach Installation des Plugins und einem erfolgreichen Serverneustart wird dem Be
 
 Nachdem alles fertig gerendert wurde und geladen hat, kann man nun mit dem Spielen beginnen. Viel Spaß!
 
-## 5. Hinweise
-
-Damit die Map im Browser angezeigt werden kann, muss ein zusätzlicher Port freigegeben werden. Dies ist im Webinterface möglich.

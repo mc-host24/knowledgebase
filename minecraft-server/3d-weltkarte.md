@@ -2,6 +2,11 @@
 
 Bluemap ist ein kostenloses Plugin welches dem/den Spieler/n eine 3D-Übersichtskarte von allen Server-Welten, ähnlich wie Dynmap, im Webbrowser anzeigen lassen kann. Dafür braucht man einen PC und/oder Server mit viel Leistung und ähnlich wie bei GeyserMC/Dynmap einen zusätzlichen Port.
 
+{% hint style="warning" %}
+Um Bluemap zu nutzen, muss ein zusätzlicher Port freigegeben werden. Dies ist im grundsätzlich im Webinterface möglich.
+Wenn du einen One-Click Gameserver auf einem Rootserver benutzt, eröffne bitte ein Support-Ticket, um einen weiteren Port freizugeben.
+{% endhint %}
+
 ## 1. Herunterladen und installieren
 
 Bluemap kann man sich auf [SpigotMC](https://www.spigotmc.org/resources/bluemap.83557) herunterladen. Danach muss es nur noch entweder per Drag & Drop oder per FTP-Client in den "plugins"-Ordner bewegt werden und der Minecraft Server, auf dem man das Plugin gerade installiert hat, muss auch nochmal neugestartet werden.
