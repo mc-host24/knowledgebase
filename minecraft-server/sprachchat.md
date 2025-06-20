@@ -1,4 +1,4 @@
-# Dynmap auf dem Server installieren
+# Simple Voice Chat auf dem Server installieren
 
 Simple Voice Chat ist ein kostenloses Plugin, geschrieben von henkelmax, welches dem/den Spieler/n die Möglichkeit bietet, sich ingame auch ohne Chat miteinander zu unterhalten. Dafür braucht man einen PC und/oder Server mit viel Leistung und ähnlich wie bei GeyserMC einen zusätzlichen Port.
 
