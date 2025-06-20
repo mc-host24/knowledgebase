@@ -14,7 +14,7 @@
 * [PhpMyAdmin 8.2 Installation](rootserver/phpmyadmin-PHP-8-installation.md)
 * [PhpMyAdmin 7.4 Installation](rootserver/phpmyadmin-PHP-7-installation.md)
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
-* [Nextcloud installation](rootserver/nextcloud-installation.md)
+* [Nextcloud Installation](rootserver/nextcloud-installation.md)
 * [Java 8 installation](rootserver/java-8-setup.md)
 * [Java 11 installation](rootserver/java-11-setup.md)
 * [Java 17 installation](rootserver/java-17-setup.md)
