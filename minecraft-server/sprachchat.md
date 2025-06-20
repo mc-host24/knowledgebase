@@ -4,7 +4,7 @@ Simple Voice Chat ist ein kostenloses Plugin, geschrieben von henkelmax, welches
 
 ## 1. Herunterladen und installieren
 
-Simple Voice Chat kann man sich unter Anderem auf [Modrinth](https://modrinth.com/plugin/simple-voice-chat) herunterladen. Danach muss es nur noch entweder per Drag & Drop oder per FTP-Client in den "plugins" oder "mods"-Ordner bewegt werden und der Minecraft Server, auf dem man das Plugin gerade installiert hat, muss auch nochmal neugestartet werden.
+Simple Voice Chat kann man sich unter anderem auf [Modrinth](https://modrinth.com/plugin/simple-voice-chat) herunterladen. Danach muss es nur noch entweder per Drag & Drop oder per FTP-Client in den "plugins" oder "mods"-Ordner bewegt werden und der Minecraft Server, auf dem man das Plugin gerade installiert hat, muss auch nochmal neugestartet werden.
 
 ## 2. Konfiguration
 
