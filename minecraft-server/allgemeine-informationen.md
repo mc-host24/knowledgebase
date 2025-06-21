@@ -19,11 +19,6 @@ Um einen Spieler zur Whitelist hinzuzufügen verwende den Command
 /whitelist add SPIELERNAME
 ```
 
-## Wie füge ich ein Server-Icon ein?
-Das Server-Icon muss eine Größe von 64x64 Pixel, sowie das Format .png besitzen. Anschließend wird die Datei "server-icon.png" in das Hauptverzeichnis eingefügt.
-
-Natürlich muss das Server-Icon auch genau "server-icon" heißen, damit es geladen werden kann.
-
 ## Es werden keine Skins angezeigt. Wieso?
 Sollten die Skins bei einem Gameserver nicht zu sehen sein wird dies in der Regel an der Einstellung "online-mode=false" liegen. Dies verhindert, dass sich der Gameserver mit den Mojang-Servern verbindet.
 
