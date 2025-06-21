@@ -25,11 +25,6 @@ Kopiere die heruntergeladene JAR-Datei von FastAsyncWorldEdit in den "plugins"-O
 
  Passe die Konfiguration in der Datei "config.yml" an, falls nötig. Diese befindet sich normalerweise im "plugins/FastAsyncWorldEdit/"-Verzeichnis.
 
-## Berechtigungen einstellen 
-
-Falls du ein Permission-Plugin auf deinem Minecraft Server benutzt findest du hier alle wichtigen Permissions für das Plugin:
-[Permission FastAsyncWorldEdit](https://intellectualsites.gitbook.io/fastasyncworldedit/command-utilities/permissions)
-
 
 ## Server erneut starten
 
