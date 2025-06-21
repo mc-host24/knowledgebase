@@ -225,7 +225,6 @@ ufw enable
 ```
 einfach mit **Y** bestätigen
 
-![UFW ENABLE](https://auroa.link/uploads/auroa/2248f9ee-ae01-4e6f-bb51-085b2074ae34.jpg)
 
 Nun Aktivieren wir UFW für die Datenbank:
 ```bash

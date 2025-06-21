@@ -127,7 +127,6 @@ verwenden.
 
 ### btop
 
-![btop](https://auroa.link/uploads/auroa/1296c2d4-9c69-435e-958b-0b242d8ecd32.jpg)
 
 Mit dem Prozessmanager "btop" kann man die laufenden Prozesse sowie die freien/belegten Systemressourcen anschauen. Installiert wird btop mit dem Command:
 
@@ -172,8 +171,6 @@ netstat -tulpen
 ```
 Kannst du dir alle Aktuellen offene Ports anschauen, ebenfalls welcher Port mit welcher IP gebunden ist.
 Ebenfalls wird dir dann angezeigt, welcher Service denn Port verwendet.
-
-![netstat](https://auroa.link/uploads/auroa/817c6729-8412-4556-b89c-6d41743bb192.jpg)
 
 
 ### ncdu

@@ -41,7 +41,7 @@ adduser --disabled-login sinusbot
 
 Die Abfrage weiterer Angaben wie Name, Telefonnummer, etc. können Sie einfach mit der Enter-Taste überspringen. Bestätigen Sie zum Schluss die Korrektheit der Informationen ebenfalls mit der Enter-Taste.
 
-![Bei den Folgenden fragen kannst du die mit der "Enter" Taste durchklicken und am Ende mit "Y/J" bestätigen](https://auroa.link/uploads/auroa/4aa27f75-9c43-4485-a185-ce137e391800.jpg)
+![Bei den Folgenden fragen kannst du die mit der "Enter" Taste durchklicken und am Ende mit "Y/J" bestätigen]()
 
 Erstellen Sie nun das Verzeichnis, in dem der Musikbot installiert werden soll, mit diesem Befehl:
 
