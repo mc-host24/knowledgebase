@@ -12,9 +12,6 @@ Halte deinen Minecraft-Server an, bevor du mit der Installation beginnst.
 Lade die neueste FastAsyncWorldEdit-Version von einer vertrauenswürdigen Quelle herunter.
 [Download FastAsyncWorldEdit](https://www.spigotmc.org/resources/fastasyncworldedit.13932/)
 
-Verfügbare Versionen 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20
-
-
 
 ## JAR-Datei ins Plugin-Verzeichnis legen:
 
