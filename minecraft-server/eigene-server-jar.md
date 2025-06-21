@@ -46,6 +46,10 @@ Welche Java Version benötige ich?
 
 1.19.x Java 17
 
+1.20.x Java 21
+
+1.21.x Java 21
+
 </details>
 
 ![Multicraft Versions Auswahl](../.gitbook/assets/multicraft-versions-auswahl.png)
