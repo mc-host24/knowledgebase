@@ -3,7 +3,7 @@
 DynMap ist ein kostenloses Plugin, geschrieben von Mikeprimm, welches dem/den Spieler/n eine Übersichtskarte von allen Server-Welten im Webbrowser anzeigen lassen kann. Dafür braucht man einen PC und/oder Server mit viel Leistung und ähnlich wie bei GeyserMC einen zusätzlichen Port.
 
 {% hint style="warning" %}
-Um DynMap zu nutzen, muss ein zusätzlicher Port freigegeben werden. Dies ist im grundsätzlich auf der [Meine Server](https://mc-host24.de/myservers) Seite  möglich.
+Um DynMap zu nutzen, muss ein zusätzlicher Port freigegeben werden. Dies ist im grundsätzlich auf der [Meine Server](https://mc-host24.de/myservers) Seite möglich.
 Wenn du einen One-Click Gameserver auf einem Rootserver benutzt, eröffne bitte ein Support-Ticket, um einen weiteren Port freizugeben.
 {% endhint %}
 

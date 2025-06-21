@@ -3,7 +3,7 @@
 Bluemap ist ein kostenloses Plugin welches dem/den Spieler/n eine 3D-Übersichtskarte von allen Server-Welten, ähnlich wie Dynmap, im Webbrowser anzeigen lassen kann. Dafür braucht man einen PC und/oder Server mit viel Leistung und ähnlich wie bei GeyserMC/Dynmap einen zusätzlichen Port.
 
 {% hint style="warning" %}
-Um Bluemap zu nutzen, muss ein zusätzlicher Port freigegeben werden. Dies ist im grundsätzlich im Webinterface möglich.
+Um Bluemap zu nutzen, muss ein zusätzlicher Port freigegeben werden. Dies ist im grundsätzlich auf der [Meine Server](https://mc-host24.de/myservers) Seite möglich.
 Wenn du einen One-Click Gameserver auf einem Rootserver benutzt, eröffne bitte ein Support-Ticket, um einen weiteren Port freizugeben.
 {% endhint %}
 
