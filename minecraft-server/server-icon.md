@@ -41,32 +41,12 @@ Hast du alles erledigt, ist dein Server Icon bereit für deinen Server. Die näc
 
 Hast du ein Bild in der richtigen Größe und mit dem richtigen Namen? Dann kannst du es jetzt hochladen, damit es in der Serverliste angezeigt wird.
 
-1. Gehen in dein MC-Host24 [Panel](https://panel.mc-host24.de) und Stoppe deinen Server.
+1. Gehen in dein MC-Host24 [Panel](https://mc-panel.mc-host24.de) und Stoppe deinen Server.
 
 
-2. Navigiere im Panel zu der Seitenleiste und suche den FTP Zugang. Melde dich nun mit deinen FTP-Zugangsdaten an.
+2. Klicke auf "Dateien" und schiebe das "server-icon.png" per Drag and Drop in den Hauptordner.
 
-
-3. Links findest du einen „Upload“ Button. Klicke auf den Button und zieh dein gewünschtes Bild in den Uploader.
-
-
-4. Sobald der Upload abgeschlossen ist, kannst du das Fenster schließen und zur Übersicht zurückkehren. Starte nun deinen Server neu.
-
-Sind alle Kriterien erfüllst, siehst du nun dein Minecraft Server Icon wenn du den Server in der Multiplayer Liste anpingst.
-
-
-## 3.1. Hochladen auf den Server (Pterodactyl Panel )
-
-Hast du ein Bild in der richtigen Größe und mit dem richtigen Namen? Dann kannst du es jetzt hochladen, damit es in der Serverliste angezeigt wird.
-
-1. Gehen in dein MC-Host24 [Gameserver Panel](https://gamingcontroller.eu) und stoppe deinen Server.
-
-2. Navigiere im Panel zu dem Dateimanger und ziehe dort dein Server-Icon hoch.
-
-3. Sobald der Upload abgeschlossen ist, kannst du deinen Server nun Starten.
-
-
-Sind alle Kriterien erfüllst, siehst du nun dein Minecraft Server Icon wenn du den Server in der Multiplayer Liste anpingst.
+3. Starte den Server
 
 
 ## 4. Häufige Probleme
@@ -79,7 +59,7 @@ Spiel hinzuzufügen. Wenn es auch dann nicht angezeigt wird, ist wahrscheinlich 
 
 # Falscher Name
 
-Manchmal kommt es beim Umbennen nach dem Upload zu Problemen. Überprüfe daher, ob alle Kriterien von oben erfüllt sind.
+Heißt das Bild wirklich "server-icon.png"?
 
 # Falsche Größe
 
