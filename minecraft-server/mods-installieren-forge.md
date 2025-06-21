@@ -19,6 +19,10 @@ Damit der Server die kürzlich hochgeladenen Mods auch erkennt, muss er noch neu
 Damit z.B. die gemoddeten die Blöcke auf beiden Seiten (Client und Server) erkannt werden, muss der Mod <b>auch auf dem Client</b> installiert sein. Ansonsten kannst du den Server nicht betreten und es kommt nur eine Fehlermeldung. Wie du dir Forge und Mods auf dem Client installieren kann, steht [hier](https://www.gamez.de/guides/minecraft-mods/#:~:text=Installation%20von%20Mods.-,Minecraft%20Forge%20sorgt%20für%20eine%20problemlose%20Installation%20von%20Mods.,und%20klickt%20auf%20“forge”.)
 
 # 6. Mods mit Ports (z.B. DynMap)
-Einige Mods (z.B. DynMap und Simple Voice Chat) erfordern, dass zusätzliche Ports freigegeben werden. Dies ist ebenfalls im Webinterface möglich. Für nähere Infos zur DynMap siehe bitte [hier](minecraft-server/weltkarte.md) und für den Sprachchat siehe [hier](minecraft-server/sprachchat.md)
+Einige Mods (z.B. DynMap und Simple Voice Chat) erfordern, dass zusätzliche Ports freigegeben werden. Dies ist ebenfalls im Webinterface möglich. Für nähere Infos zur DynMap siehe bitte [hier](minecraft-server/weltkarte.md), zur Bluemap siehe bitte [hier](minecraft-server/3d-weltkarte.md) und für den Sprachchat siehe [hier](minecraft-server/sprachchat.md).
+
+{% hint style="warning" %}
+Wenn du einen One-Click Gameserver auf einem Rootserver benutzt, eröffne bitte ein Support-Ticket um einen weiteren Port freizugeben.
+{% endhint %}
 
 Solltest du alles richtig gemacht haben, funktioniert der Server nun! Viel Spaß beim Spielen!

@@ -1,12 +1,12 @@
 ## Wie kann ich mein Passwort ändern?
 
-* Passwort vergessen
+### Passwort vergessen
 Wenn du dein Passwort vergessen hast und nicht mehr angemeldet bist, kannst du im Anmelde-Bereich auf "Passwort vergessen?" klicken und ein neues Passwort an deine hinterlegte E-Mail-Adresse zuschicken lassen.
 
-* Passwort Ändern wenn angemeldet
+### Passwort ändern (wenn angemeldet)
 Wenn du angemeldet bist, kannst du dein Passwort ganz bequem über die Profil-Seite bearbeiten.
 
- {% hint style="warning" %}
+{% hint style="warning" %}
 Bitte beachte, dass das neue Passwort auch in Multicraft (Minecraft-Server Webinterface) geändert wird.
 {% endhint %}
 

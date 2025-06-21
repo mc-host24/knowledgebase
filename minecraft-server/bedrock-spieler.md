@@ -20,4 +20,4 @@ Sobald alles richtig konfiguriert wurde, der Client fertig geladen hat und man a
 
 ## 5. YouTube-Video
 
-https://www.youtube.com/watch?v=t7FIfnJzxMs
+{% embed url="https://www.youtube.com/watch?v=t7FIfnJzxMs" %}

@@ -19,6 +19,10 @@ Damit der Server die kürzlich hochgeladenen Mods bzw. Plugins auch erkennt, mus
 Damit z.B. die Blöcke auf beiden Seiten (Client und Server) erkannt werden, muss der Mod <b>auch auf dem Client</b> installiert sein. Ansonsten kann man den Server nicht betreten und es kommt nur eine Fehlermeldung. Bei Plugins ist dies nicht der Fall. Wie man sich Forge und Mods auf dem Client installieren kann, steht [hier](https://fabricmc.net/wiki/de:tutorial:adding_mods#:~:text=Um%20dem%20Fabric%2DClient%20eine,sie%20in%20diesem%20Ordner%20ab.)
 
 # 6. Mods mit Ports (z.B. DynMap)
-Einige Mods, die es auch als Plugins gibt (z.B. DynMap und Simple Voice Chat) erfordern, dass zusätzliche Ports freigegeben werden. Dies ist ebenfalls im Webinterface möglich. Für nähere Infos zur DynMap siehe bitte [hier](minecraft-server/weltkarte.md) und für den Sprachchat siehe [hier](minecraft-server/sprachchat.md)
+Einige Mods, die es auch als Plugins gibt (z.B. DynMap und Simple Voice Chat) erfordern, dass zusätzliche Ports freigegeben werden. Dies ist ebenfalls im Webinterface möglich. Für nähere Infos zur DynMap siehe bitte [hier](minecraft-server/weltkarte.md), zur Bluemap siehe bitte [hier](minecraft-server/3d-weltkarte.md) und für den Sprachchat siehe [hier](minecraft-server/sprachchat.md).
+
+{% hint style="warning" %}
+Wenn du einen One-Click Gameserver auf einem Rootserver benutzt, eröffne bitte ein Support-Ticket um einen weiteren Port freizugeben.
+{% endhint %}
 
 Solltest du alles richtig gemacht haben, funktioniert der Server nun! Viel Spaß beim Spielen!
