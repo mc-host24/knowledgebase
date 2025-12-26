@@ -5,6 +5,8 @@
 * [Mein Benutzer](Allgemein/benutzer.md)
 * [Bestellungen und Transaktionen](Allgemein/bestellungen.md)
 
+## Hytale Server
+
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
 * [VNC Konsole Server Neustart](rootserver/server-not-aus.md)
