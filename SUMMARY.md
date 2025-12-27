@@ -83,6 +83,8 @@
 * [DNS Einträge erstellen](domains/dns-eintraege.md)
 * [Domain Endungen](domains/domain-endungen.md)
 * [Domain transferieren](domains/domain-transferieren.md)
+* [SSL Zertifikat Manuell Erstellen](domains/SSL-Zertifikat-Manuell.md)
+
 
 ## Webspaces
 * [SSL Zertifikat ausstellen](webspaces/ssl-zertifikat-erstellen.md)
