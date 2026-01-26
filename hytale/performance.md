@@ -132,10 +132,10 @@ Das Addon reduziert Lastspitzen und stabilisiert den Betrieb. Es setzt an drei P
 ## 3) `config.json` anpassen
 
 ```json
-performance: {
-  chunkLoadingOptimization: true,
-  reducedViewDistance: true,
-  optimizedGarbageCollection: true
+"performance": {
+  "chunkLoadingOptimization": true,
+  "reducedViewDistance": true,
+  "optimizedGarbageCollection": true
 }
 ```
 
