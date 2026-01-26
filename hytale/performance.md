@@ -88,7 +88,13 @@ java -XX:AOTCache=Server/HytaleServer.aot -Xms2048M -Xmx8192M -XX:+UseG1GC -XX:M
 
 ---
 
-## 2) MC-HOST24 Performance Saver Addon (Ressourcen sparen ohne Spielgefühl zu zerstören)
+## 2) MC-HOST24 Performance Saver Addon
+
+Download: Profilseite → **Downloads** → **Performance Saver**.
+
+[Direktlink: MC-HOST24 Downloads](https://mc-host24.de/account#downloads)
+
+![MC-HOST24 – Downloads → Performance Saver](./performance-saver-download.png)
 
 Das Addon reduziert Lastspitzen und stabilisiert den Betrieb. Es setzt an drei Punkten an:
 
