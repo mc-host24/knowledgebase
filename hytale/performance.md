@@ -4,7 +4,7 @@
 
 **Vorher (Beispiel-Messung):**
 
-![Memory Basic – Vorher](./hytale-memory.jpeg)
+![Memory Basic](./hytale-memory.jpeg)
 
 ---
 
