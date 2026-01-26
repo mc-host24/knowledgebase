@@ -1,5 +1,13 @@
 # Hytale Server Performance optimieren und RAM-Verbrauch senken
 
+## Vorher/Nachher (RAM/Cache/Buffer)
+
+**Vorher (Beispiel-Messung):**
+
+![Memory Basic – Vorher](./hytale-memory.jpeg)
+
+---
+
 Ziel: stabile TPS (weniger Ruckler), geringerer RAM-Druck (weniger Chunk-/Objekt-Müll), weniger Crash-Risiko unter Last.  
 Wir machen dafür drei Dinge: (1) Java-Startcommand optimieren, (2) Performance-Saver-Addon nutzen, (3) `config.json` passend setzen.
 
@@ -7,7 +15,7 @@ Wir machen dafür drei Dinge: (1) Java-Startcommand optimieren, (2) Performance-
 
 ## 1) Neuer Startcommand (Java-Flags)
 
-> Hinweis: Mehr RAM (`-Xmx`) ist nicht automatisch besser. Wichtig ist: stabile Tick-Zeit + weniger unnötige Arbeit (Chunks/Entities) + kontrolliertes Aufräumen (GC).
+Dieser Startcommand zielt auf **stabilere Tick-Zeiten** (weniger Lag-Spitzen) und **bessere Speicherkontrolle** durch eine für Server typische G1GC-Konfiguration.
 
 ### Startcommand
 
@@ -15,71 +23,72 @@ Wir machen dafür drei Dinge: (1) Java-Startcommand optimieren, (2) Performance-
 java -XX:AOTCache=Server/HytaleServer.aot -Xms2048M -Xmx8192M -XX:+UseG1GC -XX:MaxGCPauseMillis=100 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=35 -XX:G1MaxNewSizePercent=60 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:G1MixedGCLiveThresholdPercent=90 -XX:+ParallelRefProcEnabled -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=20 -jar Server/HytaleServer.jar --assets Assets.zip -bind 0.0.0.0:3500
 ```
 
-### Was die Optionen bedeuten (einfach erklärt)
+### Parameter-Erklärung
 
-#### Speicher (RAM) festlegen
+#### A) AOT / Start-Performance
+- `-XX:AOTCache=Server/HytaleServer.aot`  
+  Aktiviert einen AOT-Cache (Ahead-of-Time). Kann Start-/Warmup-Zeiten und Hotspot-Performance verbessern (abhängig von JVM/Build/Workload).
+
+#### B) Heap-Größen (RAM-Budget)
 - `-Xms2048M`  
-  Startet den Server direkt mit **2 GB** reserviertem Speicher → weniger „Nachallokieren“ beim Hochfahren.
+  Initiale Heap-Größe: Java reserviert beim Start ~2 GB. Reduziert dynamische Heap-Vergrößerungen in der Startphase.
 - `-Xmx8192M`  
-  Setzt ein **Maximum von 8 GB** → schützt vor Out-of-Memory bei Spitzenlast.
+  Maximale Heap-Größe: Obergrenze für Java-RAM. Verhindert Out-of-Memory bei Lastspitzen, erhöht aber nicht automatisch die Performance.
 
-#### Garbage Collection (Aufräumen) auf „stabil“ trimmen
+#### C) Garbage Collector (G1GC) + Latenzziel
 - `-XX:+UseG1GC`  
-  Nutzt den **G1-Aufräumer**: teilt Speicher in Bereiche und räumt schrittweise auf → oft weniger Lag-Spikes.
+  Verwendet G1GC (Region-basierter Collector), typischer Standard für Server mit mehreren GB Heap.
 - `-XX:MaxGCPauseMillis=100`  
-  Zielwert: Aufräumpausen möglichst unter **~100 ms** halten (Richtwert, keine harte Garantie).
+  Zielwert für maximale GC-Pausen. G1GC versucht, die Arbeit so zu planen, dass Pausen im Bereich dieses Ziels bleiben (Best-Effort, keine Garantie).
 
-#### Verhindern, dass Plugins Lag-Spikes auslösen
+#### D) Schutz vor ungünstigen `System.gc()`-Aufrufen
 - `-XX:+DisableExplicitGC`  
-  Ignoriert manuelle „räum jetzt auf“-Aufrufe → verhindert häufige Stop-the-world-Spitzen.
+  Ignoriert explizite GC-Trigger (z. B. durch Plugins). Reduziert Risiko großer, unplanbarer Pausen.
 
-#### Mehr Platz für kurzlebige Objekte (typisch für Gameserver)
+#### E) Young-Gen-Größe (kurzlebige Objekte effizient entsorgen)
 - `-XX:G1NewSizePercent=35`  
-  Mindestens **35%** des Heaps für „junge“ Objekte.
+  Untergrenze für den Anteil des Young Gen am Heap (Startpunkt/Minimum).
 - `-XX:G1MaxNewSizePercent=60`  
-  Bis zu **60%** des Heaps dürfen „jung“ sein.  
-  Effekt: Kurzlebige Daten werden effizient entsorgt, bevor sie den Heap „aufblähen“.
+  Obergrenze für den Anteil des Young Gen. Mehr Young Gen kann die Verarbeitung vieler kurzlebiger Objekte stabilisieren.
 
-#### Region-Größe (G1-Feintuning)
+#### F) Region-Größe
 - `-XX:G1HeapRegionSize=16M`  
-  Setzt die Größe der Speicherbereiche auf **16 MB** → weniger Verwaltungsaufwand bei großen Heaps.
+  Setzt die Region-Größe auf 16 MB. Bei großen Heaps kann das Verwaltungsaufwand senken; Trade-off: gröbere Granularität.
 
-#### Reserve + früheres Starten größerer Aufräumphasen
+#### G) Reserve + früheres Starten der Concurrent-Phase
 - `-XX:G1ReservePercent=15`  
-  Hält **15% Reserve** frei → reduziert Risiko, dass der Heap unter Last „voll läuft“.
+  Reserviert freie Regionen als Puffer. Senkt das Risiko, dass der Heap unter Last „zu knapp“ wird.
 - `-XX:InitiatingHeapOccupancyPercent=20`  
-  Startet größere Aufräumaktionen **früher** (ab ~20% Belegung) → lieber öfter klein als selten riesig.
+  Startet die concurrent marking/collection Phase bei relativ niedriger Heap-Auslastung. Ziel: frühzeitig mit dem Aufräumen beginnen, bevor Druck entsteht.
 
-#### Aggressiveres und gleichmäßigeres „Mischen“ (alte + neue Bereiche)
+#### H) Mixed-GC-Steuerung (Old-Gen schrittweise bereinigen)
 - `-XX:G1HeapWastePercent=5`  
-  Räumt eher auf, wenn genug „toter“ Speicher herumliegt.
+  Schwelle, ab der G1 Regionen als „lohnend“ für Mixed GCs betrachtet (weniger tolerierter „Waste“ → tendenziell früheres Aufräumen).
 - `-XX:G1MixedGCCountTarget=4`  
-  Verteilt Mixed-GC auf ~**4 Zyklen** → weniger einzelne große Pausen.
+  Zielanzahl Mixed-GCs, um Old-Gen-Bereinigung über mehrere Zyklen zu verteilen.
 - `-XX:G1MixedGCLiveThresholdPercent=90`  
-  Nimmt alte Regionen eher mit, solange sie nicht fast komplett „lebendig“ sind.
+  Regionen mit sehr hohem Live-Anteil werden seltener in Mixed-GCs aufgenommen (Priorisierung der „profitablen“ Regionen).
 
-#### Parallelisierung bei Referenzen
+#### I) Parallelisierung
 - `-XX:+ParallelRefProcEnabled`  
-  Bestimmte Aufräumarbeiten parallel → weniger Pausen/Spitzen.
+  Parallelisiert Reference Processing (z. B. Soft/Weak/Phantom References). Kann Pausen reduzieren.
 
-#### „Freien Heap“ klein halten (RAM schlanker)
+#### J) Heap-Free-Ratio (Wachstum/Schrumpfen des Heaps)
 - `-XX:MinHeapFreeRatio=10`  
 - `-XX:MaxHeapFreeRatio=20`  
-  Java hält weniger unnötig freien Speicher „warm“ → kann RAM-Peaks senken (workload-abhängig).
+  Steuert, wie viel „freier“ Heap Java nach GC anstrebt. Niedrigere Werte können dazu führen, dass Java weniger freien Heap vorhält (workload-/plattformabhängig).
 
-#### AOT-Cache (optional)
-- `-XX:AOTCache=Server/HytaleServer.aot`  
-  Nutzt einen Cache für voroptimierten Code → kann Start/Hotspots verbessern (Effekt je nach JVM/Build unterschiedlich).
-
-#### Serverstart und Netzwerk
-- `-jar Server/HytaleServer.jar --assets Assets.zip`  
-  Startet den Server und lädt Assets.
+#### K) Serverstart / Netzwerk
+- `-jar Server/HytaleServer.jar`  
+  Startet das Server-JAR.
+- `--assets Assets.zip`  
+  Lädt die Assets.
 - `-bind 0.0.0.0:3500`  
-  Bindet an alle Netzwerk-Interfaces auf Port **3500** (von außen erreichbar, wenn Firewall/Portforward passt).
+  Bindet an alle Interfaces auf Port 3500 (extern erreichbar, sofern Firewall/Portforwarding korrekt).
 
 ---
 
-## 2) Performance-Saver-Addon (Ressourcen sparen ohne Spielgefühl zu zerstören)
+## 2) MC-HOST24 Performance Saver Addon (Ressourcen sparen ohne Spielgefühl zu zerstören)
 
 Das Addon reduziert Lastspitzen und stabilisiert den Betrieb. Es setzt an drei Punkten an:
 
