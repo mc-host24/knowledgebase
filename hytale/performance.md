@@ -115,11 +115,17 @@ Das Addon reduziert Lastspitzen und stabilisiert den Betrieb. Es setzt an drei P
 
 **Effekt:** verhindert ressourcenbedingte Abstürze, besonders unter Last/Stress.
 
-### Zusätzliche Garbage Collection (nur wenn es wahrscheinlich hilft)
+### Zusätzliche Garbage Collection (nur aktiv wenn es wahrscheinlich hilft)
 - Java gibt ungenutzten Speicher nicht immer sofort frei, besonders nach Lastspitzen.
 - Das Addon beobachtet geladene Chunks und triggert eine zusätzliche GC, wenn sehr wahrscheinlich Speicher freigeworden ist.
 
 **Effekt:** weniger „toter Ballast“ im RAM nach Peak-Situationen.
+
+### Installation
+- downloade das Addon als .jar von der MC-HOST24 Webseite ([Direktlink: MC-HOST24 Downloads](https://mc-host24.de/account#downloads))
+- uploade diese .jar dann in den mods/ Ordner von deinem Hytale Server
+- restarte anschließend deinen Server
+
 
 ---
 
