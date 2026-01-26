@@ -6,7 +6,7 @@
 * [Bestellungen und Transaktionen](Allgemein/bestellungen.md)
 
 ## Hytale Server
-* [Server Performance](hytale/performance.md)
+* [Hytale Server Performance](hytale/performance.md)
 
 ## Rootserver
 * [Linux Grundlagen](rootserver/linux-grundlagen.md)
