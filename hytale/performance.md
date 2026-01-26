@@ -4,7 +4,7 @@
 
 **Beispiel-Messung:**
 
-![Memory Basic](./mchost24-memory.jpeg)
+![Memory Basic](./mchost24-memory-messung.jpeg)
 
 ---
 
