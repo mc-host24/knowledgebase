@@ -148,8 +148,3 @@ performance: {
   Unterstützt GC-freundlicheres Verhalten → weniger Peaks/Fragmentierung.
 
 ---
-
-## Praxis-Hinweise (damit es messbar wird)
-- Größter Hebel: **weniger aktive Chunks** (View-Distance/Radius) + **stabile TPS** + **kontrollierte GC**.
-- `-Xmx` realistisch dimensionieren: zu hoch kann dazu führen, dass Java „mehr behält als nötig“.
-- Erfolg messen: TPS-Stabilität + GC-Logs + Peak-RAM beobachten (vorher/nachher).
