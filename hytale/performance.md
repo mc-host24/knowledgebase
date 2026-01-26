@@ -2,7 +2,7 @@
 
 ## Vorher/Nachher (RAM/Cache/Buffer)
 
-**Vorher (Beispiel-Messung):**
+**Beispiel-Messung:**
 
 ![Memory Basic](./hytale-memory.jpeg)
 
