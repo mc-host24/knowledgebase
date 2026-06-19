@@ -1,4 +1,4 @@
-## PhpMyAdmin, PHP 8,  Apache2 und MySQL Installation
+## PhpMyAdmin, PHP 8, Apache2 und MySQL Installation
 
 ## Falls Sie es noch nicht getan haben, laden Sie das Programm [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) herunter.
 Verbinden Sie sich mithilfe von PuTTY via SSH mit Ihrem Root- oder vServer. Hierfür öffnen Sie PuTTY und geben im Textfeld "Host Name (or IP address)" 
@@ -199,7 +199,7 @@ nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
 in die Konfigurationsdatei deiner Datenbank und den Punkt `bind-adress = 127.0.0.1` auf `0.0.0.0` ändern, sodass es am Ende folgendermaßen aussieht:
 ```bash
-bind-adress = 0.0.0.0
+bind-address = 0.0.0.0
 ```
 Speichern Sie Ihre Änderungen der Konfiguration, indem Sie **STRG + X, danach die "Y"-Taste und anschließend Enter** drücken.
  
