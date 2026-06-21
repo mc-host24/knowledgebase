@@ -14,6 +14,7 @@
 * [SSH Grundlagen](rootserver/ssh-grundlagen.md)
 * [Mit (S)FTP auf Rootserver verbinden](rootserver/sftp-verbinden.md)
 * [Screen](rootserver/screen.md)
+* [Moderne PhpMyAdmin Installation](rootserver/modern-phpmyadmin-PHP-8-installation.md)
 * [PhpMyAdmin 8.2 Installation](rootserver/phpmyadmin-PHP-8-installation.md)
 * [PhpMyAdmin 7.4 Installation](rootserver/phpmyadmin-PHP-7-installation.md)
 * [SSL Zertifikat Installation](rootserver/ssl-zertifikat-erstellen.md)
