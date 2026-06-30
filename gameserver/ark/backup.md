@@ -2,32 +2,32 @@
 
 Um von deinem ARK: Survival Evolved Server Backups zu erstellen, musst du dich zuerst in unserem **Webinterface** anmelden. Dort kannst du dann deinen Server auswählen und mit der Verwaltung beginnen.
 
-Wie Du Dich anmeldest, findest Du unter [Wie kann ich meinen Server verwalten?](allgemeine-informationen.md#wie-kann-ich-meinen-server-verwalten)
+Wie du dich anmeldest, findest du unter [Wie kann ich meinen Server verwalten?](allgemeine-informationen.md#wie-kann-ich-meinen-server-verwalten)
 
 
 ### Wie erstelle ich ein Backup?
 
 Um ein Backup zu erstellen, musst du in der Serververwaltung auf den Reiter `Backups` wechseln. Dort kannst du ein Backup erstellen, indem du auf den Button `Backup erstellen` klickst.
-Anschließend musst Du ein Backup-Name eingeben und auf den Button `Backup erstellen` klicken.
-Wahlweise kannst Du auch Verzeichnisse auswählen, die nicht gesichert werden sollen.
+Anschließend musst du einen Backup-Namen eingeben und auf den Button `Backup erstellen` klicken.
+Optional kannst du auch Verzeichnisse auswählen, die nicht gesichert werden sollen.
 
-Hast du hier die Meldung `Für diesen Server können keine Backups angelegt werden`, so hat dein Server kein Backup-Slots konfiguriert. 
+Hast du hier die Meldung `Für diesen Server können keine Backups angelegt werden`, so hat dein Server keine Backup-Slots konfiguriert.
 Mehr dazu findest du unter [Wie erhalte ich mehr Backup-Slots?](#wie-erhalte-ich-mehr-backup-slots)
 
 ![Backup erstellen](../../.gitbook/assets/rootcp-or-gamecp-backup-manual.png)
 
 ### Wie erhalte ich mehr Backup-Slots?
 
-Um mehr Backup-Slots zu erhalten, musst du Dich in unserem Support melden, ein Supporter kann Dir anschließend individuell deine Backup Slots erhöhen.
+Um mehr Backup-Slots zu erhalten, musst du dich in unserem Support melden. Ein Supporter kann dir anschließend individuell deine Backup-Slots erhöhen.
 
 {% hint style="warning" %}
 Hast du zu viele Backups erstellt und alle Slots sind belegt, so werden die ältesten Backups überschrieben.
 {% endhint %}
 
 {% hint style="info" %}
-Bitte beachte, dass wir nur Backup Slots für Server vergeben, die auch regelmäßig genutzt werden. 
-Für Gamesever-Kunden sind maximal 3 Backup Slots pro Server verfügbar.
-Für Rootserver-Kunden gibt es keine Begrenzung, allerdings muss hierfür genügend Speicherplatz vorhanden sein.
+Bitte beachte, dass wir nur Backup-Slots für Server vergeben, die auch regelmäßig genutzt werden.
+Für Gameserver-Kunden sind maximal 3 Backup-Slots pro Server verfügbar.
+Für Rootserver-Kunden gibt es keine Begrenzung; allerdings muss hierfür genügend Speicherplatz vorhanden sein.
 {% endhint %}
 
 ### Wie lade ich ein Backup herunter?
@@ -57,16 +57,16 @@ Klicke zum Anlegen auf den Button `Geplante Tasks anlegen`.
 
 ![Geplante Task anlegen 1](../../.gitbook/assets/rootcp-or-gamecp-backup-scheduled-tasks-1.png)
 
-Nun da die geplante Task erstellt wurde, musst du auf den Task klicken um Aktionen anzulegen.
+Nun, da die geplante Task erstellt wurde, musst du auf den Task klicken, um Aktionen anzulegen.
 Lege nun eine neue Aktion an, indem du auf den Button `New Task` klickst.
 
-Wähle nun unter Aktion `Create Backup` aus und klicke auf den Button `Create Task` um die Aktion zu speichern.
-Wahlweise kannst Du auch Verzeichnisse auswählen, die nicht gesichert werden sollen.
+Wähle nun unter Aktion `Create Backup` aus und klicke auf den Button `Create Task`, um die Aktion zu speichern.
+Optional kannst du auch Verzeichnisse auswählen, die nicht gesichert werden sollen.
 
 ![Geplante Task anlegen 2](../../.gitbook/assets/rootcp-or-gamecp-backup-scheduled-tasks-2.png)
 
 {% hint style="warning" %}
-Nun werden automatisch Backups erstellt. Bitte beachte, dass die sobald die Backup-Slots voll sind, die ältesten Backups überschrieben werden.
+Nun werden automatisch Backups erstellt. Bitte beachte, dass, sobald die Backup-Slots voll sind, die ältesten Backups überschrieben werden.
 {% endhint %}
 
 ### Wie kann ich ein Backup vor dem Überschreiben schützen?

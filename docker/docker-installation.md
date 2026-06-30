@@ -1,4 +1,4 @@
-# Docker Installation
+## Docker Installation
 
 * Aktualisiere die Paketlisten & installiere die Updates.
 ```bash
@@ -69,7 +69,7 @@ sudo systemctl start docker --now
 sudo usermod -aG docker $USER
 ```
 
-# Docker Compose installieren
+## Docker Compose installieren
 
 * Lade die Docker Compose-Binärdatei herunter
 ```bash
