@@ -1,8 +1,8 @@
-# Eine Domain zu MC-Host24 transferieren
+## Eine Domain zu MC-Host24 transferieren
 
-Als Domaintransfer wird die Verlagerung einer DNS-Domain zu einem neuen Registrar bezeichnet. Eine Motivation für den Domain-Transfer ist z.B. die Unzufriedenheit bei einem Anbieter oder zu teure Preise. In der Regel wird nach Firmenübernahmen bzw. Fusionen der DNS durch Transfer aller Domains zu einem einzigen Registrar konsolidiert.
+Als Domaintransfer wird die Verlagerung einer DNS-Domain zu einem neuen Registrar bezeichnet. Eine Motivation für den Domaintransfer ist zum Beispiel die Unzufriedenheit mit einem Anbieter oder zu hohe Preise. In der Regel wird nach Firmenübernahmen bzw. Fusionen die DNS durch den Transfer aller Domains zu einem einzigen Registrar konsolidiert.
 
-Im November 2004 hat ICANN Regeln für den Domaintransfer aufgestellt, die für alle Registrare verbindlich sind und die den Prozess vereinfachen und sicherer gestalten sollen. Ein Domaintransfer ändert nichts an den Besitzverhältnissen der betroffenen Domain. Letztendlich wird lediglich der Eintrag in der Registry-Datenbank geändert, der definiert, welcher Registrar für diese Domain und deren Inhaber zuständig ist.
+Im November 2004 hat ICANN Regeln für den Domaintransfer aufgestellt, die für alle Registrare verbindlich sind und den Prozess vereinfachen und sicherer gestalten sollen. Ein Domaintransfer ändert nichts an den Besitzverhältnissen der betroffenen Domain. Letztendlich wird lediglich der Eintrag in der Registry-Datenbank geändert, der definiert, welcher Registrar für diese Domain und deren Inhaber zuständig ist.
 
 ## Der Ablauf
 
@@ -21,7 +21,7 @@ Wird der Transfer als Dienstleistung über einen Dritten (z. B. einen Hosting-Pr
 
 In der Praxis läuft dieser Prozess gewöhnlich vollautomatisch ab. Die einzigen manuellen Vorgänge sind die Formulierung des Transfer-Antrags (Schritt 2) und die Bestätigung (Schritt 6) durch den Endkunden. Die Kommunikation zwischen Registrar und übergeordnetem Registrar erfolgt meist per Extensible Provisioning Protocol.
 
-Es gibt in einigen Fällen zusätzliche Sicherungsmaßnahmen, mit denen ein unautorisierter Domain-Transfer verhindert werden soll. Bei einigen Domains (z. B. .de, .com, .net, .org, .info, .biz, .cn, .us, .la, .pl, .ch, .name) ist die Angabe eines so genannten Autorisierungscodes (engl.: authorisation code) zur Einleitung eines Domain-Transfers erforderlich. Diese 6 bis 16 Zeichen umfassende Sequenz erhält man auf Anforderung vom aktuellen Registrar. Einige Domains (z. B. .com, .net) können sich im Status Registrar-Lock befinden. Bevor irgendwelche Änderungen möglich sind, muss der Domaininhaber den aktuellen Registrar veranlassen, den Status auf Active zu setzen.
+Es gibt in einigen Fällen zusätzliche Sicherungsmaßnahmen, mit denen ein unautorisierter Domaintransfer verhindert werden soll. Bei einigen Domains (z. B. .de, .com, .net, .org, .info, .biz, .cn, .us, .la, .pl, .ch, .name) ist die Angabe eines sogenannten Autorisierungscodes (engl.: authorisation code) zur Einleitung eines Domaintransfers erforderlich. Diese 6 bis 16 Zeichen umfassende Sequenz erhält man auf Anfrage vom aktuellen Registrar. Einige Domains (z. B. .com, .net) können sich im Status Registrar-Lock befinden. Bevor irgendwelche Änderungen möglich sind, muss der Domaininhaber den aktuellen Registrar veranlassen, den Status auf Active zu setzen.
 
 ## Konflikte
 
