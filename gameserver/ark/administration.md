@@ -2,10 +2,10 @@
 
 Um auf deinem ARK: Survival Evolved Server Administrator zu werden, musst du dich zuerst in unserem **Webinterface** anmelden. Dort kannst du dann deinen Server auswählen und mit der Verwaltung beginnen.
 
-Wie Du Dich anmeldest, findest Du unter [Wie kann ich meinen Server verwalten?](allgemeine-informationen.md#wie-kann-ich-meinen-server-verwalten)
+Wie du dich anmeldest, findest du unter [Wie kann ich meinen Server verwalten?](allgemeine-informationen.md#wie-kann-ich-meinen-server-verwalten)
 
 Um auf deinem ARK-Server Admin zu werden, gibt es zwei Wege.
-Zum einen kannst du temporär Admin werden, indem du das Admin-Passwort nutzt, zum anderen kannst du Steam ID nutzen, um dich permanent zum Admin zu machen.
+Zum einen kannst du temporär Admin werden, indem du das Admin-Passwort nutzt, zum anderen kannst du die Steam-ID nutzen, um dich permanent zum Admin zu machen.
 
 ### Wie kann ich temporär Admin werden?
 
@@ -25,14 +25,14 @@ Um die Ingame-Konsole zu öffnen, musst du die Tab-Taste drücken.
 
 ### Wie kann ich permanent Admin werden?
 
-Um permanent Admin zu werden, musst du die Steam ID deines Steam-Accounts nutzen. Diese findest du in deinem Steam-Profil unter der URL.
+Um permanent Admin zu werden, musst du die Steam-ID deines Steam-Accounts nutzen. Diese findest du in deinem Steam-Profil unter der URL.
 
-Wenn eine Custom-Profil-URL gesetzt ist, musst du diese entfernen, um die Steam ID zu sehen oder du kannst [STEAMID I/O](https://steamid.io/) nutzen. Trage hierzu die URL deines Steam-Profil ein und klicke auf "lookup".
+Wenn eine Custom-Profil-URL gesetzt ist, musst du diese entfernen, um die Steam-ID zu sehen, oder du kannst [STEAMID I/O](https://steamid.io/) nutzen. Trage hierzu die URL deines Steam-Profils ein und klicke auf "lookup".
 
 ![Steam ID](../../.gitbook/assets/steam-id.png)
 
-Sobald Du die Steam ID deines Steam-Accounts hast, stoppe deinen Server!
-Navigiere in das folgende Verzeichnis deines ARK-Servers: `/home/container/ShooterGame/Saved` und erstelle Die Datei `AllowedCheaterSteamIDs.txt` mit dem folgenden Inhalt:
+Sobald du die Steam-ID deines Steam-Accounts hast, stoppe deinen Server!
+Navigiere in das folgende Verzeichnis deines ARK-Servers: `/home/container/ShooterGame/Saved` und erstelle die Datei `AllowedCheaterSteamIDs.txt` mit dem folgenden Inhalt:
 
 {% hint style="warning" %}
 Stoppe deinen Server, bevor du die Datei erstellst! Wenn der Server nicht gestoppt ist, wird die Datei überschrieben und deine Änderungen gehen verloren.
