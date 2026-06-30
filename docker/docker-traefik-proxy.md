@@ -6,7 +6,7 @@ Traefik integriert sich in Ihre bestehenden Infrastrukturkomponenten (Docker, Sw
 
 Wenn man Traefik auf Ihren Orchestrator richtet, sollte dies der einzige Konfigurationsschritt sein, den man dafür benötigt.
 
-## Traefik v2 - Nutzungs-Beispiele
+## Traefik v2 - Nutzungsbeispiele
 
 Den Docker-Provider und die Webbasierte Benutzeroberfläche öffnen:
 
@@ -59,4 +59,4 @@ X-Forwarded-Server: 7e073cb54211
 X-Real-Ip: 172.17.0.1
 </pre>
 
-Die Benutzeroberfläche im Web auf http://localhost:8080 wird dir eine Übersicht von allen Routern, Services und middlewares geben.
+Die Benutzeroberfläche im Web auf http://localhost:8080 gibt dir eine Übersicht über alle Router, Services und Middlewares.

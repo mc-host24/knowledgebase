@@ -7,7 +7,7 @@ apt update && apt upgrade -y
 
 {% hint style="warning" %}
 Achte auf dein Betriebssystem.
-Solltest du nicht wissen, welches Betriebssystem du verwendest, kannst du dies mit dem Befehl nachschauen.
+Wenn du nicht weißt, welches Betriebssystem du verwendest, kannst du dies mit dem folgenden Befehl prüfen.
 {% endhint %}
 ```bash
 cat /etc/issue
@@ -71,12 +71,12 @@ sudo usermod -aG docker $USER
 
 # Docker Compose installieren
 
-* Installiere Docker Compose Binärdatei Herunter
+* Lade die Docker Compose-Binärdatei herunter
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
-* Erteile die Berechtigung für die Compose Binärdatei
+* Setze die Berechtigung für die Compose-Binärdatei
 ```bash
 sudo chmod +x /usr/local/bin/docker-compose
 ```

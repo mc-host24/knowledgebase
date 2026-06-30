@@ -89,13 +89,13 @@
 * [Virtualhost Apache2](rootserver/virtualhost-apache2.md)
 * [Virtualhost Redirection Apache2](rootserver/virtualhost-redirect-apache2.md)
 
-## Sonstiges
-* [Discord](https://discord.mc-host24.de)
-* [Public API](https://mc-host24.github.io/api-documentation/#/)
-* [Teamspeak Server](ts3server://ts.mc-host24.de)
-
 ## Webspaces
 * [MediaWiki installieren](webspaces/mediawiki-installieren.md)
 * [nginx Reverse Proxy](webspaces/nginx-reverse-proxy.md)
 * [SSL Zertifikat ausstellen](webspaces/ssl-zertifikat-erstellen.md)
 * [WordPress installieren](webspaces/wordpress-installieren.md)
+
+## Sonstiges
+* [Discord](https://discord.mc-host24.de)
+* [Public API](https://mc-host24.github.io/api-documentation/#/)
+* [Teamspeak Server](ts3server://ts.mc-host24.de)
