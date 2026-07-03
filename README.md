@@ -10,6 +10,7 @@ Die häufig gestellten Fragen von unseren Kunden sind hier auch zu finden.
 Wir wollen die Knowledge Base mit eurer Hilfe weiter ausbauen.
 
 Jeder Kunde kann das Projekt auf GitHub forken und daran mithelfen. Wir entlohnen jede angenommene Erweiterung mit 5€ MC-HOST24-Guthaben.
+Von der Vergütung ausgeschlossen sind Beiträge, die ganz oder überwiegend mithilfe von KI generiert wurden. Vergütet werden ausschließlich eigenständig verfasste Inhalte.
 
 Das Projekt kann hier geforkt werden:
 
