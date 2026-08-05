@@ -67,19 +67,3 @@ Das Bild wird möglicherweise nicht angezeigt, weil es zu groß oder zu klein is
 von 64×64 einzuhalten. Prüfe dazu als erstes die Maße deines gewünschten Server Icons. Alles andere als 64 Pixel in Breite und Höhe wird auf dem Server nicht funktionieren.
 
 Du kannst [diese Website zur Größenanpassung verwenden](http://www.simpleimageresizer.com/), um die richtige Größe einzustellen.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

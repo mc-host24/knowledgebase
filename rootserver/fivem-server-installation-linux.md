@@ -15,7 +15,7 @@ cd /home/...
 
 3. Gehe auf die [Artifact](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/) Seite von FiveM und suche dir eine passende Version aus (Wir empfehlen Recommended)
 
-4. Gehe mit Rechtsklick auf die ausgewählte Version und kopiere die Adresse des Links ![FiveM Artefakt](../.gitbook/assets/fivem-artifact-linux.png).
+4. Gehe mit Rechtsklick auf die ausgewählte Version und kopiere die Adresse des Links ![FiveM Artefakt](../.gitbook/assets/fivem-artifact-linux.webp).
 Diese sollte folgendes Format haben: `https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/.../fx.tar.xz`
 
 5. Lade das Artefakt von der FiveM-Seite auf deinen Server mit dem `wget` Befehl herunter

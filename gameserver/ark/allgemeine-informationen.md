@@ -5,7 +5,7 @@ Um mit der Verwaltung deines Servers zu beginnen, musst du dich zuerst in unsere
 Das Webinterface findest du, wie im nachfolgenden Screenshot gezeigt, unter "Meine Server" und "Gameserver".
 Dort kannst du dann deinen Server auswählen und dich mit dem Button "Ins Webinterface einloggen" anmelden.
 
-![Webinterface](../../.gitbook/assets/gamecp-login.png)
+![Webinterface](../../.gitbook/assets/gamecp-login.webp)
 
 {% hint style="info" %}
 Bitte beachte die Anweisungen zur Anmeldung, welche du unter dem Button "Ins Webinterface einloggen" findest.

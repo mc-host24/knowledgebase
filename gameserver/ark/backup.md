@@ -14,7 +14,7 @@ Optional kannst du auch Verzeichnisse auswählen, die nicht gesichert werden sol
 Hast du hier die Meldung `Für diesen Server können keine Backups angelegt werden`, so hat dein Server keine Backup-Slots konfiguriert.
 Mehr dazu findest du unter [Wie erhalte ich mehr Backup-Slots?](#wie-erhalte-ich-mehr-backup-slots)
 
-![Backup erstellen](../../.gitbook/assets/rootcp-or-gamecp-backup-manual.png)
+![Backup erstellen](../../.gitbook/assets/rootcp-or-gamecp-backup-manual.webp)
 
 ### Wie erhalte ich mehr Backup-Slots?
 
@@ -34,19 +34,19 @@ Für Rootserver-Kunden gibt es keine Begrenzung; allerdings muss hierfür genüg
 
 Um ein Backup herunterzuladen, musst du in der Serververwaltung auf den Reiter `Backups` wechseln. Dort kannst du ein Backup herunterladen, indem du auf die drei Punkte neben dem Backup klickst und dann auf `Download` klickst.
 
-![Backup herunterladen](../../.gitbook/assets/rootcp-or-gamecp-backup-download.png)
+![Backup herunterladen](../../.gitbook/assets/rootcp-or-gamecp-backup-download.webp)
 
 ### Wie kann ich ein Backup wiederherstellen?
 
 Um ein Backup wiederherzustellen, musst du in der Serververwaltung auf den Reiter `Backups` wechseln. Dort kannst du ein Backup wiederherstellen, indem du auf die drei Punkte neben dem Backup klickst und dann auf `Restore` klickst.
 
-![Backup wiederherstellen](../../.gitbook/assets/rootcp-or-gamecp-backup-restore.png)
+![Backup wiederherstellen](../../.gitbook/assets/rootcp-or-gamecp-backup-restore.webp)
 
 ### Wie lösche ich ein Backup?
 
 Um ein Backup zu löschen, musst du in der Serververwaltung auf den Reiter `Backups` wechseln. Dort kannst du ein Backup löschen, indem du auf die drei Punkte neben dem Backup klickst und dann auf `Delete` klickst.
 
-![Backup löschen](../../.gitbook/assets/rootcp-or-gamecp-backup-delete.png)
+![Backup löschen](../../.gitbook/assets/rootcp-or-gamecp-backup-delete.webp)
 
 ### Wie kann ich ein Backup automatisch erstellen lassen?
 
@@ -55,7 +55,7 @@ Um ein Backup automatisch erstellen zu lassen, musst du in der Serververwaltung 
 Anschließend musst du einen Namen für die geplante Task eingeben und die Uhrzeit konfigurieren.
 Klicke zum Anlegen auf den Button `Geplante Tasks anlegen`.
 
-![Geplante Task anlegen 1](../../.gitbook/assets/rootcp-or-gamecp-backup-scheduled-tasks-1.png)
+![Geplante Task anlegen 1](../../.gitbook/assets/rootcp-or-gamecp-backup-scheduled-tasks-1.webp)
 
 Nun, da die geplante Task erstellt wurde, musst du auf den Task klicken, um Aktionen anzulegen.
 Lege nun eine neue Aktion an, indem du auf den Button `New Task` klickst.
@@ -63,7 +63,7 @@ Lege nun eine neue Aktion an, indem du auf den Button `New Task` klickst.
 Wähle nun unter Aktion `Create Backup` aus und klicke auf den Button `Create Task`, um die Aktion zu speichern.
 Optional kannst du auch Verzeichnisse auswählen, die nicht gesichert werden sollen.
 
-![Geplante Task anlegen 2](../../.gitbook/assets/rootcp-or-gamecp-backup-scheduled-tasks-2.png)
+![Geplante Task anlegen 2](../../.gitbook/assets/rootcp-or-gamecp-backup-scheduled-tasks-2.webp)
 
 {% hint style="warning" %}
 Nun werden automatisch Backups erstellt. Bitte beachte, dass, sobald die Backup-Slots voll sind, die ältesten Backups überschrieben werden.
@@ -75,4 +75,4 @@ Um ein Backup vor dem Überschreiben zu schützen, musst du in der Serververwalt
 
 Das Backup wird dann mit einem Schloss-Symbol versehen und kann nicht mehr überschrieben werden. Um das Schloss-Symbol zu entfernen, musst du auf die drei Punkte neben dem Backup klicken und dann auf `Unlock` klicken.
 
-![Backup vor dem Überschreiben schützen](../../.gitbook/assets/rootcp-or-gamecp-backup-lock.png)
+![Backup vor dem Überschreiben schützen](../../.gitbook/assets/rootcp-or-gamecp-backup-lock.webp)

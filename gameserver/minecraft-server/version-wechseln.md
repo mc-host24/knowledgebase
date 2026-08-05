@@ -1,7 +1,7 @@
 # Wie wechsel ich bei meinem Minecraft Server die Version?
 
 Um in Multicraft die Server Version zu ändern, logge dich in Multicraft ein und klicke auf "Server".
-![Multicraft Server](../.gitbook/assets/multicraft-server-auswahl.png)
+![Multicraft Server](../.gitbook/assets/multicraft-server-auswahl.webp)
 
 {% embed url="https://panel.mc-host24.de" %}
 
@@ -9,13 +9,13 @@ Solltest du nur einen Server haben, wirst du direkt auf die Verwaltungsseite des
 
 Wenn du mehr als einen Server hast, wähle den gewünschten Server in der Liste aus.
 
-![Multicraft Serverliste](../.gitbook/assets/multicraft-serverliste.png)
+![Multicraft Serverliste](../.gitbook/assets/multicraft-serverliste.webp)
 
 Falls der Server noch nicht gestoppt ist, stoppe den Server.
 
 Unter "JAR Datei" kannst du nun die Wunsch-Version auswählen.
 
-![Multicraft JAR Auswahl](../.gitbook/assets/multicraft-jar-auswahl.png)
+![Multicraft JAR Auswahl](../.gitbook/assets/multicraft-jar-auswahl.webp)
 
 Nachdem die Wunsch-Version ausgewählt wurde, drücke auf "Speichern".
 

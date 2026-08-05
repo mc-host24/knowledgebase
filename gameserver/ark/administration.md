@@ -11,7 +11,7 @@ Zum einen kannst du temporär Admin werden, indem du das Admin-Passwort nutzt, z
 
 Um temporär Admin zu werden, musst du das Admin-Passwort nutzen. Dieses findest du in der Startkonfiguration deines Servers.
 
-![Admin-Passwort](../../.gitbook/assets/ark-admin-passwort.png)
+![Admin-Passwort](../../.gitbook/assets/ark-admin-passwort.webp)
 
 Um das Admin-Passwort zu nutzen, musst du in der Ingame-Konsole folgenden Befehl eingeben:
 
@@ -29,7 +29,7 @@ Um permanent Admin zu werden, musst du die Steam-ID deines Steam-Accounts nutzen
 
 Wenn eine Custom-Profil-URL gesetzt ist, musst du diese entfernen, um die Steam-ID zu sehen, oder du kannst [STEAMID I/O](https://steamid.io/) nutzen. Trage hierzu die URL deines Steam-Profils ein und klicke auf "lookup".
 
-![Steam ID](../../.gitbook/assets/steam-id.png)
+![Steam ID](../../.gitbook/assets/steam-id.webp)
 
 Sobald du die Steam-ID deines Steam-Accounts hast, stoppe deinen Server!
 Navigiere in das folgende Verzeichnis deines ARK-Servers: `/home/container/ShooterGame/Saved` und erstelle die Datei `AllowedCheaterSteamIDs.txt` mit dem folgenden Inhalt:
