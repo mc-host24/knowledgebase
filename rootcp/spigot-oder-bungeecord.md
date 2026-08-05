@@ -12,7 +12,7 @@ Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe wied
 
 Dort wähle den Server aus und klicke auf "Einstellungen". Dort findest du die SFTP Login Daten.
 
-![SFTP Pterodactyl](../.gitbook/assets/sftp-pterodactyl.png)
+![SFTP Pterodactyl](../.gitbook/assets/sftp-pterodactyl.webp)
 
 Diese gebe in deinem FTP Client ein. (z.B. FileZilla oder WinSCP) Alternativ kannst du "Launch SFTP" anklicken. Damit startet sich automatisch dein FTP Programm und du musst nur noch dein Passwort eingeben.
 
@@ -26,11 +26,11 @@ In Pterodactyl wähle den Server aus und klicke auf "Startkonfiguration".
 
 Schreibe unter "SERVER JAR FILE" den Namen der gerade hochgeladenen Jar Datei rein. z.B. spigot.jar
 
-![Server JAR Pterodactyl](../.gitbook/assets/serverjar-spigot.png)
+![Server JAR Pterodactyl](../.gitbook/assets/serverjar-spigot.webp)
 
 Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden. Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE".
 
-![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
+![Java Version auswählen](../.gitbook/assets/minecraft-java-version.webp)
 
 <details>
 
@@ -76,7 +76,7 @@ Wenn du die passende Version auf deinen Computer heruntergeladen hast, gehe wied
 
 Dort wähle den Server aus und klicke auf "Einstellungen". Dort findest du die SFTP Login Daten.
 
-![SFTP Pterodactyl](../.gitbook/assets/sftp-pterodactyl.png)
+![SFTP Pterodactyl](../.gitbook/assets/sftp-pterodactyl.webp)
 
 Diese gebe in deinem FTP Client ein. (z.B. FileZilla oder WinSCP) Alternativ kannst du "Launch SFTP" anklicken. Damit startet sich automatisch dein FTP Programm und du musst nur noch dein Passwort eingeben.
 
@@ -90,11 +90,11 @@ In Pterodactyl wähle den Server aus und klicke auf "Startkonfiguration".
 
 Schreibe unter "SERVER JAR FILE" den Namen der gerade hochgeladenen Jar Datei rein. Im Normalfall ist dies BungeeCord.jar
 
-![Server JAR Pterodactyl](../.gitbook/assets/serverjar-bungeecord.png)
+![Server JAR Pterodactyl](../.gitbook/assets/serverjar-bungeecord.webp)
 
 Sobald dies gemacht ist, muss die passende Java Version ausgewählt werden. Dazu gehe unter "Startkonfiguration" auf "DOCKER IMAGE". Bei den neusten Bungeecord Jars muss Java 17 verwendet werden.
 
-![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
+![Java Version auswählen](../.gitbook/assets/minecraft-java-version.webp)
 
 <details>
 

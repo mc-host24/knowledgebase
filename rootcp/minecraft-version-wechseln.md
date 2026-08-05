@@ -8,7 +8,7 @@ und wähle dort den Minecraft Server aus.
 
 Klicke anschließend auf "**Startkonfiguration**".
 
-![Startkonfiguration Pterodactyl](../.gitbook/assets/minecraft-version-wechseln-bar.png)
+![Startkonfiguration Pterodactyl](../.gitbook/assets/minecraft-version-wechseln-bar.webp)
 
 Unter dem Feld "Startbefehl" wird dir "**Minecraft Version**" angezeigt. Um mit der neusten Minecraft Version zu spielen, trage in das Feld
 
@@ -26,11 +26,11 @@ Solltest du z.B. mit der 1.18.2 spielen wollen, trage in das Feld
 
 ein.
 
-![Minecraft Version ändern](../.gitbook/assets/minecraft-version.png)
+![Minecraft Version ändern](../.gitbook/assets/minecraft-version.webp)
 
 Damit der Server ordentlich starten kann, muss unter "Startkonfiguration" noch die richtige Java Version angegeben werden. Dazu gehe auf "**Docker Image**" und wähle die passende Version aus.
 
-![Java Version auswählen](../.gitbook/assets/minecraft-java-version.png)
+![Java Version auswählen](../.gitbook/assets/minecraft-java-version.webp)
 
 <details>
 

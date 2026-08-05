@@ -6,7 +6,7 @@ Melde dich dort mit deinem MC-HOST24.de Passwort an.
 
 Klicke links auf "Upload".
 
-![Multicraft Datei Upload](../.gitbook/assets/multicraft-upload.png)
+![Multicraft Datei Upload](../.gitbook/assets/multicraft-upload.webp)
 
 Wähle die JAR File aus und warte bis diese vollständig hochgeladen ist.
 
@@ -52,7 +52,7 @@ Welche Java Version benötige ich?
 
 </details>
 
-![Multicraft Versions Auswahl](../.gitbook/assets/multicraft-versions-auswahl.png)
+![Multicraft Versions Auswahl](../.gitbook/assets/multicraft-versions-auswahl.webp)
 
 Kopiere in dem unseren Fenster den JAR Namen und speichere die Auswahl.
 
@@ -60,7 +60,7 @@ Gehe nun wieder unter "Dateien" auf "FTP Datei Zugriff".
 
 Dort angekommen wähle die JAR Datei aus und drücke auf "Umbenennen".
 
-![Multicraft JAR umbenennen](../.gitbook/assets/multicraft-jar-umbenennen.png)
+![Multicraft JAR umbenennen](../.gitbook/assets/multicraft-jar-umbenennen.webp)
 
 Füge den kopierten JAR Namen ein und speichere dies.
 

@@ -50,4 +50,4 @@ ActiveMods=MODID1,MODID2,MODID3
 Um die Mod-ID zu finden, musst du die Mod im Steam Workshop aufrufen.
 Die Mod-ID befindet sich in der URL und ist die Zahlenkombination nach `https://steamcommunity.com/sharedfiles/filedetails/?id=`.
 
-![Steam Workshop URL](../../.gitbook/assets/steam-workshop-id.png)
+![Steam Workshop URL](../../.gitbook/assets/steam-workshop-id.webp)

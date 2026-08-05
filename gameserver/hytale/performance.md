@@ -4,7 +4,7 @@
 
 **Beispiel-Messung:**
 
-![Memory Basic](../.gitbook/assets/mchost24-memory-messung.jpeg)
+![Memory Basic](../.gitbook/assets/mchost24-memory-messung.webp)
 
 ---
 
@@ -94,7 +94,7 @@ Download: Profilseite → **Downloads** → **Performance Saver**.
 
 [Direktlink: MC-HOST24 Downloads](https://mc-host24.de/account#downloads)
 
-![MC-HOST24 – Downloads → Performance Saver](../.gitbook/assets/performance-saver-download.png)
+![MC-HOST24 – Downloads → Performance Saver](../.gitbook/assets/performance-saver-download.webp)
 
 Das Addon reduziert Lastspitzen und stabilisiert den Betrieb. Es setzt an drei Punkten an:
 

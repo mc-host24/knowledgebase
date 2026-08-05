@@ -14,11 +14,11 @@ Das OCDNS-Tool ermöglicht es den Kunden, mit nur wenigen Klicks eine Weiterleit
 ## Domain auf einen Minecraft-Server weiterleiten
 
 Um deine Domain auf einen Minecraft-Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Minecraft Server verbinden**"
-![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-verbinden.png)
+![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-verbinden.webp)
 
 Wenn du willst, dass der Minecraft-Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-eingabe.png)
+![Domain mit Minecraft Server verbinden](../.gitbook/assets/minecraft-server-eingabe.webp)
 
 Wenn der Server ohne Subdomain erreichbar sein soll, lasse das Feld einfach frei.
 
@@ -29,7 +29,7 @@ Wenn du deine Domain mit einem Minecraft-Server verbinden willst, der nicht auf 
 
 Nach dem Speichern erstellen sich zwei DNS-Einträge, und die Weiterleitung ist aktiv.
 
-![Domain mit Minecraft Server verbunden](../.gitbook/assets/minecraft-server-verbunden.png)
+![Domain mit Minecraft Server verbunden](../.gitbook/assets/minecraft-server-verbunden.webp)
 
 
 {% hint style="info" %}
@@ -40,11 +40,11 @@ Nach dem Speichern erstellen sich zwei DNS-Einträge, und die Weiterleitung ist 
 ## Domain auf einen Teamspeak-Server weiterleiten
 
 Um deine Domain auf einen Teamspeak-Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Teamspeak Server verbinden**"
-![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-server-verbinden.png)
+![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-server-verbinden.webp)
 
 Wenn du willst, dass der Teamspeak-Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-server-eingabe.png)
+![Domain mit Teamspeak Server verbinden](../.gitbook/assets/teamspeak-server-eingabe.webp)
 
 Solltest du bereits einen Teamspeak-Server bei MC-HOST haben, kannst du unter dem Punkt "Service auswählen" den entsprechenden Server anklicken.
 Die noch offenen Punkte "Server-IP" und "Port" füllen sich automatisch aus, und du musst nur noch auf "Speichern" klicken.
@@ -53,7 +53,7 @@ Wenn du deine Domain mit einem Teamspeak-Server verbinden willst, der nicht auf 
 
 Nach dem Speichern erstellt sich ein DNS-Eintrag, und die Weiterleitung ist aktiv.
 
-![Domain mit Teamspeak Server verbunden](../.gitbook/assets/teamspeak-dns-eintrag.png)
+![Domain mit Teamspeak Server verbunden](../.gitbook/assets/teamspeak-dns-eintrag.webp)
 
 
 {% hint style="info" %}
@@ -64,17 +64,17 @@ Nach dem Speichern erstellt sich ein DNS-Eintrag, und die Weiterleitung ist akti
 ## Domain auf FiveM-Server weiterleiten
 
 Um deine Domain auf einen FiveM-Server weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit FiveM verbinden**"
-![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-verbinden.png)
+![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-verbinden.webp)
 
 Wenn du willst, dass der FiveM-Server nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-eingabe.png)
+![Domain mit FiveM verbinden](../.gitbook/assets/fivem-server-eingabe.webp)
 
 Fülle die Felder "Server-IP" und "Port" aus und drücke auf "Speichern".
 
 Nach dem Speichern erstellen sich zwei DNS-Einträge, und die Weiterleitung ist aktiv.
 
-![Domain mit FiveM Server verbunden](../.gitbook/assets/fivem-server-verbunden.png)
+![Domain mit FiveM Server verbunden](../.gitbook/assets/fivem-server-verbunden.webp)
 
 {% hint style="info" %}
 **Sollte einer der beiden DNS-Einträge gelöscht werden, funktioniert die Weiterleitung nicht mehr.**
@@ -84,11 +84,11 @@ Nach dem Speichern erstellen sich zwei DNS-Einträge, und die Weiterleitung ist 
 ## Domain auf eine Webseite weiterleiten
 
 Um deine Domain auf eine Webseite weiterzuleiten, klicke im OCDNS-Tool auf "**Domain auf Webseite weiterleiten**"
-![Domain auf Webseite weiterleiten](../.gitbook/assets/webseite-weiterleiten.png)
+![Domain auf Webseite weiterleiten](../.gitbook/assets/webseite-weiterleiten.webp)
 
 Wenn du willst, dass die Webseite nur mit Angabe einer Subdomain erreichbar ist, kannst du dies unter "Subdomain" eintragen.
 
-![Domain auf Webseite weiterleiten](../.gitbook/assets/webseite-weiterleiten-eingabe.png)
+![Domain auf Webseite weiterleiten](../.gitbook/assets/webseite-weiterleiten-eingabe.webp)
 
 Wähle in dem linken Kasten aus, welches Transferprotokoll die Webseite unterstützt.
 In das rechte Feld trage anschließend den Webseiten-Link ein (ohne http:// oder https://).
@@ -96,7 +96,7 @@ Wenn du dies gemacht hast, drücke auf "Speichern".
 
 Nach dem Speichern erstellt sich ein DNS-Eintrag, und die Weiterleitung ist aktiv.
 
-![Domain auf Webseite weitergeleitet](../.gitbook/assets/webseite-weitergeleitet.png)
+![Domain auf Webseite weitergeleitet](../.gitbook/assets/webseite-weitergeleitet.webp)
 
 
 {% hint style="info" %}
@@ -107,7 +107,7 @@ Nach dem Speichern erstellt sich ein DNS-Eintrag, und die Weiterleitung ist akti
 ## Domain auf einen Webspace weiterleiten
 
 Um deine Domain auf einen Webspace weiterzuleiten, klicke im OCDNS-Tool auf "**Domain mit Webspace verbinden**"
-![Domain mit Webspace verbinden](../.gitbook/assets/webspace-verbinden.png)
+![Domain mit Webspace verbinden](../.gitbook/assets/webspace-verbinden.webp)
 
 Wähle den Webspace aus, der verbunden werden soll.
 
@@ -117,11 +117,11 @@ Soll die Domain alle Subdomains weiterleiten, setze bei "Alle Subdomains weiterl
 
 Solltest du den Mailserver des Webspaces nutzen wollen, setze bei "Mailserver weiterleiten" einen Haken. Bitte beachte, dass du dich für einen Mailserver entscheiden musst. Solltest du bereits den Mailservice der Domains verwenden oder hast dies vor, lass den Haken weg und drücke auf "Speichern".
 
-![Domain mit Webspace verbinden](../.gitbook/assets/webspace-eingabe.png)
+![Domain mit Webspace verbinden](../.gitbook/assets/webspace-eingabe.webp)
 
 Nach dem Speichern erstellen sich je nachdem, ob du den Mailserver des Webspaces verwendest oder nicht, entweder ein oder zwei DNS-Einträge.
 
-![Domain mit Webspace verbunden](../.gitbook/assets/webspace-weitergeleitet.png)
+![Domain mit Webspace verbunden](../.gitbook/assets/webspace-weitergeleitet.webp)
 
 {% hint style="info" %}
 **Sollte der CNAME-Eintrag gelöscht werden, funktioniert die Weiterleitung auf den Webspace nicht mehr. Sollte der MX-Eintrag gelöscht werden, funktioniert der Mailserver nicht mehr.**

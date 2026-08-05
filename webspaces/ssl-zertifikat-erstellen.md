@@ -10,7 +10,7 @@ Um dies herauszufinden, gehe auf die "Meine Server" Seite und klicke auf "Webspa
 
 Neben der Webspace ID steht die Domain.
 Beispiel: WEBxxxx.CWEB0x.GAMINGWEB.DE
-![Webspace Übersicht](../.gitbook/assets/webspace-uebersicht.png)
+![Webspace Übersicht](../.gitbook/assets/webspace-uebersicht.webp)
 
 cweb0x.gamingcontrol.de ist in dabei der Host.
 
@@ -31,13 +31,13 @@ Als Subdomain trage ein @ ein. Bei Typ lasse A (IPv4) stehen und als Ziel trage 
 
 Nach dem Hinzufügen erstellt sich der DNS Eintrag.
 
-![DNS Eintrag](../.gitbook/assets/webspace-dns-eintrag.png)
+![DNS Eintrag](../.gitbook/assets/webspace-dns-eintrag.webp)
 
 Gehe jetzt wieder auf "Webspace" und klicke auf "Plesk".
 
 Wähle deine Domain aus und drücke auf "SSL/TLS-Zertifikate
 
-![Plesk Übersicht](../.gitbook/assets/webspace-plesk-uebersicht.png)
+![Plesk Übersicht](../.gitbook/assets/webspace-plesk-uebersicht.webp)
 
 Drücke dort auf "Kostenloses Basiszertifikat von Let´s Encrypt installieren", wähle "Wildcard-Domain schützen" aus und klicke auf "kostenlos nutzen".
 
@@ -51,11 +51,11 @@ ein.
 
 Als Typ wähle "TXT" aus und als Ziel trage in Anführungsstrichen den angezeigten Eintrag in Plesk ein und drücke auf "hinzufügen".
 
-![TXT Eintrag](../.gitbook/assets/webspace-plesk-txt-eintrag.png)
+![TXT Eintrag](../.gitbook/assets/webspace-plesk-txt-eintrag.webp)
 
 Nachdem der Eintrag hinzugefügt wurde, sollte die Übersicht so aussehen:
 
-![Erstellter TXT Eintrag Plesk](../.gitbook/assets/webspace-dns-eintraege.png)
+![Erstellter TXT Eintrag Plesk](../.gitbook/assets/webspace-dns-eintraege.webp)
 
 Gehe nun wieder in Plesk und drücke auf "Neu laden".
 
