@@ -28,6 +28,8 @@ Wir empfehlen die Verwendung von Simple Image Resizer
 4. Nach ein paar Sekunden sollte ein grünes Feld mit einem Button zum Herunterladen erscheinen. Klicke auf „Download“, um dein verkleinertes Icon zu erhalten.
 5. Klicke auf der nächsten Seite einfach mit der rechten Maustaste auf das Bild und wähle „Bild speichern unter“
 
+> **Alternative:** Mit dem kostenlosen [Server-Icon-Maker](https://bestmcserverlist.net/de/tools/server-icon) kannst du dein Bild hochladen oder ein Icon aus einer Vorlage bauen und direkt eine fertige `server-icon.png` in 64×64 herunterladen. Umbenennen und Dateityp ändern entfallen dann.
+
 
 Dein Server Icon entspricht möglicherweise nicht den richtigen Namenskonventionen oder dem richtigen Dateiformat. Wenn dies der Fall ist, 
 solltest du das beim Speichern des Bildes mit geänderter Größe korrigieren. Wenn unter Dateityp ein anderes Format als PNG angezeigt wird, 
